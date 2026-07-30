@@ -101,7 +101,7 @@ public class ProductsController : ControllerBase
         return Ok(new { Message = "Product updated successfully." });
     }
 
-    [HttpPatch("{productId}/max-discount")]
+    [HttpPut("{productId}/max-discount")]
     public async Task<IActionResult> UpdateMaxDiscount(
         [FromRoute] string productId,
         [FromBody] UpdateMaxDiscountRequest request)
