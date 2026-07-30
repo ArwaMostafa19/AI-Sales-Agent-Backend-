@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\AI-Sales Agent.props" />
+</Project>

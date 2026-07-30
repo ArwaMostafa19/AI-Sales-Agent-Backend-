@@ -1,0 +1,1671 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\D\\ITI\\AI-Sales Agent\\AI-Commerce\\Back-end\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E75B26C5-C651-491C-8167-6E569DDFC0D1}|AI-Sales Agent\\AI-Sales Agent.csproj|c:\\d\\iti\\ai-sales agent\\ai-commerce\\back-end\\ai-sales agent\\features\\featuresmanagement\\featuresadmincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E75B26C5-C651-491C-8167-6E569DDFC0D1}|AI-Sales Agent\\AI-Sales Agent.csproj|solutionrelative:ai-sales agent\\features\\featuresmanagement\\featuresadmincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E75B26C5-C651-491C-8167-6E569DDFC0D1}|AI-Sales Agent\\AI-Sales Agent.csproj|c:\\d\\iti\\ai-sales agent\\ai-commerce\\back-end\\ai-sales agent\\features\\plansmanagement\\planscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E75B26C5-C651-491C-8167-6E569DDFC0D1}|AI-Sales Agent\\AI-Sales Agent.csproj|solutionrelative:ai-sales agent\\features\\plansmanagement\\planscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E75B26C5-C651-491C-8167-6E569DDFC0D1}|AI-Sales Agent\\AI-Sales Agent.csproj|c:\\d\\iti\\ai-sales agent\\ai-commerce\\back-end\\ai-sales agent\\features\\plansmanagement\\updateplan\\updateplanvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E75B26C5-C651-491C-8167-6E569DDFC0D1}|AI-Sales Agent\\AI-Sales Agent.csproj|solutionrelative:ai-sales agent\\features\\plansmanagement\\updateplan\\updateplanvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E75B26C5-C651-491C-8167-6E569DDFC0D1}|AI-Sales Agent\\AI-Sales Agent.csproj|c:\\d\\iti\\ai-sales agent\\ai-commerce\\back-end\\ai-sales agent\\features\\plansmanagement\\getplanbyid\\getplanbyidhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E75B26C5-C651-491C-8167-6E569DDFC0D1}|AI-Sales Agent\\AI-Sales Agent.csproj|solutionrelative:ai-sales agent\\features\\plansmanagement\\getplanbyid\\getplanbyidhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E75B26C5-C651-491C-8167-6E569DDFC0D1}|AI-Sales Agent\\AI-Sales Agent.csproj|c:\\d\\iti\\ai-sales agent\\ai-commerce\\back-end\\ai-sales agent\\features\\plansmanagement\\getplanbyid\\getplanbyidquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E75B26C5-C651-491C-8167-6E569DDFC0D1}|AI-Sales Agent\\AI-Sales Agent.csproj|solutionrelative:ai-sales agent\\features\\plansmanagement\\getplanbyid\\getplanbyidquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E75B26C5-C651-491C-8167-6E569DDFC0D1}|AI-Sales Agent\\AI-Sales Agent.csproj|c:\\d\\iti\\ai-sales agent\\ai-commerce\\back-end\\ai-sales agent\\features\\plansmanagement\\getallplans\\getallplanshandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E75B26C5-C651-491C-8167-6E569DDFC0D1}|AI-Sales Agent\\AI-Sales Agent.csproj|solutionrelative:ai-sales agent\\features\\plansmanagement\\getallplans\\getallplanshandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E75B26C5-C651-491C-8167-6E569DDFC0D1}|AI-Sales Agent\\AI-Sales Agent.csproj|c:\\d\\iti\\ai-sales agent\\ai-commerce\\back-end\\ai-sales agent\\features\\plansmanagement\\getallplans\\getallplansquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E75B26C5-C651-491C-8167-6E569DDFC0D1}|AI-Sales Agent\\AI-Sales Agent.csproj|solutionrelative:ai-sales agent\\features\\plansmanagement\\getallplans\\getallplansquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E75B26C5-C651-491C-8167-6E569DDFC0D1}|AI-Sales Agent\\AI-Sales Agent.csproj|c:\\d\\iti\\ai-sales agent\\ai-commerce\\back-end\\ai-sales agent\\features\\plansmanagement\\updateplan\\updateplanhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E75B26C5-C651-491C-8167-6E569DDFC0D1}|AI-Sales Agent\\AI-Sales Agent.csproj|solutionrelative:ai-sales agent\\features\\plansmanagement\\updateplan\\updateplanhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E75B26C5-C651-491C-8167-6E569DDFC0D1}|AI-Sales Agent\\AI-Sales Agent.csproj|c:\\d\\iti\\ai-sales agent\\ai-commerce\\back-end\\ai-sales agent\\features\\plansmanagement\\updateplan\\updateplancommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E75B26C5-C651-491C-8167-6E569DDFC0D1}|AI-Sales Agent\\AI-Sales Agent.csproj|solutionrelative:ai-sales agent\\features\\plansmanagement\\updateplan\\updateplancommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E75B26C5-C651-491C-8167-6E569DDFC0D1}|AI-Sales Agent\\AI-Sales Agent.csproj|c:\\d\\iti\\ai-sales agent\\ai-commerce\\back-end\\ai-sales agent\\features\\plansmanagement\\createplan\\createplanvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E75B26C5-C651-491C-8167-6E569DDFC0D1}|AI-Sales Agent\\AI-Sales Agent.csproj|solutionrelative:ai-sales agent\\features\\plansmanagement\\createplan\\createplanvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E75B26C5-C651-491C-8167-6E569DDFC0D1}|AI-Sales Agent\\AI-Sales Agent.csproj|c:\\d\\iti\\ai-sales agent\\ai-commerce\\back-end\\ai-sales agent\\features\\plansmanagement\\createplan\\createplanhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E75B26C5-C651-491C-8167-6E569DDFC0D1}|AI-Sales Agent\\AI-Sales Agent.csproj|solutionrelative:ai-sales agent\\features\\plansmanagement\\createplan\\createplanhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E75B26C5-C651-491C-8167-6E569DDFC0D1}|AI-Sales Agent\\AI-Sales Agent.csproj|c:\\d\\iti\\ai-sales agent\\ai-commerce\\back-end\\ai-sales agent\\features\\plansmanagement\\createplan\\createplancommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E75B26C5-C651-491C-8167-6E569DDFC0D1}|AI-Sales Agent\\AI-Sales Agent.csproj|solutionrelative:ai-sales agent\\features\\plansmanagement\\createplan\\createplancommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\D\\ITI\\AI-Sales Agent\\AI-Commerce\\Back-end\\AI-Sales Agent\\Migrations\\20260730051356_AddPropertiesToPlan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:AI-Sales Agent\\Migrations\\20260730051356_AddPropertiesToPlan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E75B26C5-C651-491C-8167-6E569DDFC0D1}|AI-Sales Agent\\AI-Sales Agent.csproj|c:\\d\\iti\\ai-sales agent\\ai-commerce\\back-end\\ai-sales agent\\domain\\plan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E75B26C5-C651-491C-8167-6E569DDFC0D1}|AI-Sales Agent\\AI-Sales Agent.csproj|solutionrelative:ai-sales agent\\domain\\plan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E75B26C5-C651-491C-8167-6E569DDFC0D1}|AI-Sales Agent\\AI-Sales Agent.csproj|c:\\d\\iti\\ai-sales agent\\ai-commerce\\back-end\\ai-sales agent\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E75B26C5-C651-491C-8167-6E569DDFC0D1}|AI-Sales Agent\\AI-Sales Agent.csproj|solutionrelative:ai-sales agent\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E75B26C5-C651-491C-8167-6E569DDFC0D1}|AI-Sales Agent\\AI-Sales Agent.csproj|c:\\d\\iti\\ai-sales agent\\ai-commerce\\back-end\\ai-sales agent\\features\\storecapabilitiesmanagement\\storecapabilitiescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E75B26C5-C651-491C-8167-6E569DDFC0D1}|AI-Sales Agent\\AI-Sales Agent.csproj|solutionrelative:ai-sales agent\\features\\storecapabilitiesmanagement\\storecapabilitiescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E75B26C5-C651-491C-8167-6E569DDFC0D1}|AI-Sales Agent\\AI-Sales Agent.csproj|c:\\d\\iti\\ai-sales agent\\ai-commerce\\back-end\\ai-sales agent\\features\\storecapabilitiesmanagement\\updatestorecapabilities\\updatestorecapabilitiesvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E75B26C5-C651-491C-8167-6E569DDFC0D1}|AI-Sales Agent\\AI-Sales Agent.csproj|solutionrelative:ai-sales agent\\features\\storecapabilitiesmanagement\\updatestorecapabilities\\updatestorecapabilitiesvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E75B26C5-C651-491C-8167-6E569DDFC0D1}|AI-Sales Agent\\AI-Sales Agent.csproj|c:\\d\\iti\\ai-sales agent\\ai-commerce\\back-end\\ai-sales agent\\features\\storecapabilitiesmanagement\\updatestorecapabilities\\updatestorecapabilitieshandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E75B26C5-C651-491C-8167-6E569DDFC0D1}|AI-Sales Agent\\AI-Sales Agent.csproj|solutionrelative:ai-sales agent\\features\\storecapabilitiesmanagement\\updatestorecapabilities\\updatestorecapabilitieshandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E75B26C5-C651-491C-8167-6E569DDFC0D1}|AI-Sales Agent\\AI-Sales Agent.csproj|c:\\d\\iti\\ai-sales agent\\ai-commerce\\back-end\\ai-sales agent\\features\\sellerproductsmanagement\\updateproduct\\updateproductvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E75B26C5-C651-491C-8167-6E569DDFC0D1}|AI-Sales Agent\\AI-Sales Agent.csproj|solutionrelative:ai-sales agent\\features\\sellerproductsmanagement\\updateproduct\\updateproductvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E75B26C5-C651-491C-8167-6E569DDFC0D1}|AI-Sales Agent\\AI-Sales Agent.csproj|c:\\d\\iti\\ai-sales agent\\ai-commerce\\back-end\\ai-sales agent\\features\\sellerproductsmanagement\\updatemaxdiscount\\updatemaxdiscountvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E75B26C5-C651-491C-8167-6E569DDFC0D1}|AI-Sales Agent\\AI-Sales Agent.csproj|solutionrelative:ai-sales agent\\features\\sellerproductsmanagement\\updatemaxdiscount\\updatemaxdiscountvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E75B26C5-C651-491C-8167-6E569DDFC0D1}|AI-Sales Agent\\AI-Sales Agent.csproj|c:\\d\\iti\\ai-sales agent\\ai-commerce\\back-end\\ai-sales agent\\features\\sellerproductsmanagement\\createproduct\\createproductvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E75B26C5-C651-491C-8167-6E569DDFC0D1}|AI-Sales Agent\\AI-Sales Agent.csproj|solutionrelative:ai-sales agent\\features\\sellerproductsmanagement\\createproduct\\createproductvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E75B26C5-C651-491C-8167-6E569DDFC0D1}|AI-Sales Agent\\AI-Sales Agent.csproj|c:\\d\\iti\\ai-sales agent\\ai-commerce\\back-end\\ai-sales agent\\features\\storecapabilitiesmanagement\\updatestorecapabilities\\updatestorecapabilitiescommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E75B26C5-C651-491C-8167-6E569DDFC0D1}|AI-Sales Agent\\AI-Sales Agent.csproj|solutionrelative:ai-sales agent\\features\\storecapabilitiesmanagement\\updatestorecapabilities\\updatestorecapabilitiescommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E75B26C5-C651-491C-8167-6E569DDFC0D1}|AI-Sales Agent\\AI-Sales Agent.csproj|c:\\d\\iti\\ai-sales agent\\ai-commerce\\back-end\\ai-sales agent\\infrastructure\\mongo\\mongodbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E75B26C5-C651-491C-8167-6E569DDFC0D1}|AI-Sales Agent\\AI-Sales Agent.csproj|solutionrelative:ai-sales agent\\infrastructure\\mongo\\mongodbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E75B26C5-C651-491C-8167-6E569DDFC0D1}|AI-Sales Agent\\AI-Sales Agent.csproj|c:\\d\\iti\\ai-sales agent\\ai-commerce\\back-end\\ai-sales agent\\infrastructure\\mongo\\imongodbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E75B26C5-C651-491C-8167-6E569DDFC0D1}|AI-Sales Agent\\AI-Sales Agent.csproj|solutionrelative:ai-sales agent\\infrastructure\\mongo\\imongodbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E75B26C5-C651-491C-8167-6E569DDFC0D1}|AI-Sales Agent\\AI-Sales Agent.csproj|c:\\d\\iti\\ai-sales agent\\ai-commerce\\back-end\\ai-sales agent\\infrastructure\\mongo\\mongocollectionnames.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E75B26C5-C651-491C-8167-6E569DDFC0D1}|AI-Sales Agent\\AI-Sales Agent.csproj|solutionrelative:ai-sales agent\\infrastructure\\mongo\\mongocollectionnames.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E75B26C5-C651-491C-8167-6E569DDFC0D1}|AI-Sales Agent\\AI-Sales Agent.csproj|c:\\d\\iti\\ai-sales agent\\ai-commerce\\back-end\\ai-sales agent\\infrastructure\\mongo\\mongosettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E75B26C5-C651-491C-8167-6E569DDFC0D1}|AI-Sales Agent\\AI-Sales Agent.csproj|solutionrelative:ai-sales agent\\infrastructure\\mongo\\mongosettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E75B26C5-C651-491C-8167-6E569DDFC0D1}|AI-Sales Agent\\AI-Sales Agent.csproj|c:\\d\\iti\\ai-sales agent\\ai-commerce\\back-end\\ai-sales agent\\domain\\mongo\\storecapabilitiesdocument.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E75B26C5-C651-491C-8167-6E569DDFC0D1}|AI-Sales Agent\\AI-Sales Agent.csproj|solutionrelative:ai-sales agent\\domain\\mongo\\storecapabilitiesdocument.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E75B26C5-C651-491C-8167-6E569DDFC0D1}|AI-Sales Agent\\AI-Sales Agent.csproj|c:\\d\\iti\\ai-sales agent\\ai-commerce\\back-end\\ai-sales agent\\features\\ordersmanagement\\createorder\\createorderhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E75B26C5-C651-491C-8167-6E569DDFC0D1}|AI-Sales Agent\\AI-Sales Agent.csproj|solutionrelative:ai-sales agent\\features\\ordersmanagement\\createorder\\createorderhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E75B26C5-C651-491C-8167-6E569DDFC0D1}|AI-Sales Agent\\AI-Sales Agent.csproj|c:\\d\\iti\\ai-sales agent\\ai-commerce\\back-end\\ai-sales agent\\features\\ordersmanagement\\createorder\\createordercommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E75B26C5-C651-491C-8167-6E569DDFC0D1}|AI-Sales Agent\\AI-Sales Agent.csproj|solutionrelative:ai-sales agent\\features\\ordersmanagement\\createorder\\createordercommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E75B26C5-C651-491C-8167-6E569DDFC0D1}|AI-Sales Agent\\AI-Sales Agent.csproj|c:\\d\\iti\\ai-sales agent\\ai-commerce\\back-end\\ai-sales agent\\features\\dashboardmanagement\\getrevenuegrowth\\getrevenuegrowthqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E75B26C5-C651-491C-8167-6E569DDFC0D1}|AI-Sales Agent\\AI-Sales Agent.csproj|solutionrelative:ai-sales agent\\features\\dashboardmanagement\\getrevenuegrowth\\getrevenuegrowthqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E75B26C5-C651-491C-8167-6E569DDFC0D1}|AI-Sales Agent\\AI-Sales Agent.csproj|c:\\d\\iti\\ai-sales agent\\ai-commerce\\back-end\\ai-sales agent\\features\\dashboardmanagement\\gettotalrevenue\\gettotalrevenuehandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E75B26C5-C651-491C-8167-6E569DDFC0D1}|AI-Sales Agent\\AI-Sales Agent.csproj|solutionrelative:ai-sales agent\\features\\dashboardmanagement\\gettotalrevenue\\gettotalrevenuehandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E75B26C5-C651-491C-8167-6E569DDFC0D1}|AI-Sales Agent\\AI-Sales Agent.csproj|c:\\d\\iti\\ai-sales agent\\ai-commerce\\back-end\\ai-sales agent\\domain\\mongo\\dashboardinsightdocument.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E75B26C5-C651-491C-8167-6E569DDFC0D1}|AI-Sales Agent\\AI-Sales Agent.csproj|solutionrelative:ai-sales agent\\domain\\mongo\\dashboardinsightdocument.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E75B26C5-C651-491C-8167-6E569DDFC0D1}|AI-Sales Agent\\AI-Sales Agent.csproj|c:\\d\\iti\\ai-sales agent\\ai-commerce\\back-end\\ai-sales agent\\domain\\mongo\\conversationdocument.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E75B26C5-C651-491C-8167-6E569DDFC0D1}|AI-Sales Agent\\AI-Sales Agent.csproj|solutionrelative:ai-sales agent\\domain\\mongo\\conversationdocument.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E75B26C5-C651-491C-8167-6E569DDFC0D1}|AI-Sales Agent\\AI-Sales Agent.csproj|c:\\d\\iti\\ai-sales agent\\ai-commerce\\back-end\\ai-sales agent\\features\\dashboardmanagement\\getavgresponsetime\\getavgresponsetimequeryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E75B26C5-C651-491C-8167-6E569DDFC0D1}|AI-Sales Agent\\AI-Sales Agent.csproj|solutionrelative:ai-sales agent\\features\\dashboardmanagement\\getavgresponsetime\\getavgresponsetimequeryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E75B26C5-C651-491C-8167-6E569DDFC0D1}|AI-Sales Agent\\AI-Sales Agent.csproj|c:\\d\\iti\\ai-sales agent\\ai-commerce\\back-end\\ai-sales agent\\features\\dashboardmanagement\\getresolutionrate\\getresolutionratequeryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E75B26C5-C651-491C-8167-6E569DDFC0D1}|AI-Sales Agent\\AI-Sales Agent.csproj|solutionrelative:ai-sales agent\\features\\dashboardmanagement\\getresolutionrate\\getresolutionratequeryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E75B26C5-C651-491C-8167-6E569DDFC0D1}|AI-Sales Agent\\AI-Sales Agent.csproj|c:\\d\\iti\\ai-sales agent\\ai-commerce\\back-end\\ai-sales agent\\services\\idashboardnotifier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E75B26C5-C651-491C-8167-6E569DDFC0D1}|AI-Sales Agent\\AI-Sales Agent.csproj|solutionrelative:ai-sales agent\\services\\idashboardnotifier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E75B26C5-C651-491C-8167-6E569DDFC0D1}|AI-Sales Agent\\AI-Sales Agent.csproj|c:\\d\\iti\\ai-sales agent\\ai-commerce\\back-end\\ai-sales agent\\services\\dashboardnotifier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E75B26C5-C651-491C-8167-6E569DDFC0D1}|AI-Sales Agent\\AI-Sales Agent.csproj|solutionrelative:ai-sales agent\\services\\dashboardnotifier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E75B26C5-C651-491C-8167-6E569DDFC0D1}|AI-Sales Agent\\AI-Sales Agent.csproj|c:\\d\\iti\\ai-sales agent\\ai-commerce\\back-end\\ai-sales agent\\ai-sales agent.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{E75B26C5-C651-491C-8167-6E569DDFC0D1}|AI-Sales Agent\\AI-Sales Agent.csproj|solutionrelative:ai-sales agent\\ai-sales agent.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E75B26C5-C651-491C-8167-6E569DDFC0D1}|AI-Sales Agent\\AI-Sales Agent.csproj|c:\\d\\iti\\ai-sales agent\\ai-commerce\\back-end\\ai-sales agent\\hubs\\dashboardhub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E75B26C5-C651-491C-8167-6E569DDFC0D1}|AI-Sales Agent\\AI-Sales Agent.csproj|solutionrelative:ai-sales agent\\hubs\\dashboardhub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E75B26C5-C651-491C-8167-6E569DDFC0D1}|AI-Sales Agent\\AI-Sales Agent.csproj|c:\\d\\iti\\ai-sales agent\\ai-commerce\\back-end\\ai-sales agent\\domain\\mongo\\orderdocument.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E75B26C5-C651-491C-8167-6E569DDFC0D1}|AI-Sales Agent\\AI-Sales Agent.csproj|solutionrelative:ai-sales agent\\domain\\mongo\\orderdocument.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E75B26C5-C651-491C-8167-6E569DDFC0D1}|AI-Sales Agent\\AI-Sales Agent.csproj|c:\\d\\iti\\ai-sales agent\\ai-commerce\\back-end\\ai-sales agent\\features\\dashboardmanagement\\dashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E75B26C5-C651-491C-8167-6E569DDFC0D1}|AI-Sales Agent\\AI-Sales Agent.csproj|solutionrelative:ai-sales agent\\features\\dashboardmanagement\\dashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E75B26C5-C651-491C-8167-6E569DDFC0D1}|AI-Sales Agent\\AI-Sales Agent.csproj|c:\\d\\iti\\ai-sales agent\\ai-commerce\\back-end\\ai-sales agent\\features\\dashboardmanagement\\getavgresponsetime\\getavgresponsetimequery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E75B26C5-C651-491C-8167-6E569DDFC0D1}|AI-Sales Agent\\AI-Sales Agent.csproj|solutionrelative:ai-sales agent\\features\\dashboardmanagement\\getavgresponsetime\\getavgresponsetimequery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E75B26C5-C651-491C-8167-6E569DDFC0D1}|AI-Sales Agent\\AI-Sales Agent.csproj|c:\\d\\iti\\ai-sales agent\\ai-commerce\\back-end\\ai-sales agent\\features\\dashboardmanagement\\getresolutionrate\\getresolutionratequery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E75B26C5-C651-491C-8167-6E569DDFC0D1}|AI-Sales Agent\\AI-Sales Agent.csproj|solutionrelative:ai-sales agent\\features\\dashboardmanagement\\getresolutionrate\\getresolutionratequery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E75B26C5-C651-491C-8167-6E569DDFC0D1}|AI-Sales Agent\\AI-Sales Agent.csproj|c:\\d\\iti\\ai-sales agent\\ai-commerce\\back-end\\ai-sales agent\\features\\dashboardmanagement\\gettotalrevenue\\gettotalrevenuequery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E75B26C5-C651-491C-8167-6E569DDFC0D1}|AI-Sales Agent\\AI-Sales Agent.csproj|solutionrelative:ai-sales agent\\features\\dashboardmanagement\\gettotalrevenue\\gettotalrevenuequery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E75B26C5-C651-491C-8167-6E569DDFC0D1}|AI-Sales Agent\\AI-Sales Agent.csproj|c:\\d\\iti\\ai-sales agent\\ai-commerce\\back-end\\ai-sales agent\\features\\dashboardmanagement\\getrevenuegrowth\\getrevenuegrowthquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E75B26C5-C651-491C-8167-6E569DDFC0D1}|AI-Sales Agent\\AI-Sales Agent.csproj|solutionrelative:ai-sales agent\\features\\dashboardmanagement\\getrevenuegrowth\\getrevenuegrowthquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E75B26C5-C651-491C-8167-6E569DDFC0D1}|AI-Sales Agent\\AI-Sales Agent.csproj|c:\\d\\iti\\ai-sales agent\\ai-commerce\\back-end\\ai-sales agent\\features\\stores\\createstore\\createstorecommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E75B26C5-C651-491C-8167-6E569DDFC0D1}|AI-Sales Agent\\AI-Sales Agent.csproj|solutionrelative:ai-sales agent\\features\\stores\\createstore\\createstorecommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E75B26C5-C651-491C-8167-6E569DDFC0D1}|AI-Sales Agent\\AI-Sales Agent.csproj|c:\\d\\iti\\ai-sales agent\\ai-commerce\\back-end\\ai-sales agent\\features\\subscriptions\\subscriptionssellercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E75B26C5-C651-491C-8167-6E569DDFC0D1}|AI-Sales Agent\\AI-Sales Agent.csproj|solutionrelative:ai-sales agent\\features\\subscriptions\\subscriptionssellercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E75B26C5-C651-491C-8167-6E569DDFC0D1}|AI-Sales Agent\\AI-Sales Agent.csproj|c:\\d\\iti\\ai-sales agent\\ai-commerce\\back-end\\ai-sales agent\\features\\subscriptions\\getusersubscription\\getusersubscriptionhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E75B26C5-C651-491C-8167-6E569DDFC0D1}|AI-Sales Agent\\AI-Sales Agent.csproj|solutionrelative:ai-sales agent\\features\\subscriptions\\getusersubscription\\getusersubscriptionhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E75B26C5-C651-491C-8167-6E569DDFC0D1}|AI-Sales Agent\\AI-Sales Agent.csproj|c:\\d\\iti\\ai-sales agent\\ai-commerce\\back-end\\ai-sales agent\\features\\subscriptions\\subscribetoplan\\subscribetoplancommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E75B26C5-C651-491C-8167-6E569DDFC0D1}|AI-Sales Agent\\AI-Sales Agent.csproj|solutionrelative:ai-sales agent\\features\\subscriptions\\subscribetoplan\\subscribetoplancommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E75B26C5-C651-491C-8167-6E569DDFC0D1}|AI-Sales Agent\\AI-Sales Agent.csproj|c:\\d\\iti\\ai-sales agent\\ai-commerce\\back-end\\ai-sales agent\\features\\subscriptions\\getusersubscription\\getusersubscriptionquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E75B26C5-C651-491C-8167-6E569DDFC0D1}|AI-Sales Agent\\AI-Sales Agent.csproj|solutionrelative:ai-sales agent\\features\\subscriptions\\getusersubscription\\getusersubscriptionquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E75B26C5-C651-491C-8167-6E569DDFC0D1}|AI-Sales Agent\\AI-Sales Agent.csproj|c:\\d\\iti\\ai-sales agent\\ai-commerce\\back-end\\ai-sales agent\\features\\subscriptions\\subscribetoplan\\subscribetoplanhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E75B26C5-C651-491C-8167-6E569DDFC0D1}|AI-Sales Agent\\AI-Sales Agent.csproj|solutionrelative:ai-sales agent\\features\\subscriptions\\subscribetoplan\\subscribetoplanhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E75B26C5-C651-491C-8167-6E569DDFC0D1}|AI-Sales Agent\\AI-Sales Agent.csproj|c:\\d\\iti\\ai-sales agent\\ai-commerce\\back-end\\ai-sales agent\\features\\subscriptions\\cancelsubscription\\cancelsubscriptionhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E75B26C5-C651-491C-8167-6E569DDFC0D1}|AI-Sales Agent\\AI-Sales Agent.csproj|solutionrelative:ai-sales agent\\features\\subscriptions\\cancelsubscription\\cancelsubscriptionhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E75B26C5-C651-491C-8167-6E569DDFC0D1}|AI-Sales Agent\\AI-Sales Agent.csproj|c:\\d\\iti\\ai-sales agent\\ai-commerce\\back-end\\ai-sales agent\\features\\subscriptions\\cancelsubscription\\cancelsubscriptioncommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E75B26C5-C651-491C-8167-6E569DDFC0D1}|AI-Sales Agent\\AI-Sales Agent.csproj|solutionrelative:ai-sales agent\\features\\subscriptions\\cancelsubscription\\cancelsubscriptioncommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E75B26C5-C651-491C-8167-6E569DDFC0D1}|AI-Sales Agent\\AI-Sales Agent.csproj|c:\\d\\iti\\ai-sales agent\\ai-commerce\\back-end\\ai-sales agent\\features\\subscriptions\\subscribetoplan\\subscribetoplanvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E75B26C5-C651-491C-8167-6E569DDFC0D1}|AI-Sales Agent\\AI-Sales Agent.csproj|solutionrelative:ai-sales agent\\features\\subscriptions\\subscribetoplan\\subscribetoplanvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E75B26C5-C651-491C-8167-6E569DDFC0D1}|AI-Sales Agent\\AI-Sales Agent.csproj|c:\\d\\iti\\ai-sales agent\\ai-commerce\\back-end\\ai-sales agent\\domain\\subscription.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E75B26C5-C651-491C-8167-6E569DDFC0D1}|AI-Sales Agent\\AI-Sales Agent.csproj|solutionrelative:ai-sales agent\\domain\\subscription.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E75B26C5-C651-491C-8167-6E569DDFC0D1}|AI-Sales Agent\\AI-Sales Agent.csproj|c:\\d\\iti\\ai-sales agent\\ai-commerce\\back-end\\ai-sales agent\\domain\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E75B26C5-C651-491C-8167-6E569DDFC0D1}|AI-Sales Agent\\AI-Sales Agent.csproj|solutionrelative:ai-sales agent\\domain\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E75B26C5-C651-491C-8167-6E569DDFC0D1}|AI-Sales Agent\\AI-Sales Agent.csproj|c:\\d\\iti\\ai-sales agent\\ai-commerce\\back-end\\ai-sales agent\\migrations\\20260715133656_addinit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E75B26C5-C651-491C-8167-6E569DDFC0D1}|AI-Sales Agent\\AI-Sales Agent.csproj|solutionrelative:ai-sales agent\\migrations\\20260715133656_addinit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E75B26C5-C651-491C-8167-6E569DDFC0D1}|AI-Sales Agent\\AI-Sales Agent.csproj|c:\\d\\iti\\ai-sales agent\\ai-commerce\\back-end\\ai-sales agent\\migrations\\20260715141516_test.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E75B26C5-C651-491C-8167-6E569DDFC0D1}|AI-Sales Agent\\AI-Sales Agent.csproj|solutionrelative:ai-sales agent\\migrations\\20260715141516_test.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E75B26C5-C651-491C-8167-6E569DDFC0D1}|AI-Sales Agent\\AI-Sales Agent.csproj|c:\\d\\iti\\ai-sales agent\\ai-commerce\\back-end\\ai-sales agent\\domain\\mongo\\productdocument.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E75B26C5-C651-491C-8167-6E569DDFC0D1}|AI-Sales Agent\\AI-Sales Agent.csproj|solutionrelative:ai-sales agent\\domain\\mongo\\productdocument.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E75B26C5-C651-491C-8167-6E569DDFC0D1}|AI-Sales Agent\\AI-Sales Agent.csproj|c:\\d\\iti\\ai-sales agent\\ai-commerce\\back-end\\ai-sales agent\\features\\ordersmanagement\\createorder\\createordervalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E75B26C5-C651-491C-8167-6E569DDFC0D1}|AI-Sales Agent\\AI-Sales Agent.csproj|solutionrelative:ai-sales agent\\features\\ordersmanagement\\createorder\\createordervalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E75B26C5-C651-491C-8167-6E569DDFC0D1}|AI-Sales Agent\\AI-Sales Agent.csproj|c:\\d\\iti\\ai-sales agent\\ai-commerce\\back-end\\ai-sales agent\\features\\ordersmanagement\\orderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E75B26C5-C651-491C-8167-6E569DDFC0D1}|AI-Sales Agent\\AI-Sales Agent.csproj|solutionrelative:ai-sales agent\\features\\ordersmanagement\\orderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E75B26C5-C651-491C-8167-6E569DDFC0D1}|AI-Sales Agent\\AI-Sales Agent.csproj|c:\\d\\iti\\ai-sales agent\\ai-commerce\\back-end\\ai-sales agent\\features\\sellercategoriesmanagement\\createcategory\\createcategorycommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E75B26C5-C651-491C-8167-6E569DDFC0D1}|AI-Sales Agent\\AI-Sales Agent.csproj|solutionrelative:ai-sales agent\\features\\sellercategoriesmanagement\\createcategory\\createcategorycommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E75B26C5-C651-491C-8167-6E569DDFC0D1}|AI-Sales Agent\\AI-Sales Agent.csproj|c:\\d\\iti\\ai-sales agent\\ai-commerce\\back-end\\ai-sales agent\\features\\stores\\deletestore\\deletestorecommandvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E75B26C5-C651-491C-8167-6E569DDFC0D1}|AI-Sales Agent\\AI-Sales Agent.csproj|solutionrelative:ai-sales agent\\features\\stores\\deletestore\\deletestorecommandvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E75B26C5-C651-491C-8167-6E569DDFC0D1}|AI-Sales Agent\\AI-Sales Agent.csproj|c:\\d\\iti\\ai-sales agent\\ai-commerce\\back-end\\ai-sales agent\\features\\sellercategoriesmanagement\\deletecategory\\deletecategoryvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E75B26C5-C651-491C-8167-6E569DDFC0D1}|AI-Sales Agent\\AI-Sales Agent.csproj|solutionrelative:ai-sales agent\\features\\sellercategoriesmanagement\\deletecategory\\deletecategoryvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E75B26C5-C651-491C-8167-6E569DDFC0D1}|AI-Sales Agent\\AI-Sales Agent.csproj|c:\\d\\iti\\ai-sales agent\\ai-commerce\\back-end\\ai-sales agent\\features\\sellercategoriesmanagement\\deletecategory\\deletecategoryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E75B26C5-C651-491C-8167-6E569DDFC0D1}|AI-Sales Agent\\AI-Sales Agent.csproj|solutionrelative:ai-sales agent\\features\\sellercategoriesmanagement\\deletecategory\\deletecategoryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E75B26C5-C651-491C-8167-6E569DDFC0D1}|AI-Sales Agent\\AI-Sales Agent.csproj|c:\\d\\iti\\ai-sales agent\\ai-commerce\\back-end\\ai-sales agent\\features\\sellercategoriesmanagement\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E75B26C5-C651-491C-8167-6E569DDFC0D1}|AI-Sales Agent\\AI-Sales Agent.csproj|solutionrelative:ai-sales agent\\features\\sellercategoriesmanagement\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E75B26C5-C651-491C-8167-6E569DDFC0D1}|AI-Sales Agent\\AI-Sales Agent.csproj|c:\\d\\iti\\ai-sales agent\\ai-commerce\\back-end\\ai-sales agent\\features\\sellercategoriesmanagement\\deletecategory\\deletecategorycommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E75B26C5-C651-491C-8167-6E569DDFC0D1}|AI-Sales Agent\\AI-Sales Agent.csproj|solutionrelative:ai-sales agent\\features\\sellercategoriesmanagement\\deletecategory\\deletecategorycommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E75B26C5-C651-491C-8167-6E569DDFC0D1}|AI-Sales Agent\\AI-Sales Agent.csproj|c:\\d\\iti\\ai-sales agent\\ai-commerce\\back-end\\ai-sales agent\\features\\sellerproductsmanagement\\deleteproduct\\deleteproductcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E75B26C5-C651-491C-8167-6E569DDFC0D1}|AI-Sales Agent\\AI-Sales Agent.csproj|solutionrelative:ai-sales agent\\features\\sellerproductsmanagement\\deleteproduct\\deleteproductcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E75B26C5-C651-491C-8167-6E569DDFC0D1}|AI-Sales Agent\\AI-Sales Agent.csproj|c:\\d\\iti\\ai-sales agent\\ai-commerce\\back-end\\ai-sales agent\\features\\sellerproductsmanagement\\deleteproduct\\deleteproducthandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E75B26C5-C651-491C-8167-6E569DDFC0D1}|AI-Sales Agent\\AI-Sales Agent.csproj|solutionrelative:ai-sales agent\\features\\sellerproductsmanagement\\deleteproduct\\deleteproducthandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E75B26C5-C651-491C-8167-6E569DDFC0D1}|AI-Sales Agent\\AI-Sales Agent.csproj|c:\\d\\iti\\ai-sales agent\\ai-commerce\\back-end\\ai-sales agent\\features\\sellerproductsmanagement\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E75B26C5-C651-491C-8167-6E569DDFC0D1}|AI-Sales Agent\\AI-Sales Agent.csproj|solutionrelative:ai-sales agent\\features\\sellerproductsmanagement\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E75B26C5-C651-491C-8167-6E569DDFC0D1}|AI-Sales Agent\\AI-Sales Agent.csproj|c:\\d\\iti\\ai-sales agent\\ai-commerce\\back-end\\ai-sales agent\\features\\sellerproductsmanagement\\updateproduct\\updateproductcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E75B26C5-C651-491C-8167-6E569DDFC0D1}|AI-Sales Agent\\AI-Sales Agent.csproj|solutionrelative:ai-sales agent\\features\\sellerproductsmanagement\\updateproduct\\updateproductcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E75B26C5-C651-491C-8167-6E569DDFC0D1}|AI-Sales Agent\\AI-Sales Agent.csproj|c:\\d\\iti\\ai-sales agent\\ai-commerce\\back-end\\ai-sales agent\\features\\sellercategoriesmanagement\\createcategory\\createcategorycommandvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E75B26C5-C651-491C-8167-6E569DDFC0D1}|AI-Sales Agent\\AI-Sales Agent.csproj|solutionrelative:ai-sales agent\\features\\sellercategoriesmanagement\\createcategory\\createcategorycommandvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E75B26C5-C651-491C-8167-6E569DDFC0D1}|AI-Sales Agent\\AI-Sales Agent.csproj|c:\\d\\iti\\ai-sales agent\\ai-commerce\\back-end\\ai-sales agent\\features\\sellercategoriesmanagement\\updatecategory\\updatecategoryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E75B26C5-C651-491C-8167-6E569DDFC0D1}|AI-Sales Agent\\AI-Sales Agent.csproj|solutionrelative:ai-sales agent\\features\\sellercategoriesmanagement\\updatecategory\\updatecategoryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E75B26C5-C651-491C-8167-6E569DDFC0D1}|AI-Sales Agent\\AI-Sales Agent.csproj|c:\\d\\iti\\ai-sales agent\\ai-commerce\\back-end\\ai-sales agent\\features\\sellerproductsmanagement\\createproduct\\createproductcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E75B26C5-C651-491C-8167-6E569DDFC0D1}|AI-Sales Agent\\AI-Sales Agent.csproj|solutionrelative:ai-sales agent\\features\\sellerproductsmanagement\\createproduct\\createproductcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E75B26C5-C651-491C-8167-6E569DDFC0D1}|AI-Sales Agent\\AI-Sales Agent.csproj|c:\\d\\iti\\ai-sales agent\\ai-commerce\\back-end\\ai-sales agent\\features\\sellercategoriesmanagement\\getcategorybyid\\getcategorybyidhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E75B26C5-C651-491C-8167-6E569DDFC0D1}|AI-Sales Agent\\AI-Sales Agent.csproj|solutionrelative:ai-sales agent\\features\\sellercategoriesmanagement\\getcategorybyid\\getcategorybyidhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E75B26C5-C651-491C-8167-6E569DDFC0D1}|AI-Sales Agent\\AI-Sales Agent.csproj|c:\\d\\iti\\ai-sales agent\\ai-commerce\\back-end\\ai-sales agent\\features\\sellercategoriesmanagement\\getallcategories\\getallcategorieshandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E75B26C5-C651-491C-8167-6E569DDFC0D1}|AI-Sales Agent\\AI-Sales Agent.csproj|solutionrelative:ai-sales agent\\features\\sellercategoriesmanagement\\getallcategories\\getallcategorieshandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E75B26C5-C651-491C-8167-6E569DDFC0D1}|AI-Sales Agent\\AI-Sales Agent.csproj|c:\\d\\iti\\ai-sales agent\\ai-commerce\\back-end\\ai-sales agent\\features\\sellercategoriesmanagement\\updatecategory\\updatecategoryvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E75B26C5-C651-491C-8167-6E569DDFC0D1}|AI-Sales Agent\\AI-Sales Agent.csproj|solutionrelative:ai-sales agent\\features\\sellercategoriesmanagement\\updatecategory\\updatecategoryvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E75B26C5-C651-491C-8167-6E569DDFC0D1}|AI-Sales Agent\\AI-Sales Agent.csproj|c:\\d\\iti\\ai-sales agent\\ai-commerce\\back-end\\ai-sales agent\\features\\sellercategoriesmanagement\\getcategorybyid\\getcategorybyidquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E75B26C5-C651-491C-8167-6E569DDFC0D1}|AI-Sales Agent\\AI-Sales Agent.csproj|solutionrelative:ai-sales agent\\features\\sellercategoriesmanagement\\getcategorybyid\\getcategorybyidquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E75B26C5-C651-491C-8167-6E569DDFC0D1}|AI-Sales Agent\\AI-Sales Agent.csproj|c:\\d\\iti\\ai-sales agent\\ai-commerce\\back-end\\ai-sales agent\\features\\sellercategoriesmanagement\\updatecategory\\updatecategorycommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E75B26C5-C651-491C-8167-6E569DDFC0D1}|AI-Sales Agent\\AI-Sales Agent.csproj|solutionrelative:ai-sales agent\\features\\sellercategoriesmanagement\\updatecategory\\updatecategorycommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E75B26C5-C651-491C-8167-6E569DDFC0D1}|AI-Sales Agent\\AI-Sales Agent.csproj|c:\\d\\iti\\ai-sales agent\\ai-commerce\\back-end\\ai-sales agent\\features\\sellercategoriesmanagement\\getallcategories\\getallcategoriesquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E75B26C5-C651-491C-8167-6E569DDFC0D1}|AI-Sales Agent\\AI-Sales Agent.csproj|solutionrelative:ai-sales agent\\features\\sellercategoriesmanagement\\getallcategories\\getallcategoriesquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E75B26C5-C651-491C-8167-6E569DDFC0D1}|AI-Sales Agent\\AI-Sales Agent.csproj|c:\\d\\iti\\ai-sales agent\\ai-commerce\\back-end\\ai-sales agent\\features\\sellercategoriesmanagement\\createcategory\\createcategoryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E75B26C5-C651-491C-8167-6E569DDFC0D1}|AI-Sales Agent\\AI-Sales Agent.csproj|solutionrelative:ai-sales agent\\features\\sellercategoriesmanagement\\createcategory\\createcategoryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E75B26C5-C651-491C-8167-6E569DDFC0D1}|AI-Sales Agent\\AI-Sales Agent.csproj|c:\\d\\iti\\ai-sales agent\\ai-commerce\\back-end\\ai-sales agent\\features\\sellerproductsmanagement\\getproductbyid\\getproductbyidhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E75B26C5-C651-491C-8167-6E569DDFC0D1}|AI-Sales Agent\\AI-Sales Agent.csproj|solutionrelative:ai-sales agent\\features\\sellerproductsmanagement\\getproductbyid\\getproductbyidhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E75B26C5-C651-491C-8167-6E569DDFC0D1}|AI-Sales Agent\\AI-Sales Agent.csproj|c:\\d\\iti\\ai-sales agent\\ai-commerce\\back-end\\ai-sales agent\\infrastructure\\errors\\exceptionhandlingmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E75B26C5-C651-491C-8167-6E569DDFC0D1}|AI-Sales Agent\\AI-Sales Agent.csproj|solutionrelative:ai-sales agent\\infrastructure\\errors\\exceptionhandlingmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E75B26C5-C651-491C-8167-6E569DDFC0D1}|AI-Sales Agent\\AI-Sales Agent.csproj|c:\\d\\iti\\ai-sales agent\\ai-commerce\\back-end\\ai-sales agent\\features\\sellerproductsmanagement\\createproduct\\createproducthandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E75B26C5-C651-491C-8167-6E569DDFC0D1}|AI-Sales Agent\\AI-Sales Agent.csproj|solutionrelative:ai-sales agent\\features\\sellerproductsmanagement\\createproduct\\createproducthandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E75B26C5-C651-491C-8167-6E569DDFC0D1}|AI-Sales Agent\\AI-Sales Agent.csproj|c:\\d\\iti\\ai-sales agent\\ai-commerce\\back-end\\ai-sales agent\\features\\sellerproductsmanagement\\updatemaxdiscount\\updatemaxdiscounthandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E75B26C5-C651-491C-8167-6E569DDFC0D1}|AI-Sales Agent\\AI-Sales Agent.csproj|solutionrelative:ai-sales agent\\features\\sellerproductsmanagement\\updatemaxdiscount\\updatemaxdiscounthandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E75B26C5-C651-491C-8167-6E569DDFC0D1}|AI-Sales Agent\\AI-Sales Agent.csproj|c:\\d\\iti\\ai-sales agent\\ai-commerce\\back-end\\ai-sales agent\\features\\sellerproductsmanagement\\getallproducts\\getallproductshandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E75B26C5-C651-491C-8167-6E569DDFC0D1}|AI-Sales Agent\\AI-Sales Agent.csproj|solutionrelative:ai-sales agent\\features\\sellerproductsmanagement\\getallproducts\\getallproductshandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E75B26C5-C651-491C-8167-6E569DDFC0D1}|AI-Sales Agent\\AI-Sales Agent.csproj|c:\\d\\iti\\ai-sales agent\\ai-commerce\\back-end\\ai-sales agent\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{E75B26C5-C651-491C-8167-6E569DDFC0D1}|AI-Sales Agent\\AI-Sales Agent.csproj|solutionrelative:ai-sales agent\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E75B26C5-C651-491C-8167-6E569DDFC0D1}|AI-Sales Agent\\AI-Sales Agent.csproj|c:\\d\\iti\\ai-sales agent\\ai-commerce\\back-end\\ai-sales agent\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{E75B26C5-C651-491C-8167-6E569DDFC0D1}|AI-Sales Agent\\AI-Sales Agent.csproj|solutionrelative:ai-sales agent\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E75B26C5-C651-491C-8167-6E569DDFC0D1}|AI-Sales Agent\\AI-Sales Agent.csproj|c:\\d\\iti\\ai-sales agent\\ai-commerce\\back-end\\ai-sales agent\\features\\sellerproductsmanagement\\updateproduct\\updateproducthandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E75B26C5-C651-491C-8167-6E569DDFC0D1}|AI-Sales Agent\\AI-Sales Agent.csproj|solutionrelative:ai-sales agent\\features\\sellerproductsmanagement\\updateproduct\\updateproducthandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E75B26C5-C651-491C-8167-6E569DDFC0D1}|AI-Sales Agent\\AI-Sales Agent.csproj|c:\\d\\iti\\ai-sales agent\\ai-commerce\\back-end\\ai-sales agent\\features\\sellerproductsmanagement\\deleteproduct\\deleteproductvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E75B26C5-C651-491C-8167-6E569DDFC0D1}|AI-Sales Agent\\AI-Sales Agent.csproj|solutionrelative:ai-sales agent\\features\\sellerproductsmanagement\\deleteproduct\\deleteproductvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E75B26C5-C651-491C-8167-6E569DDFC0D1}|AI-Sales Agent\\AI-Sales Agent.csproj|c:\\d\\iti\\ai-sales agent\\ai-commerce\\back-end\\ai-sales agent\\features\\sellerproductsmanagement\\updatemaxdiscount\\updatemaxdiscountcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E75B26C5-C651-491C-8167-6E569DDFC0D1}|AI-Sales Agent\\AI-Sales Agent.csproj|solutionrelative:ai-sales agent\\features\\sellerproductsmanagement\\updatemaxdiscount\\updatemaxdiscountcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E75B26C5-C651-491C-8167-6E569DDFC0D1}|AI-Sales Agent\\AI-Sales Agent.csproj|c:\\d\\iti\\ai-sales agent\\ai-commerce\\back-end\\ai-sales agent\\features\\sellerproductsmanagement\\getallproducts\\getallproductsquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E75B26C5-C651-491C-8167-6E569DDFC0D1}|AI-Sales Agent\\AI-Sales Agent.csproj|solutionrelative:ai-sales agent\\features\\sellerproductsmanagement\\getallproducts\\getallproductsquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E75B26C5-C651-491C-8167-6E569DDFC0D1}|AI-Sales Agent\\AI-Sales Agent.csproj|c:\\d\\iti\\ai-sales agent\\ai-commerce\\back-end\\ai-sales agent\\features\\sellerproductsmanagement\\getproductbyid\\getproductbyidquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E75B26C5-C651-491C-8167-6E569DDFC0D1}|AI-Sales Agent\\AI-Sales Agent.csproj|solutionrelative:ai-sales agent\\features\\sellerproductsmanagement\\getproductbyid\\getproductbyidquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E75B26C5-C651-491C-8167-6E569DDFC0D1}|AI-Sales Agent\\AI-Sales Agent.csproj|c:\\d\\iti\\ai-sales agent\\ai-commerce\\back-end\\ai-sales agent\\features\\featuresmanagement\\createfeature\\createfeaturevalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E75B26C5-C651-491C-8167-6E569DDFC0D1}|AI-Sales Agent\\AI-Sales Agent.csproj|solutionrelative:ai-sales agent\\features\\featuresmanagement\\createfeature\\createfeaturevalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E75B26C5-C651-491C-8167-6E569DDFC0D1}|AI-Sales Agent\\AI-Sales Agent.csproj|c:\\d\\iti\\ai-sales agent\\ai-commerce\\back-end\\ai-sales agent\\data\\dbinitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E75B26C5-C651-491C-8167-6E569DDFC0D1}|AI-Sales Agent\\AI-Sales Agent.csproj|solutionrelative:ai-sales agent\\data\\dbinitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E75B26C5-C651-491C-8167-6E569DDFC0D1}|AI-Sales Agent\\AI-Sales Agent.csproj|c:\\d\\iti\\ai-sales agent\\ai-commerce\\back-end\\ai-sales agent\\features\\auth\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E75B26C5-C651-491C-8167-6E569DDFC0D1}|AI-Sales Agent\\AI-Sales Agent.csproj|solutionrelative:ai-sales agent\\features\\auth\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E75B26C5-C651-491C-8167-6E569DDFC0D1}|AI-Sales Agent\\AI-Sales Agent.csproj|c:\\d\\iti\\ai-sales agent\\ai-commerce\\back-end\\ai-sales agent\\domain\\planfeature.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E75B26C5-C651-491C-8167-6E569DDFC0D1}|AI-Sales Agent\\AI-Sales Agent.csproj|solutionrelative:ai-sales agent\\domain\\planfeature.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E75B26C5-C651-491C-8167-6E569DDFC0D1}|AI-Sales Agent\\AI-Sales Agent.csproj|c:\\d\\iti\\ai-sales agent\\ai-commerce\\back-end\\ai-sales agent\\domain\\store.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E75B26C5-C651-491C-8167-6E569DDFC0D1}|AI-Sales Agent\\AI-Sales Agent.csproj|solutionrelative:ai-sales agent\\domain\\store.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E75B26C5-C651-491C-8167-6E569DDFC0D1}|AI-Sales Agent\\AI-Sales Agent.csproj|c:\\d\\iti\\ai-sales agent\\ai-commerce\\back-end\\ai-sales agent\\domain\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E75B26C5-C651-491C-8167-6E569DDFC0D1}|AI-Sales Agent\\AI-Sales Agent.csproj|solutionrelative:ai-sales agent\\domain\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 362,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{2826931d-bb12-452c-b660-c21852fb5da2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "FeaturesAdminController.cs",
+              "DocumentMoniker": "C:\\D\\ITI\\AI-Sales Agent\\AI-Commerce\\Back-end\\AI-Sales Agent\\Features\\FeaturesManagement\\FeaturesAdminController.cs",
+              "RelativeDocumentMoniker": "AI-Sales Agent\\Features\\FeaturesManagement\\FeaturesAdminController.cs",
+              "ToolTip": "C:\\D\\ITI\\AI-Sales Agent\\AI-Commerce\\Back-end\\AI-Sales Agent\\Features\\FeaturesManagement\\FeaturesAdminController.cs",
+              "RelativeToolTip": "AI-Sales Agent\\Features\\FeaturesManagement\\FeaturesAdminController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-30T05:25:21.023Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PlansController.cs",
+              "DocumentMoniker": "C:\\D\\ITI\\AI-Sales Agent\\AI-Commerce\\Back-end\\AI-Sales Agent\\Features\\PlansManagement\\PlansController.cs",
+              "RelativeDocumentMoniker": "AI-Sales Agent\\Features\\PlansManagement\\PlansController.cs",
+              "ToolTip": "C:\\D\\ITI\\AI-Sales Agent\\AI-Commerce\\Back-end\\AI-Sales Agent\\Features\\PlansManagement\\PlansController.cs",
+              "RelativeToolTip": "AI-Sales Agent\\Features\\PlansManagement\\PlansController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-30T05:25:03.414Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "GetPlanByIdHandler.cs",
+              "DocumentMoniker": "C:\\D\\ITI\\AI-Sales Agent\\AI-Commerce\\Back-end\\AI-Sales Agent\\Features\\PlansManagement\\GetPlanById\\GetPlanByIdHandler.cs",
+              "RelativeDocumentMoniker": "AI-Sales Agent\\Features\\PlansManagement\\GetPlanById\\GetPlanByIdHandler.cs",
+              "ToolTip": "C:\\D\\ITI\\AI-Sales Agent\\AI-Commerce\\Back-end\\AI-Sales Agent\\Features\\PlansManagement\\GetPlanById\\GetPlanByIdHandler.cs",
+              "RelativeToolTip": "AI-Sales Agent\\Features\\PlansManagement\\GetPlanById\\GetPlanByIdHandler.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAYwBcAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-30T05:24:29.398Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "GetPlanByIdQuery.cs",
+              "DocumentMoniker": "C:\\D\\ITI\\AI-Sales Agent\\AI-Commerce\\Back-end\\AI-Sales Agent\\Features\\PlansManagement\\GetPlanById\\GetPlanByIdQuery.cs",
+              "RelativeDocumentMoniker": "AI-Sales Agent\\Features\\PlansManagement\\GetPlanById\\GetPlanByIdQuery.cs",
+              "ToolTip": "C:\\D\\ITI\\AI-Sales Agent\\AI-Commerce\\Back-end\\AI-Sales Agent\\Features\\PlansManagement\\GetPlanById\\GetPlanByIdQuery.cs",
+              "RelativeToolTip": "AI-Sales Agent\\Features\\PlansManagement\\GetPlanById\\GetPlanByIdQuery.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-30T05:24:14.094Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "GetAllPlansHandler.cs",
+              "DocumentMoniker": "C:\\D\\ITI\\AI-Sales Agent\\AI-Commerce\\Back-end\\AI-Sales Agent\\Features\\PlansManagement\\GetAllPlans\\GetAllPlansHandler.cs",
+              "RelativeDocumentMoniker": "AI-Sales Agent\\Features\\PlansManagement\\GetAllPlans\\GetAllPlansHandler.cs",
+              "ToolTip": "C:\\D\\ITI\\AI-Sales Agent\\AI-Commerce\\Back-end\\AI-Sales Agent\\Features\\PlansManagement\\GetAllPlans\\GetAllPlansHandler.cs",
+              "RelativeToolTip": "AI-Sales Agent\\Features\\PlansManagement\\GetAllPlans\\GetAllPlansHandler.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAowBsAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-30T05:23:42.545Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "GetAllPlansQuery.cs",
+              "DocumentMoniker": "C:\\D\\ITI\\AI-Sales Agent\\AI-Commerce\\Back-end\\AI-Sales Agent\\Features\\PlansManagement\\GetAllPlans\\GetAllPlansQuery.cs",
+              "RelativeDocumentMoniker": "AI-Sales Agent\\Features\\PlansManagement\\GetAllPlans\\GetAllPlansQuery.cs",
+              "ToolTip": "C:\\D\\ITI\\AI-Sales Agent\\AI-Commerce\\Back-end\\AI-Sales Agent\\Features\\PlansManagement\\GetAllPlans\\GetAllPlansQuery.cs",
+              "RelativeToolTip": "AI-Sales Agent\\Features\\PlansManagement\\GetAllPlans\\GetAllPlansQuery.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-30T05:22:59.111Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UpdatePlanValidator.cs",
+              "DocumentMoniker": "C:\\D\\ITI\\AI-Sales Agent\\AI-Commerce\\Back-end\\AI-Sales Agent\\Features\\PlansManagement\\UpdatePlan\\UpdatePlanValidator.cs",
+              "RelativeDocumentMoniker": "AI-Sales Agent\\Features\\PlansManagement\\UpdatePlan\\UpdatePlanValidator.cs",
+              "ToolTip": "C:\\D\\ITI\\AI-Sales Agent\\AI-Commerce\\Back-end\\AI-Sales Agent\\Features\\PlansManagement\\UpdatePlan\\UpdatePlanValidator.cs",
+              "RelativeToolTip": "AI-Sales Agent\\Features\\PlansManagement\\UpdatePlan\\UpdatePlanValidator.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAowBgAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-30T05:22:25.626Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "UpdatePlanHandler.cs",
+              "DocumentMoniker": "C:\\D\\ITI\\AI-Sales Agent\\AI-Commerce\\Back-end\\AI-Sales Agent\\Features\\PlansManagement\\UpdatePlan\\UpdatePlanHandler.cs",
+              "RelativeDocumentMoniker": "AI-Sales Agent\\Features\\PlansManagement\\UpdatePlan\\UpdatePlanHandler.cs",
+              "ToolTip": "C:\\D\\ITI\\AI-Sales Agent\\AI-Commerce\\Back-end\\AI-Sales Agent\\Features\\PlansManagement\\UpdatePlan\\UpdatePlanHandler.cs",
+              "RelativeToolTip": "AI-Sales Agent\\Features\\PlansManagement\\UpdatePlan\\UpdatePlanHandler.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAACgAAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-30T05:21:51.81Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "UpdatePlanCommand.cs",
+              "DocumentMoniker": "C:\\D\\ITI\\AI-Sales Agent\\AI-Commerce\\Back-end\\AI-Sales Agent\\Features\\PlansManagement\\UpdatePlan\\UpdatePlanCommand.cs",
+              "RelativeDocumentMoniker": "AI-Sales Agent\\Features\\PlansManagement\\UpdatePlan\\UpdatePlanCommand.cs",
+              "ToolTip": "C:\\D\\ITI\\AI-Sales Agent\\AI-Commerce\\Back-end\\AI-Sales Agent\\Features\\PlansManagement\\UpdatePlan\\UpdatePlanCommand.cs",
+              "RelativeToolTip": "AI-Sales Agent\\Features\\PlansManagement\\UpdatePlan\\UpdatePlanCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-30T05:21:30.93Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "CreatePlanValidator.cs",
+              "DocumentMoniker": "C:\\D\\ITI\\AI-Sales Agent\\AI-Commerce\\Back-end\\AI-Sales Agent\\Features\\PlansManagement\\CreatePlan\\CreatePlanValidator.cs",
+              "RelativeDocumentMoniker": "AI-Sales Agent\\Features\\PlansManagement\\CreatePlan\\CreatePlanValidator.cs",
+              "ToolTip": "C:\\D\\ITI\\AI-Sales Agent\\AI-Commerce\\Back-end\\AI-Sales Agent\\Features\\PlansManagement\\CreatePlan\\CreatePlanValidator.cs",
+              "RelativeToolTip": "AI-Sales Agent\\Features\\PlansManagement\\CreatePlan\\CreatePlanValidator.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-30T05:21:00.362Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "CreatePlanHandler.cs",
+              "DocumentMoniker": "C:\\D\\ITI\\AI-Sales Agent\\AI-Commerce\\Back-end\\AI-Sales Agent\\Features\\PlansManagement\\CreatePlan\\CreatePlanHandler.cs",
+              "RelativeDocumentMoniker": "AI-Sales Agent\\Features\\PlansManagement\\CreatePlan\\CreatePlanHandler.cs",
+              "ToolTip": "C:\\D\\ITI\\AI-Sales Agent\\AI-Commerce\\Back-end\\AI-Sales Agent\\Features\\PlansManagement\\CreatePlan\\CreatePlanHandler.cs",
+              "RelativeToolTip": "AI-Sales Agent\\Features\\PlansManagement\\CreatePlan\\CreatePlanHandler.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAywCoAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-30T05:19:36.955Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "CreatePlanCommand.cs",
+              "DocumentMoniker": "C:\\D\\ITI\\AI-Sales Agent\\AI-Commerce\\Back-end\\AI-Sales Agent\\Features\\PlansManagement\\CreatePlan\\CreatePlanCommand.cs",
+              "RelativeDocumentMoniker": "AI-Sales Agent\\Features\\PlansManagement\\CreatePlan\\CreatePlanCommand.cs",
+              "ToolTip": "C:\\D\\ITI\\AI-Sales Agent\\AI-Commerce\\Back-end\\AI-Sales Agent\\Features\\PlansManagement\\CreatePlan\\CreatePlanCommand.cs",
+              "RelativeToolTip": "AI-Sales Agent\\Features\\PlansManagement\\CreatePlan\\CreatePlanCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-30T05:19:00.573Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "20260730051356_AddPropertiesToPlan.cs",
+              "DocumentMoniker": "C:\\D\\ITI\\AI-Sales Agent\\AI-Commerce\\Back-end\\AI-Sales Agent\\Migrations\\20260730051356_AddPropertiesToPlan.cs",
+              "RelativeDocumentMoniker": "AI-Sales Agent\\Migrations\\20260730051356_AddPropertiesToPlan.cs",
+              "ToolTip": "C:\\D\\ITI\\AI-Sales Agent\\AI-Commerce\\Back-end\\AI-Sales Agent\\Migrations\\20260730051356_AddPropertiesToPlan.cs",
+              "RelativeToolTip": "AI-Sales Agent\\Migrations\\20260730051356_AddPropertiesToPlan.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-30T05:13:58.062Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "StoreCapabilitiesController.cs",
+              "DocumentMoniker": "C:\\D\\ITI\\AI-Sales Agent\\AI-Commerce\\Back-end\\AI-Sales Agent\\Features\\StoreCapabilitiesManagement\\StoreCapabilitiesController.cs",
+              "RelativeDocumentMoniker": "AI-Sales Agent\\Features\\StoreCapabilitiesManagement\\StoreCapabilitiesController.cs",
+              "ToolTip": "C:\\D\\ITI\\AI-Sales Agent\\AI-Commerce\\Back-end\\AI-Sales Agent\\Features\\StoreCapabilitiesManagement\\StoreCapabilitiesController.cs",
+              "RelativeToolTip": "AI-Sales Agent\\Features\\StoreCapabilitiesManagement\\StoreCapabilitiesController.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAAsAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-30T01:45:04.381Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "UpdateStoreCapabilitiesValidator.cs",
+              "DocumentMoniker": "C:\\D\\ITI\\AI-Sales Agent\\AI-Commerce\\Back-end\\AI-Sales Agent\\Features\\StoreCapabilitiesManagement\\UpdateStoreCapabilities\\UpdateStoreCapabilitiesValidator.cs",
+              "RelativeDocumentMoniker": "AI-Sales Agent\\Features\\StoreCapabilitiesManagement\\UpdateStoreCapabilities\\UpdateStoreCapabilitiesValidator.cs",
+              "ToolTip": "C:\\D\\ITI\\AI-Sales Agent\\AI-Commerce\\Back-end\\AI-Sales Agent\\Features\\StoreCapabilitiesManagement\\UpdateStoreCapabilities\\UpdateStoreCapabilitiesValidator.cs",
+              "RelativeToolTip": "AI-Sales Agent\\Features\\StoreCapabilitiesManagement\\UpdateStoreCapabilities\\UpdateStoreCapabilitiesValidator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-30T01:00:36.289Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "UpdateStoreCapabilitiesHandler.cs",
+              "DocumentMoniker": "C:\\D\\ITI\\AI-Sales Agent\\AI-Commerce\\Back-end\\AI-Sales Agent\\Features\\StoreCapabilitiesManagement\\UpdateStoreCapabilities\\UpdateStoreCapabilitiesHandler.cs",
+              "RelativeDocumentMoniker": "AI-Sales Agent\\Features\\StoreCapabilitiesManagement\\UpdateStoreCapabilities\\UpdateStoreCapabilitiesHandler.cs",
+              "ToolTip": "C:\\D\\ITI\\AI-Sales Agent\\AI-Commerce\\Back-end\\AI-Sales Agent\\Features\\StoreCapabilitiesManagement\\UpdateStoreCapabilities\\UpdateStoreCapabilitiesHandler.cs",
+              "RelativeToolTip": "AI-Sales Agent\\Features\\StoreCapabilitiesManagement\\UpdateStoreCapabilities\\UpdateStoreCapabilitiesHandler.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAADwvzQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-30T00:59:05.755Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "CreateProductValidator.cs",
+              "DocumentMoniker": "C:\\D\\ITI\\AI-Sales Agent\\AI-Commerce\\Back-end\\AI-Sales Agent\\Features\\SellerProductsManagement\\CreateProduct\\CreateProductValidator.cs",
+              "RelativeDocumentMoniker": "AI-Sales Agent\\Features\\SellerProductsManagement\\CreateProduct\\CreateProductValidator.cs",
+              "ToolTip": "C:\\D\\ITI\\AI-Sales Agent\\AI-Commerce\\Back-end\\AI-Sales Agent\\Features\\SellerProductsManagement\\CreateProduct\\CreateProductValidator.cs",
+              "RelativeToolTip": "AI-Sales Agent\\Features\\SellerProductsManagement\\CreateProduct\\CreateProductValidator.cs",
+              "ViewState": "AgIAADYAAAAAAAAAAAAkwGQAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-24T20:31:08.483Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\D\\ITI\\AI-Sales Agent\\AI-Commerce\\Back-end\\AI-Sales Agent\\Program.cs",
+              "RelativeDocumentMoniker": "AI-Sales Agent\\Program.cs",
+              "ToolTip": "C:\\D\\ITI\\AI-Sales Agent\\AI-Commerce\\Back-end\\AI-Sales Agent\\Program.cs",
+              "RelativeToolTip": "AI-Sales Agent\\Program.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAAJwAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-17T10:46:50.571Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Plan.cs",
+              "DocumentMoniker": "C:\\D\\ITI\\AI-Sales Agent\\AI-Commerce\\Back-end\\AI-Sales Agent\\Domain\\Plan.cs",
+              "RelativeDocumentMoniker": "AI-Sales Agent\\Domain\\Plan.cs",
+              "ToolTip": "C:\\D\\ITI\\AI-Sales Agent\\AI-Commerce\\Back-end\\AI-Sales Agent\\Domain\\Plan.cs",
+              "RelativeToolTip": "AI-Sales Agent\\Domain\\Plan.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAwwA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-14T10:51:48.839Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "UpdateMaxDiscountValidator.cs",
+              "DocumentMoniker": "C:\\D\\ITI\\AI-Sales Agent\\AI-Commerce\\Back-end\\AI-Sales Agent\\Features\\SellerProductsManagement\\UpdateMaxDiscount\\UpdateMaxDiscountValidator.cs",
+              "RelativeDocumentMoniker": "AI-Sales Agent\\Features\\SellerProductsManagement\\UpdateMaxDiscount\\UpdateMaxDiscountValidator.cs",
+              "ToolTip": "C:\\D\\ITI\\AI-Sales Agent\\AI-Commerce\\Back-end\\AI-Sales Agent\\Features\\SellerProductsManagement\\UpdateMaxDiscount\\UpdateMaxDiscountValidator.cs",
+              "RelativeToolTip": "AI-Sales Agent\\Features\\SellerProductsManagement\\UpdateMaxDiscount\\UpdateMaxDiscountValidator.cs",
+              "ViewState": "AgIAAC4AAAAAAAAAAAAcwDoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-24T21:16:00.615Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "UpdateProductValidator.cs",
+              "DocumentMoniker": "C:\\D\\ITI\\AI-Sales Agent\\AI-Commerce\\Back-end\\AI-Sales Agent\\Features\\SellerProductsManagement\\UpdateProduct\\UpdateProductValidator.cs",
+              "RelativeDocumentMoniker": "AI-Sales Agent\\Features\\SellerProductsManagement\\UpdateProduct\\UpdateProductValidator.cs",
+              "ToolTip": "C:\\D\\ITI\\AI-Sales Agent\\AI-Commerce\\Back-end\\AI-Sales Agent\\Features\\SellerProductsManagement\\UpdateProduct\\UpdateProductValidator.cs",
+              "RelativeToolTip": "AI-Sales Agent\\Features\\SellerProductsManagement\\UpdateProduct\\UpdateProductValidator.cs",
+              "ViewState": "AgIAAGYAAAAAAAAAAAAqwBoAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-24T20:57:05.389Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "UpdateStoreCapabilitiesCommand.cs",
+              "DocumentMoniker": "C:\\D\\ITI\\AI-Sales Agent\\AI-Commerce\\Back-end\\AI-Sales Agent\\Features\\StoreCapabilitiesManagement\\UpdateStoreCapabilities\\UpdateStoreCapabilitiesCommand.cs",
+              "RelativeDocumentMoniker": "AI-Sales Agent\\Features\\StoreCapabilitiesManagement\\UpdateStoreCapabilities\\UpdateStoreCapabilitiesCommand.cs",
+              "ToolTip": "C:\\D\\ITI\\AI-Sales Agent\\AI-Commerce\\Back-end\\AI-Sales Agent\\Features\\StoreCapabilitiesManagement\\UpdateStoreCapabilities\\UpdateStoreCapabilitiesCommand.cs",
+              "RelativeToolTip": "AI-Sales Agent\\Features\\StoreCapabilitiesManagement\\UpdateStoreCapabilities\\UpdateStoreCapabilitiesCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-30T00:56:46.946Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "IMongoDbContext.cs",
+              "DocumentMoniker": "C:\\D\\ITI\\AI-Sales Agent\\AI-Commerce\\Back-end\\AI-Sales Agent\\Infrastructure\\Mongo\\IMongoDbContext.cs",
+              "RelativeDocumentMoniker": "AI-Sales Agent\\Infrastructure\\Mongo\\IMongoDbContext.cs",
+              "ToolTip": "C:\\D\\ITI\\AI-Sales Agent\\AI-Commerce\\Back-end\\AI-Sales Agent\\Infrastructure\\Mongo\\IMongoDbContext.cs",
+              "RelativeToolTip": "AI-Sales Agent\\Infrastructure\\Mongo\\IMongoDbContext.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAABBwCEAAABOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-30T00:32:07.756Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "MongoSettings.cs",
+              "DocumentMoniker": "C:\\D\\ITI\\AI-Sales Agent\\AI-Commerce\\Back-end\\AI-Sales Agent\\Infrastructure\\Mongo\\MongoSettings.cs",
+              "RelativeDocumentMoniker": "AI-Sales Agent\\Infrastructure\\Mongo\\MongoSettings.cs",
+              "ToolTip": "C:\\D\\ITI\\AI-Sales Agent\\AI-Commerce\\Back-end\\AI-Sales Agent\\Infrastructure\\Mongo\\MongoSettings.cs",
+              "RelativeToolTip": "AI-Sales Agent\\Infrastructure\\Mongo\\MongoSettings.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAwwBcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-30T00:32:46.54Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "StoreCapabilitiesDocument.cs",
+              "DocumentMoniker": "C:\\D\\ITI\\AI-Sales Agent\\AI-Commerce\\Back-end\\AI-Sales Agent\\Domain\\Mongo\\StoreCapabilitiesDocument.cs",
+              "RelativeDocumentMoniker": "AI-Sales Agent\\Domain\\Mongo\\StoreCapabilitiesDocument.cs",
+              "ToolTip": "C:\\D\\ITI\\AI-Sales Agent\\AI-Commerce\\Back-end\\AI-Sales Agent\\Domain\\Mongo\\StoreCapabilitiesDocument.cs",
+              "RelativeToolTip": "AI-Sales Agent\\Domain\\Mongo\\StoreCapabilitiesDocument.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-30T00:30:41.876Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "MongoCollectionNames.cs",
+              "DocumentMoniker": "C:\\D\\ITI\\AI-Sales Agent\\AI-Commerce\\Back-end\\AI-Sales Agent\\Infrastructure\\Mongo\\MongoCollectionNames.cs",
+              "RelativeDocumentMoniker": "AI-Sales Agent\\Infrastructure\\Mongo\\MongoCollectionNames.cs",
+              "ToolTip": "C:\\D\\ITI\\AI-Sales Agent\\AI-Commerce\\Back-end\\AI-Sales Agent\\Infrastructure\\Mongo\\MongoCollectionNames.cs",
+              "RelativeToolTip": "AI-Sales Agent\\Infrastructure\\Mongo\\MongoCollectionNames.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAADwvxgAAABFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-25T11:34:18.108Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "MongoDbContext.cs",
+              "DocumentMoniker": "C:\\D\\ITI\\AI-Sales Agent\\AI-Commerce\\Back-end\\AI-Sales Agent\\Infrastructure\\Mongo\\MongoDbContext.cs",
+              "RelativeDocumentMoniker": "AI-Sales Agent\\Infrastructure\\Mongo\\MongoDbContext.cs",
+              "ToolTip": "C:\\D\\ITI\\AI-Sales Agent\\AI-Commerce\\Back-end\\AI-Sales Agent\\Infrastructure\\Mongo\\MongoDbContext.cs",
+              "RelativeToolTip": "AI-Sales Agent\\Infrastructure\\Mongo\\MongoDbContext.cs",
+              "ViewState": "AgIAADYAAAAAAAAAAADwv0cAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-25T11:34:21.648Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "GetResolutionRateQueryHandler.cs",
+              "DocumentMoniker": "C:\\D\\ITI\\AI-Sales Agent\\AI-Commerce\\Back-end\\AI-Sales Agent\\Features\\DashboardManagement\\GetResolutionRate\\GetResolutionRateQueryHandler.cs",
+              "RelativeDocumentMoniker": "AI-Sales Agent\\Features\\DashboardManagement\\GetResolutionRate\\GetResolutionRateQueryHandler.cs",
+              "ToolTip": "C:\\D\\ITI\\AI-Sales Agent\\AI-Commerce\\Back-end\\AI-Sales Agent\\Features\\DashboardManagement\\GetResolutionRate\\GetResolutionRateQueryHandler.cs",
+              "RelativeToolTip": "AI-Sales Agent\\Features\\DashboardManagement\\GetResolutionRate\\GetResolutionRateQueryHandler.cs",
+              "ViewState": "AgIAADMAAAAAAAAAAAAUwD0AAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-27T22:59:50.461Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "GetTotalRevenueHandler.cs",
+              "DocumentMoniker": "C:\\D\\ITI\\AI-Sales Agent\\AI-Commerce\\Back-end\\AI-Sales Agent\\Features\\DashboardManagement\\GetTotalRevenue\\GetTotalRevenueHandler.cs",
+              "RelativeDocumentMoniker": "AI-Sales Agent\\Features\\DashboardManagement\\GetTotalRevenue\\GetTotalRevenueHandler.cs",
+              "ToolTip": "C:\\D\\ITI\\AI-Sales Agent\\AI-Commerce\\Back-end\\AI-Sales Agent\\Features\\DashboardManagement\\GetTotalRevenue\\GetTotalRevenueHandler.cs",
+              "RelativeToolTip": "AI-Sales Agent\\Features\\DashboardManagement\\GetTotalRevenue\\GetTotalRevenueHandler.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAB0AAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-25T16:53:05.116Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "DashboardNotifier.cs",
+              "DocumentMoniker": "C:\\D\\ITI\\AI-Sales Agent\\AI-Commerce\\Back-end\\AI-Sales Agent\\Services\\DashboardNotifier.cs",
+              "RelativeDocumentMoniker": "AI-Sales Agent\\Services\\DashboardNotifier.cs",
+              "ToolTip": "C:\\D\\ITI\\AI-Sales Agent\\AI-Commerce\\Back-end\\AI-Sales Agent\\Services\\DashboardNotifier.cs",
+              "RelativeToolTip": "AI-Sales Agent\\Services\\DashboardNotifier.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAqwCIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-28T23:27:06.135Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "CreateOrderHandler.cs",
+              "DocumentMoniker": "C:\\D\\ITI\\AI-Sales Agent\\AI-Commerce\\Back-end\\AI-Sales Agent\\Features\\OrdersManagement\\CreateOrder\\CreateOrderHandler.cs",
+              "RelativeDocumentMoniker": "AI-Sales Agent\\Features\\OrdersManagement\\CreateOrder\\CreateOrderHandler.cs",
+              "ToolTip": "C:\\D\\ITI\\AI-Sales Agent\\AI-Commerce\\Back-end\\AI-Sales Agent\\Features\\OrdersManagement\\CreateOrder\\CreateOrderHandler.cs",
+              "RelativeToolTip": "AI-Sales Agent\\Features\\OrdersManagement\\CreateOrder\\CreateOrderHandler.cs",
+              "ViewState": "AgIAAIoAAAAAAAAAAAAkwJUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-25T16:43:05.465Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "GetRevenueGrowthQueryHandler.cs",
+              "DocumentMoniker": "C:\\D\\ITI\\AI-Sales Agent\\AI-Commerce\\Back-end\\AI-Sales Agent\\Features\\DashboardManagement\\GetRevenueGrowth\\GetRevenueGrowthQueryHandler.cs",
+              "RelativeDocumentMoniker": "AI-Sales Agent\\Features\\DashboardManagement\\GetRevenueGrowth\\GetRevenueGrowthQueryHandler.cs",
+              "ToolTip": "C:\\D\\ITI\\AI-Sales Agent\\AI-Commerce\\Back-end\\AI-Sales Agent\\Features\\DashboardManagement\\GetRevenueGrowth\\GetRevenueGrowthQueryHandler.cs",
+              "RelativeToolTip": "AI-Sales Agent\\Features\\DashboardManagement\\GetRevenueGrowth\\GetRevenueGrowthQueryHandler.cs",
+              "ViewState": "AgIAADEAAAAAAAAAAAAwwDQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-27T22:03:27.437Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "CreateOrderCommand.cs",
+              "DocumentMoniker": "C:\\D\\ITI\\AI-Sales Agent\\AI-Commerce\\Back-end\\AI-Sales Agent\\Features\\OrdersManagement\\CreateOrder\\CreateOrderCommand.cs",
+              "RelativeDocumentMoniker": "AI-Sales Agent\\Features\\OrdersManagement\\CreateOrder\\CreateOrderCommand.cs",
+              "ToolTip": "C:\\D\\ITI\\AI-Sales Agent\\AI-Commerce\\Back-end\\AI-Sales Agent\\Features\\OrdersManagement\\CreateOrder\\CreateOrderCommand.cs",
+              "RelativeToolTip": "AI-Sales Agent\\Features\\OrdersManagement\\CreateOrder\\CreateOrderCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-25T16:38:30.84Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "DashboardInsightDocument.cs",
+              "DocumentMoniker": "C:\\D\\ITI\\AI-Sales Agent\\AI-Commerce\\Back-end\\AI-Sales Agent\\Domain\\Mongo\\DashboardInsightDocument.cs",
+              "RelativeDocumentMoniker": "AI-Sales Agent\\Domain\\Mongo\\DashboardInsightDocument.cs",
+              "ToolTip": "C:\\D\\ITI\\AI-Sales Agent\\AI-Commerce\\Back-end\\AI-Sales Agent\\Domain\\Mongo\\DashboardInsightDocument.cs",
+              "RelativeToolTip": "AI-Sales Agent\\Domain\\Mongo\\DashboardInsightDocument.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAQwBAAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-25T16:22:03.545Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "GetAvgResponseTimeQueryHandler.cs",
+              "DocumentMoniker": "C:\\D\\ITI\\AI-Sales Agent\\AI-Commerce\\Back-end\\AI-Sales Agent\\Features\\DashboardManagement\\GetAvgResponseTime\\GetAvgResponseTimeQueryHandler.cs",
+              "RelativeDocumentMoniker": "AI-Sales Agent\\Features\\DashboardManagement\\GetAvgResponseTime\\GetAvgResponseTimeQueryHandler.cs",
+              "ToolTip": "C:\\D\\ITI\\AI-Sales Agent\\AI-Commerce\\Back-end\\AI-Sales Agent\\Features\\DashboardManagement\\GetAvgResponseTime\\GetAvgResponseTimeQueryHandler.cs",
+              "RelativeToolTip": "AI-Sales Agent\\Features\\DashboardManagement\\GetAvgResponseTime\\GetAvgResponseTimeQueryHandler.cs",
+              "ViewState": "AgIAAFQAAAAAAAAAAAAuwGAAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-27T23:14:27.911Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "ConversationDocument.cs",
+              "DocumentMoniker": "C:\\D\\ITI\\AI-Sales Agent\\AI-Commerce\\Back-end\\AI-Sales Agent\\Domain\\Mongo\\ConversationDocument.cs",
+              "RelativeDocumentMoniker": "AI-Sales Agent\\Domain\\Mongo\\ConversationDocument.cs",
+              "ToolTip": "C:\\D\\ITI\\AI-Sales Agent\\AI-Commerce\\Back-end\\AI-Sales Agent\\Domain\\Mongo\\ConversationDocument.cs",
+              "RelativeToolTip": "AI-Sales Agent\\Domain\\Mongo\\ConversationDocument.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-27T23:12:51.202Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "IDashboardNotifier.cs",
+              "DocumentMoniker": "C:\\D\\ITI\\AI-Sales Agent\\AI-Commerce\\Back-end\\AI-Sales Agent\\Services\\IDashboardNotifier.cs",
+              "RelativeDocumentMoniker": "AI-Sales Agent\\Services\\IDashboardNotifier.cs",
+              "ToolTip": "C:\\D\\ITI\\AI-Sales Agent\\AI-Commerce\\Back-end\\AI-Sales Agent\\Services\\IDashboardNotifier.cs",
+              "RelativeToolTip": "AI-Sales Agent\\Services\\IDashboardNotifier.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-28T23:24:55.738Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "AI-Sales Agent.csproj",
+              "DocumentMoniker": "C:\\D\\ITI\\AI-Sales Agent\\AI-Commerce\\Back-end\\AI-Sales Agent\\AI-Sales Agent.csproj",
+              "RelativeDocumentMoniker": "AI-Sales Agent\\AI-Sales Agent.csproj",
+              "ToolTip": "C:\\D\\ITI\\AI-Sales Agent\\AI-Commerce\\Back-end\\AI-Sales Agent\\AI-Sales Agent.csproj",
+              "RelativeToolTip": "AI-Sales Agent\\AI-Sales Agent.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-07-28T23:36:59.599Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "DashboardHub.cs",
+              "DocumentMoniker": "C:\\D\\ITI\\AI-Sales Agent\\AI-Commerce\\Back-end\\AI-Sales Agent\\Hubs\\DashboardHub.cs",
+              "RelativeDocumentMoniker": "AI-Sales Agent\\Hubs\\DashboardHub.cs",
+              "ToolTip": "C:\\D\\ITI\\AI-Sales Agent\\AI-Commerce\\Back-end\\AI-Sales Agent\\Hubs\\DashboardHub.cs",
+              "RelativeToolTip": "AI-Sales Agent\\Hubs\\DashboardHub.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-28T23:22:51.164Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "OrderDocument.cs",
+              "DocumentMoniker": "C:\\D\\ITI\\AI-Sales Agent\\AI-Commerce\\Back-end\\AI-Sales Agent\\Domain\\Mongo\\OrderDocument.cs",
+              "RelativeDocumentMoniker": "AI-Sales Agent\\Domain\\Mongo\\OrderDocument.cs",
+              "ToolTip": "C:\\D\\ITI\\AI-Sales Agent\\AI-Commerce\\Back-end\\AI-Sales Agent\\Domain\\Mongo\\OrderDocument.cs",
+              "RelativeToolTip": "AI-Sales Agent\\Domain\\Mongo\\OrderDocument.cs",
+              "ViewState": "AgIAADMAAAAAAAAAAAAowDgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-27T23:22:56.865Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "GetAvgResponseTimeQuery.cs",
+              "DocumentMoniker": "C:\\D\\ITI\\AI-Sales Agent\\AI-Commerce\\Back-end\\AI-Sales Agent\\Features\\DashboardManagement\\GetAvgResponseTime\\GetAvgResponseTimeQuery.cs",
+              "RelativeDocumentMoniker": "AI-Sales Agent\\Features\\DashboardManagement\\GetAvgResponseTime\\GetAvgResponseTimeQuery.cs",
+              "ToolTip": "C:\\D\\ITI\\AI-Sales Agent\\AI-Commerce\\Back-end\\AI-Sales Agent\\Features\\DashboardManagement\\GetAvgResponseTime\\GetAvgResponseTimeQuery.cs",
+              "RelativeToolTip": "AI-Sales Agent\\Features\\DashboardManagement\\GetAvgResponseTime\\GetAvgResponseTimeQuery.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAABJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-27T23:11:39.886Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "DashboardController.cs",
+              "DocumentMoniker": "C:\\D\\ITI\\AI-Sales Agent\\AI-Commerce\\Back-end\\AI-Sales Agent\\Features\\DashboardManagement\\DashboardController.cs",
+              "RelativeDocumentMoniker": "AI-Sales Agent\\Features\\DashboardManagement\\DashboardController.cs",
+              "ToolTip": "C:\\D\\ITI\\AI-Sales Agent\\AI-Commerce\\Back-end\\AI-Sales Agent\\Features\\DashboardManagement\\DashboardController.cs",
+              "RelativeToolTip": "AI-Sales Agent\\Features\\DashboardManagement\\DashboardController.cs",
+              "ViewState": "AgIAADAAAAAAAAAAAAAiwDcAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-25T16:54:05.959Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "GetResolutionRateQuery.cs",
+              "DocumentMoniker": "C:\\D\\ITI\\AI-Sales Agent\\AI-Commerce\\Back-end\\AI-Sales Agent\\Features\\DashboardManagement\\GetResolutionRate\\GetResolutionRateQuery.cs",
+              "RelativeDocumentMoniker": "AI-Sales Agent\\Features\\DashboardManagement\\GetResolutionRate\\GetResolutionRateQuery.cs",
+              "ToolTip": "C:\\D\\ITI\\AI-Sales Agent\\AI-Commerce\\Back-end\\AI-Sales Agent\\Features\\DashboardManagement\\GetResolutionRate\\GetResolutionRateQuery.cs",
+              "RelativeToolTip": "AI-Sales Agent\\Features\\DashboardManagement\\GetResolutionRate\\GetResolutionRateQuery.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-27T22:59:00.975Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "GetTotalRevenueQuery.cs",
+              "DocumentMoniker": "C:\\D\\ITI\\AI-Sales Agent\\AI-Commerce\\Back-end\\AI-Sales Agent\\Features\\DashboardManagement\\GetTotalRevenue\\GetTotalRevenueQuery.cs",
+              "RelativeDocumentMoniker": "AI-Sales Agent\\Features\\DashboardManagement\\GetTotalRevenue\\GetTotalRevenueQuery.cs",
+              "ToolTip": "C:\\D\\ITI\\AI-Sales Agent\\AI-Commerce\\Back-end\\AI-Sales Agent\\Features\\DashboardManagement\\GetTotalRevenue\\GetTotalRevenueQuery.cs",
+              "RelativeToolTip": "AI-Sales Agent\\Features\\DashboardManagement\\GetTotalRevenue\\GetTotalRevenueQuery.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAABGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-25T16:52:26.518Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "CreateStoreCommandHandler.cs",
+              "DocumentMoniker": "C:\\D\\ITI\\AI-Sales Agent\\AI-Commerce\\Back-end\\AI-Sales Agent\\Features\\Stores\\CreateStore\\CreateStoreCommandHandler.cs",
+              "RelativeDocumentMoniker": "AI-Sales Agent\\Features\\Stores\\CreateStore\\CreateStoreCommandHandler.cs",
+              "ToolTip": "C:\\D\\ITI\\AI-Sales Agent\\AI-Commerce\\Back-end\\AI-Sales Agent\\Features\\Stores\\CreateStore\\CreateStoreCommandHandler.cs",
+              "RelativeToolTip": "AI-Sales Agent\\Features\\Stores\\CreateStore\\CreateStoreCommandHandler.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAowCsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-27T11:45:39.686Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "GetRevenueGrowthQuery.cs",
+              "DocumentMoniker": "C:\\D\\ITI\\AI-Sales Agent\\AI-Commerce\\Back-end\\AI-Sales Agent\\Features\\DashboardManagement\\GetRevenueGrowth\\GetRevenueGrowthQuery.cs",
+              "RelativeDocumentMoniker": "AI-Sales Agent\\Features\\DashboardManagement\\GetRevenueGrowth\\GetRevenueGrowthQuery.cs",
+              "ToolTip": "C:\\D\\ITI\\AI-Sales Agent\\AI-Commerce\\Back-end\\AI-Sales Agent\\Features\\DashboardManagement\\GetRevenueGrowth\\GetRevenueGrowthQuery.cs",
+              "RelativeToolTip": "AI-Sales Agent\\Features\\DashboardManagement\\GetRevenueGrowth\\GetRevenueGrowthQuery.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-27T21:59:06.734Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "CancelSubscriptionHandler.cs",
+              "DocumentMoniker": "C:\\D\\ITI\\AI-Sales Agent\\AI-Commerce\\Back-end\\AI-Sales Agent\\Features\\Subscriptions\\CancelSubscription\\CancelSubscriptionHandler.cs",
+              "RelativeDocumentMoniker": "AI-Sales Agent\\Features\\Subscriptions\\CancelSubscription\\CancelSubscriptionHandler.cs",
+              "ToolTip": "C:\\D\\ITI\\AI-Sales Agent\\AI-Commerce\\Back-end\\AI-Sales Agent\\Features\\Subscriptions\\CancelSubscription\\CancelSubscriptionHandler.cs",
+              "RelativeToolTip": "AI-Sales Agent\\Features\\Subscriptions\\CancelSubscription\\CancelSubscriptionHandler.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAYwBwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-27T11:36:57.198Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "GetUserSubscriptionQuery.cs",
+              "DocumentMoniker": "C:\\D\\ITI\\AI-Sales Agent\\AI-Commerce\\Back-end\\AI-Sales Agent\\Features\\Subscriptions\\GetUserSubscription\\GetUserSubscriptionQuery.cs",
+              "RelativeDocumentMoniker": "AI-Sales Agent\\Features\\Subscriptions\\GetUserSubscription\\GetUserSubscriptionQuery.cs",
+              "ToolTip": "C:\\D\\ITI\\AI-Sales Agent\\AI-Commerce\\Back-end\\AI-Sales Agent\\Features\\Subscriptions\\GetUserSubscription\\GetUserSubscriptionQuery.cs",
+              "RelativeToolTip": "AI-Sales Agent\\Features\\Subscriptions\\GetUserSubscription\\GetUserSubscriptionQuery.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAABZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-27T11:38:38.701Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "GetUserSubscriptionHandler.cs",
+              "DocumentMoniker": "C:\\D\\ITI\\AI-Sales Agent\\AI-Commerce\\Back-end\\AI-Sales Agent\\Features\\Subscriptions\\GetUserSubscription\\GetUserSubscriptionHandler.cs",
+              "RelativeDocumentMoniker": "AI-Sales Agent\\Features\\Subscriptions\\GetUserSubscription\\GetUserSubscriptionHandler.cs",
+              "ToolTip": "C:\\D\\ITI\\AI-Sales Agent\\AI-Commerce\\Back-end\\AI-Sales Agent\\Features\\Subscriptions\\GetUserSubscription\\GetUserSubscriptionHandler.cs",
+              "RelativeToolTip": "AI-Sales Agent\\Features\\Subscriptions\\GetUserSubscription\\GetUserSubscriptionHandler.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAIBPwBkAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-27T11:39:35.201Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "SubscriptionsSellerController.cs",
+              "DocumentMoniker": "C:\\D\\ITI\\AI-Sales Agent\\AI-Commerce\\Back-end\\AI-Sales Agent\\Features\\Subscriptions\\SubscriptionsSellerController.cs",
+              "RelativeDocumentMoniker": "AI-Sales Agent\\Features\\Subscriptions\\SubscriptionsSellerController.cs",
+              "ToolTip": "C:\\D\\ITI\\AI-Sales Agent\\AI-Commerce\\Back-end\\AI-Sales Agent\\Features\\Subscriptions\\SubscriptionsSellerController.cs",
+              "RelativeToolTip": "AI-Sales Agent\\Features\\Subscriptions\\SubscriptionsSellerController.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAzwDUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-27T11:40:44.388Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "SubscribeToPlanHandler.cs",
+              "DocumentMoniker": "C:\\D\\ITI\\AI-Sales Agent\\AI-Commerce\\Back-end\\AI-Sales Agent\\Features\\Subscriptions\\SubscribeToPlan\\SubscribeToPlanHandler.cs",
+              "RelativeDocumentMoniker": "AI-Sales Agent\\Features\\Subscriptions\\SubscribeToPlan\\SubscribeToPlanHandler.cs",
+              "ToolTip": "C:\\D\\ITI\\AI-Sales Agent\\AI-Commerce\\Back-end\\AI-Sales Agent\\Features\\Subscriptions\\SubscribeToPlan\\SubscribeToPlanHandler.cs",
+              "RelativeToolTip": "AI-Sales Agent\\Features\\Subscriptions\\SubscribeToPlan\\SubscribeToPlanHandler.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAIBPwBAAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-27T11:30:54.519Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "SubscribeToPlanCommand.cs",
+              "DocumentMoniker": "C:\\D\\ITI\\AI-Sales Agent\\AI-Commerce\\Back-end\\AI-Sales Agent\\Features\\Subscriptions\\SubscribeToPlan\\SubscribeToPlanCommand.cs",
+              "RelativeDocumentMoniker": "AI-Sales Agent\\Features\\Subscriptions\\SubscribeToPlan\\SubscribeToPlanCommand.cs",
+              "ToolTip": "C:\\D\\ITI\\AI-Sales Agent\\AI-Commerce\\Back-end\\AI-Sales Agent\\Features\\Subscriptions\\SubscribeToPlan\\SubscribeToPlanCommand.cs",
+              "RelativeToolTip": "AI-Sales Agent\\Features\\Subscriptions\\SubscribeToPlan\\SubscribeToPlanCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-27T11:29:22.038Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "CancelSubscriptionCommand.cs",
+              "DocumentMoniker": "C:\\D\\ITI\\AI-Sales Agent\\AI-Commerce\\Back-end\\AI-Sales Agent\\Features\\Subscriptions\\CancelSubscription\\CancelSubscriptionCommand.cs",
+              "RelativeDocumentMoniker": "AI-Sales Agent\\Features\\Subscriptions\\CancelSubscription\\CancelSubscriptionCommand.cs",
+              "ToolTip": "C:\\D\\ITI\\AI-Sales Agent\\AI-Commerce\\Back-end\\AI-Sales Agent\\Features\\Subscriptions\\CancelSubscription\\CancelSubscriptionCommand.cs",
+              "RelativeToolTip": "AI-Sales Agent\\Features\\Subscriptions\\CancelSubscription\\CancelSubscriptionCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-27T11:36:27.92Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "SubscribeToPlanValidator.cs",
+              "DocumentMoniker": "C:\\D\\ITI\\AI-Sales Agent\\AI-Commerce\\Back-end\\AI-Sales Agent\\Features\\Subscriptions\\SubscribeToPlan\\SubscribeToPlanValidator.cs",
+              "RelativeDocumentMoniker": "AI-Sales Agent\\Features\\Subscriptions\\SubscribeToPlan\\SubscribeToPlanValidator.cs",
+              "ToolTip": "C:\\D\\ITI\\AI-Sales Agent\\AI-Commerce\\Back-end\\AI-Sales Agent\\Features\\Subscriptions\\SubscribeToPlan\\SubscribeToPlanValidator.cs",
+              "RelativeToolTip": "AI-Sales Agent\\Features\\Subscriptions\\SubscribeToPlan\\SubscribeToPlanValidator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-27T11:32:01.046Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 56,
+              "Title": "20260715133656_addinit.cs",
+              "DocumentMoniker": "C:\\D\\ITI\\AI-Sales Agent\\AI-Commerce\\Back-end\\AI-Sales Agent\\Migrations\\20260715133656_addinit.cs",
+              "RelativeDocumentMoniker": "AI-Sales Agent\\Migrations\\20260715133656_addinit.cs",
+              "ToolTip": "C:\\D\\ITI\\AI-Sales Agent\\AI-Commerce\\Back-end\\AI-Sales Agent\\Migrations\\20260715133656_addinit.cs",
+              "RelativeToolTip": "AI-Sales Agent\\Migrations\\20260715133656_addinit.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAgAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-25T17:43:44.217Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "Subscription.cs",
+              "DocumentMoniker": "C:\\D\\ITI\\AI-Sales Agent\\AI-Commerce\\Back-end\\AI-Sales Agent\\Domain\\Subscription.cs",
+              "RelativeDocumentMoniker": "AI-Sales Agent\\Domain\\Subscription.cs",
+              "ToolTip": "C:\\D\\ITI\\AI-Sales Agent\\AI-Commerce\\Back-end\\AI-Sales Agent\\Domain\\Subscription.cs",
+              "RelativeToolTip": "AI-Sales Agent\\Domain\\Subscription.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-14T17:27:11.624Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\D\\ITI\\AI-Sales Agent\\AI-Commerce\\Back-end\\AI-Sales Agent\\Domain\\User.cs",
+              "RelativeDocumentMoniker": "AI-Sales Agent\\Domain\\User.cs",
+              "ToolTip": "C:\\D\\ITI\\AI-Sales Agent\\AI-Commerce\\Back-end\\AI-Sales Agent\\Domain\\User.cs",
+              "RelativeToolTip": "AI-Sales Agent\\Domain\\User.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAADwvxgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-14T10:56:25.421Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 57,
+              "Title": "20260715141516_test.Designer.cs",
+              "DocumentMoniker": "C:\\D\\ITI\\AI-Sales Agent\\AI-Commerce\\Back-end\\AI-Sales Agent\\Migrations\\20260715141516_test.Designer.cs",
+              "RelativeDocumentMoniker": "AI-Sales Agent\\Migrations\\20260715141516_test.Designer.cs",
+              "ToolTip": "C:\\D\\ITI\\AI-Sales Agent\\AI-Commerce\\Back-end\\AI-Sales Agent\\Migrations\\20260715141516_test.Designer.cs",
+              "RelativeToolTip": "AI-Sales Agent\\Migrations\\20260715141516_test.Designer.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAADgvxAAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-25T17:43:51.033Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 60,
+              "Title": "OrdersController.cs",
+              "DocumentMoniker": "C:\\D\\ITI\\AI-Sales Agent\\AI-Commerce\\Back-end\\AI-Sales Agent\\Features\\OrdersManagement\\OrdersController.cs",
+              "RelativeDocumentMoniker": "AI-Sales Agent\\Features\\OrdersManagement\\OrdersController.cs",
+              "ToolTip": "C:\\D\\ITI\\AI-Sales Agent\\AI-Commerce\\Back-end\\AI-Sales Agent\\Features\\OrdersManagement\\OrdersController.cs",
+              "RelativeToolTip": "AI-Sales Agent\\Features\\OrdersManagement\\OrdersController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADgAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-25T16:47:43.322Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 59,
+              "Title": "CreateOrderValidator.cs",
+              "DocumentMoniker": "C:\\D\\ITI\\AI-Sales Agent\\AI-Commerce\\Back-end\\AI-Sales Agent\\Features\\OrdersManagement\\CreateOrder\\CreateOrderValidator.cs",
+              "RelativeDocumentMoniker": "AI-Sales Agent\\Features\\OrdersManagement\\CreateOrder\\CreateOrderValidator.cs",
+              "ToolTip": "C:\\D\\ITI\\AI-Sales Agent\\AI-Commerce\\Back-end\\AI-Sales Agent\\Features\\OrdersManagement\\CreateOrder\\CreateOrderValidator.cs",
+              "RelativeToolTip": "AI-Sales Agent\\Features\\OrdersManagement\\CreateOrder\\CreateOrderValidator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAIBPwA8AAABOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-25T16:40:22.941Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 58,
+              "Title": "ProductDocument.cs",
+              "DocumentMoniker": "C:\\D\\ITI\\AI-Sales Agent\\AI-Commerce\\Back-end\\AI-Sales Agent\\Domain\\Mongo\\ProductDocument.cs",
+              "RelativeDocumentMoniker": "AI-Sales Agent\\Domain\\Mongo\\ProductDocument.cs",
+              "ToolTip": "C:\\D\\ITI\\AI-Sales Agent\\AI-Commerce\\Back-end\\AI-Sales Agent\\Domain\\Mongo\\ProductDocument.cs",
+              "RelativeToolTip": "AI-Sales Agent\\Domain\\Mongo\\ProductDocument.cs",
+              "ViewState": "AgIAACwAAAAAAAAAAAAgwD0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-24T19:27:42.977Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 62,
+              "Title": "DeleteStoreCommandValidator.cs",
+              "DocumentMoniker": "C:\\D\\ITI\\AI-Sales Agent\\AI-Commerce\\Back-end\\AI-Sales Agent\\Features\\Stores\\DeleteStore\\DeleteStoreCommandValidator.cs",
+              "RelativeDocumentMoniker": "AI-Sales Agent\\Features\\Stores\\DeleteStore\\DeleteStoreCommandValidator.cs",
+              "ToolTip": "C:\\D\\ITI\\AI-Sales Agent\\AI-Commerce\\Back-end\\AI-Sales Agent\\Features\\Stores\\DeleteStore\\DeleteStoreCommandValidator.cs",
+              "RelativeToolTip": "AI-Sales Agent\\Features\\Stores\\DeleteStore\\DeleteStoreCommandValidator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-25T12:55:54.773Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 63,
+              "Title": "DeleteCategoryValidator.cs",
+              "DocumentMoniker": "C:\\D\\ITI\\AI-Sales Agent\\AI-Commerce\\Back-end\\AI-Sales Agent\\Features\\SellerCategoriesManagement\\DeleteCategory\\DeleteCategoryValidator.cs",
+              "RelativeDocumentMoniker": "AI-Sales Agent\\Features\\SellerCategoriesManagement\\DeleteCategory\\DeleteCategoryValidator.cs",
+              "ToolTip": "C:\\D\\ITI\\AI-Sales Agent\\AI-Commerce\\Back-end\\AI-Sales Agent\\Features\\SellerCategoriesManagement\\DeleteCategory\\DeleteCategoryValidator.cs",
+              "RelativeToolTip": "AI-Sales Agent\\Features\\SellerCategoriesManagement\\DeleteCategory\\DeleteCategoryValidator.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAowDQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-25T12:54:52.845Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 65,
+              "Title": "CategoriesController.cs",
+              "DocumentMoniker": "C:\\D\\ITI\\AI-Sales Agent\\AI-Commerce\\Back-end\\AI-Sales Agent\\Features\\SellerCategoriesManagement\\CategoriesController.cs",
+              "RelativeDocumentMoniker": "AI-Sales Agent\\Features\\SellerCategoriesManagement\\CategoriesController.cs",
+              "ToolTip": "C:\\D\\ITI\\AI-Sales Agent\\AI-Commerce\\Back-end\\AI-Sales Agent\\Features\\SellerCategoriesManagement\\CategoriesController.cs",
+              "RelativeToolTip": "AI-Sales Agent\\Features\\SellerCategoriesManagement\\CategoriesController.cs",
+              "ViewState": "AgIAAEsAAAAAAAAAAAAnwF4AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-25T11:55:31.972Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 61,
+              "Title": "CreateCategoryCommand.cs",
+              "DocumentMoniker": "C:\\D\\ITI\\AI-Sales Agent\\AI-Commerce\\Back-end\\AI-Sales Agent\\Features\\SellerCategoriesManagement\\CreateCategory\\CreateCategoryCommand.cs",
+              "RelativeDocumentMoniker": "AI-Sales Agent\\Features\\SellerCategoriesManagement\\CreateCategory\\CreateCategoryCommand.cs",
+              "ToolTip": "C:\\D\\ITI\\AI-Sales Agent\\AI-Commerce\\Back-end\\AI-Sales Agent\\Features\\SellerCategoriesManagement\\CreateCategory\\CreateCategoryCommand.cs",
+              "RelativeToolTip": "AI-Sales Agent\\Features\\SellerCategoriesManagement\\CreateCategory\\CreateCategoryCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-25T11:35:25.925Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 68,
+              "Title": "DeleteProductHandler.cs",
+              "DocumentMoniker": "C:\\D\\ITI\\AI-Sales Agent\\AI-Commerce\\Back-end\\AI-Sales Agent\\Features\\SellerProductsManagement\\DeleteProduct\\DeleteProductHandler.cs",
+              "RelativeDocumentMoniker": "AI-Sales Agent\\Features\\SellerProductsManagement\\DeleteProduct\\DeleteProductHandler.cs",
+              "ToolTip": "C:\\D\\ITI\\AI-Sales Agent\\AI-Commerce\\Back-end\\AI-Sales Agent\\Features\\SellerProductsManagement\\DeleteProduct\\DeleteProductHandler.cs",
+              "RelativeToolTip": "AI-Sales Agent\\Features\\SellerProductsManagement\\DeleteProduct\\DeleteProductHandler.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAAwCUAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-24T21:20:53.245Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 70,
+              "Title": "UpdateProductCommand.cs",
+              "DocumentMoniker": "C:\\D\\ITI\\AI-Sales Agent\\AI-Commerce\\Back-end\\AI-Sales Agent\\Features\\SellerProductsManagement\\UpdateProduct\\UpdateProductCommand.cs",
+              "RelativeDocumentMoniker": "AI-Sales Agent\\Features\\SellerProductsManagement\\UpdateProduct\\UpdateProductCommand.cs",
+              "ToolTip": "C:\\D\\ITI\\AI-Sales Agent\\AI-Commerce\\Back-end\\AI-Sales Agent\\Features\\SellerProductsManagement\\UpdateProduct\\UpdateProductCommand.cs",
+              "RelativeToolTip": "AI-Sales Agent\\Features\\SellerProductsManagement\\UpdateProduct\\UpdateProductCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-24T20:52:03.858Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 69,
+              "Title": "ProductsController.cs",
+              "DocumentMoniker": "C:\\D\\ITI\\AI-Sales Agent\\AI-Commerce\\Back-end\\AI-Sales Agent\\Features\\SellerProductsManagement\\ProductsController.cs",
+              "RelativeDocumentMoniker": "AI-Sales Agent\\Features\\SellerProductsManagement\\ProductsController.cs",
+              "ToolTip": "C:\\D\\ITI\\AI-Sales Agent\\AI-Commerce\\Back-end\\AI-Sales Agent\\Features\\SellerProductsManagement\\ProductsController.cs",
+              "RelativeToolTip": "AI-Sales Agent\\Features\\SellerProductsManagement\\ProductsController.cs",
+              "ViewState": "AgIAAG0AAAAAAAAAAAAnwHkAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-24T21:21:32.958Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 67,
+              "Title": "DeleteProductCommand.cs",
+              "DocumentMoniker": "C:\\D\\ITI\\AI-Sales Agent\\AI-Commerce\\Back-end\\AI-Sales Agent\\Features\\SellerProductsManagement\\DeleteProduct\\DeleteProductCommand.cs",
+              "RelativeDocumentMoniker": "AI-Sales Agent\\Features\\SellerProductsManagement\\DeleteProduct\\DeleteProductCommand.cs",
+              "ToolTip": "C:\\D\\ITI\\AI-Sales Agent\\AI-Commerce\\Back-end\\AI-Sales Agent\\Features\\SellerProductsManagement\\DeleteProduct\\DeleteProductCommand.cs",
+              "RelativeToolTip": "AI-Sales Agent\\Features\\SellerProductsManagement\\DeleteProduct\\DeleteProductCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-24T21:19:42.502Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 66,
+              "Title": "DeleteCategoryCommand.cs",
+              "DocumentMoniker": "C:\\D\\ITI\\AI-Sales Agent\\AI-Commerce\\Back-end\\AI-Sales Agent\\Features\\SellerCategoriesManagement\\DeleteCategory\\DeleteCategoryCommand.cs",
+              "RelativeDocumentMoniker": "AI-Sales Agent\\Features\\SellerCategoriesManagement\\DeleteCategory\\DeleteCategoryCommand.cs",
+              "ToolTip": "C:\\D\\ITI\\AI-Sales Agent\\AI-Commerce\\Back-end\\AI-Sales Agent\\Features\\SellerCategoriesManagement\\DeleteCategory\\DeleteCategoryCommand.cs",
+              "RelativeToolTip": "AI-Sales Agent\\Features\\SellerCategoriesManagement\\DeleteCategory\\DeleteCategoryCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-25T11:56:40.102Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 64,
+              "Title": "DeleteCategoryHandler.cs",
+              "DocumentMoniker": "C:\\D\\ITI\\AI-Sales Agent\\AI-Commerce\\Back-end\\AI-Sales Agent\\Features\\SellerCategoriesManagement\\DeleteCategory\\DeleteCategoryHandler.cs",
+              "RelativeDocumentMoniker": "AI-Sales Agent\\Features\\SellerCategoriesManagement\\DeleteCategory\\DeleteCategoryHandler.cs",
+              "ToolTip": "C:\\D\\ITI\\AI-Sales Agent\\AI-Commerce\\Back-end\\AI-Sales Agent\\Features\\SellerCategoriesManagement\\DeleteCategory\\DeleteCategoryHandler.cs",
+              "RelativeToolTip": "AI-Sales Agent\\Features\\SellerCategoriesManagement\\DeleteCategory\\DeleteCategoryHandler.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAAwCgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-25T11:59:13.155Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 71,
+              "Title": "CreateCategoryCommandValidator.cs",
+              "DocumentMoniker": "C:\\D\\ITI\\AI-Sales Agent\\AI-Commerce\\Back-end\\AI-Sales Agent\\Features\\SellerCategoriesManagement\\CreateCategory\\CreateCategoryCommandValidator.cs",
+              "RelativeDocumentMoniker": "AI-Sales Agent\\Features\\SellerCategoriesManagement\\CreateCategory\\CreateCategoryCommandValidator.cs",
+              "ToolTip": "C:\\D\\ITI\\AI-Sales Agent\\AI-Commerce\\Back-end\\AI-Sales Agent\\Features\\SellerCategoriesManagement\\CreateCategory\\CreateCategoryCommandValidator.cs",
+              "RelativeToolTip": "AI-Sales Agent\\Features\\SellerCategoriesManagement\\CreateCategory\\CreateCategoryCommandValidator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAwwB0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-25T11:37:11.453Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 75,
+              "Title": "GetAllCategoriesHandler.cs",
+              "DocumentMoniker": "C:\\D\\ITI\\AI-Sales Agent\\AI-Commerce\\Back-end\\AI-Sales Agent\\Features\\SellerCategoriesManagement\\GetAllCategories\\GetAllCategoriesHandler.cs",
+              "RelativeDocumentMoniker": "AI-Sales Agent\\Features\\SellerCategoriesManagement\\GetAllCategories\\GetAllCategoriesHandler.cs",
+              "ToolTip": "C:\\D\\ITI\\AI-Sales Agent\\AI-Commerce\\Back-end\\AI-Sales Agent\\Features\\SellerCategoriesManagement\\GetAllCategories\\GetAllCategoriesHandler.cs",
+              "RelativeToolTip": "AI-Sales Agent\\Features\\SellerCategoriesManagement\\GetAllCategories\\GetAllCategoriesHandler.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAADwvzAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-25T11:47:59.936Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 72,
+              "Title": "UpdateCategoryHandler.cs",
+              "DocumentMoniker": "C:\\D\\ITI\\AI-Sales Agent\\AI-Commerce\\Back-end\\AI-Sales Agent\\Features\\SellerCategoriesManagement\\UpdateCategory\\UpdateCategoryHandler.cs",
+              "RelativeDocumentMoniker": "AI-Sales Agent\\Features\\SellerCategoriesManagement\\UpdateCategory\\UpdateCategoryHandler.cs",
+              "ToolTip": "C:\\D\\ITI\\AI-Sales Agent\\AI-Commerce\\Back-end\\AI-Sales Agent\\Features\\SellerCategoriesManagement\\UpdateCategory\\UpdateCategoryHandler.cs",
+              "RelativeToolTip": "AI-Sales Agent\\Features\\SellerCategoriesManagement\\UpdateCategory\\UpdateCategoryHandler.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAA1wAkAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-25T11:51:00.564Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 73,
+              "Title": "CreateProductCommand.cs",
+              "DocumentMoniker": "C:\\D\\ITI\\AI-Sales Agent\\AI-Commerce\\Back-end\\AI-Sales Agent\\Features\\SellerProductsManagement\\CreateProduct\\CreateProductCommand.cs",
+              "RelativeDocumentMoniker": "AI-Sales Agent\\Features\\SellerProductsManagement\\CreateProduct\\CreateProductCommand.cs",
+              "ToolTip": "C:\\D\\ITI\\AI-Sales Agent\\AI-Commerce\\Back-end\\AI-Sales Agent\\Features\\SellerProductsManagement\\CreateProduct\\CreateProductCommand.cs",
+              "RelativeToolTip": "AI-Sales Agent\\Features\\SellerProductsManagement\\CreateProduct\\CreateProductCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-24T20:27:04.657Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 74,
+              "Title": "GetCategoryByIdHandler.cs",
+              "DocumentMoniker": "C:\\D\\ITI\\AI-Sales Agent\\AI-Commerce\\Back-end\\AI-Sales Agent\\Features\\SellerCategoriesManagement\\GetCategoryById\\GetCategoryByIdHandler.cs",
+              "RelativeDocumentMoniker": "AI-Sales Agent\\Features\\SellerCategoriesManagement\\GetCategoryById\\GetCategoryByIdHandler.cs",
+              "ToolTip": "C:\\D\\ITI\\AI-Sales Agent\\AI-Commerce\\Back-end\\AI-Sales Agent\\Features\\SellerCategoriesManagement\\GetCategoryById\\GetCategoryByIdHandler.cs",
+              "RelativeToolTip": "AI-Sales Agent\\Features\\SellerCategoriesManagement\\GetCategoryById\\GetCategoryByIdHandler.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAADwvyoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-25T11:49:33.145Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 76,
+              "Title": "UpdateCategoryValidator.cs",
+              "DocumentMoniker": "C:\\D\\ITI\\AI-Sales Agent\\AI-Commerce\\Back-end\\AI-Sales Agent\\Features\\SellerCategoriesManagement\\UpdateCategory\\UpdateCategoryValidator.cs",
+              "RelativeDocumentMoniker": "AI-Sales Agent\\Features\\SellerCategoriesManagement\\UpdateCategory\\UpdateCategoryValidator.cs",
+              "ToolTip": "C:\\D\\ITI\\AI-Sales Agent\\AI-Commerce\\Back-end\\AI-Sales Agent\\Features\\SellerCategoriesManagement\\UpdateCategory\\UpdateCategoryValidator.cs",
+              "RelativeToolTip": "AI-Sales Agent\\Features\\SellerCategoriesManagement\\UpdateCategory\\UpdateCategoryValidator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-25T11:51:27.6Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 77,
+              "Title": "GetCategoryByIdQuery.cs",
+              "DocumentMoniker": "C:\\D\\ITI\\AI-Sales Agent\\AI-Commerce\\Back-end\\AI-Sales Agent\\Features\\SellerCategoriesManagement\\GetCategoryById\\GetCategoryByIdQuery.cs",
+              "RelativeDocumentMoniker": "AI-Sales Agent\\Features\\SellerCategoriesManagement\\GetCategoryById\\GetCategoryByIdQuery.cs",
+              "ToolTip": "C:\\D\\ITI\\AI-Sales Agent\\AI-Commerce\\Back-end\\AI-Sales Agent\\Features\\SellerCategoriesManagement\\GetCategoryById\\GetCategoryByIdQuery.cs",
+              "RelativeToolTip": "AI-Sales Agent\\Features\\SellerCategoriesManagement\\GetCategoryById\\GetCategoryByIdQuery.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAABnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-25T11:48:48.572Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 78,
+              "Title": "UpdateCategoryCommand.cs",
+              "DocumentMoniker": "C:\\D\\ITI\\AI-Sales Agent\\AI-Commerce\\Back-end\\AI-Sales Agent\\Features\\SellerCategoriesManagement\\UpdateCategory\\UpdateCategoryCommand.cs",
+              "RelativeDocumentMoniker": "AI-Sales Agent\\Features\\SellerCategoriesManagement\\UpdateCategory\\UpdateCategoryCommand.cs",
+              "ToolTip": "C:\\D\\ITI\\AI-Sales Agent\\AI-Commerce\\Back-end\\AI-Sales Agent\\Features\\SellerCategoriesManagement\\UpdateCategory\\UpdateCategoryCommand.cs",
+              "RelativeToolTip": "AI-Sales Agent\\Features\\SellerCategoriesManagement\\UpdateCategory\\UpdateCategoryCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-25T11:50:32.484Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 79,
+              "Title": "GetAllCategoriesQuery.cs",
+              "DocumentMoniker": "C:\\D\\ITI\\AI-Sales Agent\\AI-Commerce\\Back-end\\AI-Sales Agent\\Features\\SellerCategoriesManagement\\GetAllCategories\\GetAllCategoriesQuery.cs",
+              "RelativeDocumentMoniker": "AI-Sales Agent\\Features\\SellerCategoriesManagement\\GetAllCategories\\GetAllCategoriesQuery.cs",
+              "ToolTip": "C:\\D\\ITI\\AI-Sales Agent\\AI-Commerce\\Back-end\\AI-Sales Agent\\Features\\SellerCategoriesManagement\\GetAllCategories\\GetAllCategoriesQuery.cs",
+              "RelativeToolTip": "AI-Sales Agent\\Features\\SellerCategoriesManagement\\GetAllCategories\\GetAllCategoriesQuery.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAABxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-25T11:45:40.438Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 80,
+              "Title": "CreateCategoryHandler.cs",
+              "DocumentMoniker": "C:\\D\\ITI\\AI-Sales Agent\\AI-Commerce\\Back-end\\AI-Sales Agent\\Features\\SellerCategoriesManagement\\CreateCategory\\CreateCategoryHandler.cs",
+              "RelativeDocumentMoniker": "AI-Sales Agent\\Features\\SellerCategoriesManagement\\CreateCategory\\CreateCategoryHandler.cs",
+              "ToolTip": "C:\\D\\ITI\\AI-Sales Agent\\AI-Commerce\\Back-end\\AI-Sales Agent\\Features\\SellerCategoriesManagement\\CreateCategory\\CreateCategoryHandler.cs",
+              "RelativeToolTip": "AI-Sales Agent\\Features\\SellerCategoriesManagement\\CreateCategory\\CreateCategoryHandler.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAADwvyIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-25T11:37:53.017Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 82,
+              "Title": "ExceptionHandlingMiddleware.cs",
+              "DocumentMoniker": "C:\\D\\ITI\\AI-Sales Agent\\AI-Commerce\\Back-end\\AI-Sales Agent\\Infrastructure\\Errors\\ExceptionHandlingMiddleware.cs",
+              "RelativeDocumentMoniker": "AI-Sales Agent\\Infrastructure\\Errors\\ExceptionHandlingMiddleware.cs",
+              "ToolTip": "C:\\D\\ITI\\AI-Sales Agent\\AI-Commerce\\Back-end\\AI-Sales Agent\\Infrastructure\\Errors\\ExceptionHandlingMiddleware.cs",
+              "RelativeToolTip": "AI-Sales Agent\\Infrastructure\\Errors\\ExceptionHandlingMiddleware.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAADgvysAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-25T02:14:50.218Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 81,
+              "Title": "GetProductByIdHandler.cs",
+              "DocumentMoniker": "C:\\D\\ITI\\AI-Sales Agent\\AI-Commerce\\Back-end\\AI-Sales Agent\\Features\\SellerProductsManagement\\GetProductById\\GetProductByIdHandler.cs",
+              "RelativeDocumentMoniker": "AI-Sales Agent\\Features\\SellerProductsManagement\\GetProductById\\GetProductByIdHandler.cs",
+              "ToolTip": "C:\\D\\ITI\\AI-Sales Agent\\AI-Commerce\\Back-end\\AI-Sales Agent\\Features\\SellerProductsManagement\\GetProductById\\GetProductByIdHandler.cs",
+              "RelativeToolTip": "AI-Sales Agent\\Features\\SellerProductsManagement\\GetProductById\\GetProductByIdHandler.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAwDAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-24T20:01:22.123Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 84,
+              "Title": "UpdateMaxDiscountHandler.cs",
+              "DocumentMoniker": "C:\\D\\ITI\\AI-Sales Agent\\AI-Commerce\\Back-end\\AI-Sales Agent\\Features\\SellerProductsManagement\\UpdateMaxDiscount\\UpdateMaxDiscountHandler.cs",
+              "RelativeDocumentMoniker": "AI-Sales Agent\\Features\\SellerProductsManagement\\UpdateMaxDiscount\\UpdateMaxDiscountHandler.cs",
+              "ToolTip": "C:\\D\\ITI\\AI-Sales Agent\\AI-Commerce\\Back-end\\AI-Sales Agent\\Features\\SellerProductsManagement\\UpdateMaxDiscount\\UpdateMaxDiscountHandler.cs",
+              "RelativeToolTip": "AI-Sales Agent\\Features\\SellerProductsManagement\\UpdateMaxDiscount\\UpdateMaxDiscountHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-24T21:17:19.736Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 83,
+              "Title": "CreateProductHandler.cs",
+              "DocumentMoniker": "C:\\D\\ITI\\AI-Sales Agent\\AI-Commerce\\Back-end\\AI-Sales Agent\\Features\\SellerProductsManagement\\CreateProduct\\CreateProductHandler.cs",
+              "RelativeDocumentMoniker": "AI-Sales Agent\\Features\\SellerProductsManagement\\CreateProduct\\CreateProductHandler.cs",
+              "ToolTip": "C:\\D\\ITI\\AI-Sales Agent\\AI-Commerce\\Back-end\\AI-Sales Agent\\Features\\SellerProductsManagement\\CreateProduct\\CreateProductHandler.cs",
+              "RelativeToolTip": "AI-Sales Agent\\Features\\SellerProductsManagement\\CreateProduct\\CreateProductHandler.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAA0wCgAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-24T20:32:02.717Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 85,
+              "Title": "GetAllProductsHandler.cs",
+              "DocumentMoniker": "C:\\D\\ITI\\AI-Sales Agent\\AI-Commerce\\Back-end\\AI-Sales Agent\\Features\\SellerProductsManagement\\GetAllProducts\\GetAllProductsHandler.cs",
+              "RelativeDocumentMoniker": "AI-Sales Agent\\Features\\SellerProductsManagement\\GetAllProducts\\GetAllProductsHandler.cs",
+              "ToolTip": "C:\\D\\ITI\\AI-Sales Agent\\AI-Commerce\\Back-end\\AI-Sales Agent\\Features\\SellerProductsManagement\\GetAllProducts\\GetAllProductsHandler.cs",
+              "RelativeToolTip": "AI-Sales Agent\\Features\\SellerProductsManagement\\GetAllProducts\\GetAllProductsHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-24T19:39:57.223Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 86,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\D\\ITI\\AI-Sales Agent\\AI-Commerce\\Back-end\\AI-Sales Agent\\appsettings.json",
+              "RelativeDocumentMoniker": "AI-Sales Agent\\appsettings.json",
+              "ToolTip": "C:\\D\\ITI\\AI-Sales Agent\\AI-Commerce\\Back-end\\AI-Sales Agent\\appsettings.json",
+              "RelativeToolTip": "AI-Sales Agent\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-07-16T12:09:38.634Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 87,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\D\\ITI\\AI-Sales Agent\\AI-Commerce\\Back-end\\AI-Sales Agent\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "AI-Sales Agent\\appsettings.Development.json",
+              "ToolTip": "C:\\D\\ITI\\AI-Sales Agent\\AI-Commerce\\Back-end\\AI-Sales Agent\\appsettings.Development.json",
+              "RelativeToolTip": "AI-Sales Agent\\appsettings.Development.json",
+              "ViewState": "AgIAAAMAAAAAAAAAAIBPwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-07-24T23:58:57.415Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 88,
+              "Title": "UpdateProductHandler.cs",
+              "DocumentMoniker": "C:\\D\\ITI\\AI-Sales Agent\\AI-Commerce\\Back-end\\AI-Sales Agent\\Features\\SellerProductsManagement\\UpdateProduct\\UpdateProductHandler.cs",
+              "RelativeDocumentMoniker": "AI-Sales Agent\\Features\\SellerProductsManagement\\UpdateProduct\\UpdateProductHandler.cs",
+              "ToolTip": "C:\\D\\ITI\\AI-Sales Agent\\AI-Commerce\\Back-end\\AI-Sales Agent\\Features\\SellerProductsManagement\\UpdateProduct\\UpdateProductHandler.cs",
+              "RelativeToolTip": "AI-Sales Agent\\Features\\SellerProductsManagement\\UpdateProduct\\UpdateProductHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-24T20:57:51.534Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 89,
+              "Title": "DeleteProductValidator.cs",
+              "DocumentMoniker": "C:\\D\\ITI\\AI-Sales Agent\\AI-Commerce\\Back-end\\AI-Sales Agent\\Features\\SellerProductsManagement\\DeleteProduct\\DeleteProductValidator.cs",
+              "RelativeDocumentMoniker": "AI-Sales Agent\\Features\\SellerProductsManagement\\DeleteProduct\\DeleteProductValidator.cs",
+              "ToolTip": "C:\\D\\ITI\\AI-Sales Agent\\AI-Commerce\\Back-end\\AI-Sales Agent\\Features\\SellerProductsManagement\\DeleteProduct\\DeleteProductValidator.cs",
+              "RelativeToolTip": "AI-Sales Agent\\Features\\SellerProductsManagement\\DeleteProduct\\DeleteProductValidator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-24T21:20:16.931Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 90,
+              "Title": "UpdateMaxDiscountCommand.cs",
+              "DocumentMoniker": "C:\\D\\ITI\\AI-Sales Agent\\AI-Commerce\\Back-end\\AI-Sales Agent\\Features\\SellerProductsManagement\\UpdateMaxDiscount\\UpdateMaxDiscountCommand.cs",
+              "RelativeDocumentMoniker": "AI-Sales Agent\\Features\\SellerProductsManagement\\UpdateMaxDiscount\\UpdateMaxDiscountCommand.cs",
+              "ToolTip": "C:\\D\\ITI\\AI-Sales Agent\\AI-Commerce\\Back-end\\AI-Sales Agent\\Features\\SellerProductsManagement\\UpdateMaxDiscount\\UpdateMaxDiscountCommand.cs",
+              "RelativeToolTip": "AI-Sales Agent\\Features\\SellerProductsManagement\\UpdateMaxDiscount\\UpdateMaxDiscountCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-24T21:13:33.327Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 92,
+              "Title": "GetProductByIdQuery.cs",
+              "DocumentMoniker": "C:\\D\\ITI\\AI-Sales Agent\\AI-Commerce\\Back-end\\AI-Sales Agent\\Features\\SellerProductsManagement\\GetProductById\\GetProductByIdQuery.cs",
+              "RelativeDocumentMoniker": "AI-Sales Agent\\Features\\SellerProductsManagement\\GetProductById\\GetProductByIdQuery.cs",
+              "ToolTip": "C:\\D\\ITI\\AI-Sales Agent\\AI-Commerce\\Back-end\\AI-Sales Agent\\Features\\SellerProductsManagement\\GetProductById\\GetProductByIdQuery.cs",
+              "RelativeToolTip": "AI-Sales Agent\\Features\\SellerProductsManagement\\GetProductById\\GetProductByIdQuery.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-24T19:59:52.046Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 91,
+              "Title": "GetAllProductsQuery.cs",
+              "DocumentMoniker": "C:\\D\\ITI\\AI-Sales Agent\\AI-Commerce\\Back-end\\AI-Sales Agent\\Features\\SellerProductsManagement\\GetAllProducts\\GetAllProductsQuery.cs",
+              "RelativeDocumentMoniker": "AI-Sales Agent\\Features\\SellerProductsManagement\\GetAllProducts\\GetAllProductsQuery.cs",
+              "ToolTip": "C:\\D\\ITI\\AI-Sales Agent\\AI-Commerce\\Back-end\\AI-Sales Agent\\Features\\SellerProductsManagement\\GetAllProducts\\GetAllProductsQuery.cs",
+              "RelativeToolTip": "AI-Sales Agent\\Features\\SellerProductsManagement\\GetAllProducts\\GetAllProductsQuery.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAA/wCkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-24T19:36:31.647Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 93,
+              "Title": "CreateFeatureValidator.cs",
+              "DocumentMoniker": "C:\\D\\ITI\\AI-Sales Agent\\AI-Commerce\\Back-end\\AI-Sales Agent\\Features\\FeaturesManagement\\CreateFeature\\CreateFeatureValidator.cs",
+              "RelativeDocumentMoniker": "AI-Sales Agent\\Features\\FeaturesManagement\\CreateFeature\\CreateFeatureValidator.cs",
+              "ToolTip": "C:\\D\\ITI\\AI-Sales Agent\\AI-Commerce\\Back-end\\AI-Sales Agent\\Features\\FeaturesManagement\\CreateFeature\\CreateFeatureValidator.cs",
+              "RelativeToolTip": "AI-Sales Agent\\Features\\FeaturesManagement\\CreateFeature\\CreateFeatureValidator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-24T20:08:18.575Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 94,
+              "Title": "DbInitializer.cs",
+              "DocumentMoniker": "C:\\D\\ITI\\AI-Sales Agent\\AI-Commerce\\Back-end\\AI-Sales Agent\\Data\\DbInitializer.cs",
+              "RelativeDocumentMoniker": "AI-Sales Agent\\Data\\DbInitializer.cs",
+              "ToolTip": "C:\\D\\ITI\\AI-Sales Agent\\AI-Commerce\\Back-end\\AI-Sales Agent\\Data\\DbInitializer.cs",
+              "RelativeToolTip": "AI-Sales Agent\\Data\\DbInitializer.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-23T16:07:27.973Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 95,
+              "Title": "Microsoft.Common.CurrentVersion.targets",
+              "DocumentMoniker": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "ToolTip": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "ViewState": "AgIAAFYbAAAAAAAAAABFwFgbAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
+              "WhenOpened": "2026-07-18T16:08:32.688Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 96,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\D\\ITI\\AI-Sales Agent\\AI-Commerce\\Back-end\\AI-Sales Agent\\Features\\Auth\\AuthController.cs",
+              "RelativeDocumentMoniker": "AI-Sales Agent\\Features\\Auth\\AuthController.cs",
+              "ToolTip": "C:\\D\\ITI\\AI-Sales Agent\\AI-Commerce\\Back-end\\AI-Sales Agent\\Features\\Auth\\AuthController.cs",
+              "RelativeToolTip": "AI-Sales Agent\\Features\\Auth\\AuthController.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAIBPwAgAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-16T11:55:46.264Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 97,
+              "Title": "PlanFeature.cs",
+              "DocumentMoniker": "C:\\D\\ITI\\AI-Sales Agent\\AI-Commerce\\Back-end\\AI-Sales Agent\\Domain\\PlanFeature.cs",
+              "RelativeDocumentMoniker": "AI-Sales Agent\\Domain\\PlanFeature.cs",
+              "ToolTip": "C:\\D\\ITI\\AI-Sales Agent\\AI-Commerce\\Back-end\\AI-Sales Agent\\Domain\\PlanFeature.cs",
+              "RelativeToolTip": "AI-Sales Agent\\Domain\\PlanFeature.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-14T17:54:19.122Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 99,
+              "Title": "BaseEntity.cs",
+              "DocumentMoniker": "C:\\D\\ITI\\AI-Sales Agent\\AI-Commerce\\Back-end\\AI-Sales Agent\\Domain\\BaseEntity.cs",
+              "RelativeDocumentMoniker": "AI-Sales Agent\\Domain\\BaseEntity.cs",
+              "ToolTip": "C:\\D\\ITI\\AI-Sales Agent\\AI-Commerce\\Back-end\\AI-Sales Agent\\Domain\\BaseEntity.cs",
+              "RelativeToolTip": "AI-Sales Agent\\Domain\\BaseEntity.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-14T17:41:20.171Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 98,
+              "Title": "Store.cs",
+              "DocumentMoniker": "C:\\D\\ITI\\AI-Sales Agent\\AI-Commerce\\Back-end\\AI-Sales Agent\\Domain\\Store.cs",
+              "RelativeDocumentMoniker": "AI-Sales Agent\\Domain\\Store.cs",
+              "ToolTip": "C:\\D\\ITI\\AI-Sales Agent\\AI-Commerce\\Back-end\\AI-Sales Agent\\Domain\\Store.cs",
+              "RelativeToolTip": "AI-Sales Agent\\Domain\\Store.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-14T17:27:37.735Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
