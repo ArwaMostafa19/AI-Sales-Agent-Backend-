@@ -10,6 +10,8 @@ public record PlanDetailsResponseDto(
     string PlanDescription,
     string PlanStatus,
     decimal PlanPrice,
+    long NumOfTokens, 
+    List<string> AiModels,
     List<PlanFeatureDetailsDto> Features);
 
 public record PlanFeatureDetailsDto(

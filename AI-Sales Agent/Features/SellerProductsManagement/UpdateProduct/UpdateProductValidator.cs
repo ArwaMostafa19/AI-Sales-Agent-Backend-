@@ -24,7 +24,7 @@ public class UpdateProductCommandValidator : AbstractValidator<UpdateProductComm
             .Must(BeAuthorizedStore).WithMessage("You are not authorized to modify products in this store.");
 
         RuleFor(x => x.CategoryId)
-            .Cascade(CascadeMode.Stop) // لو فشل في NotEmpty هيقف ومش هينفذ MustAsync
+            .Cascade(CascadeMode.Stop) 
             .NotEmpty().WithMessage("CategoryId is required.")
             .MustAsync(BeAnExistingAndActiveCategory)
             .WithMessage("The selected category does not exist or has been deleted.");
@@ -44,6 +44,10 @@ public class UpdateProductCommandValidator : AbstractValidator<UpdateProductComm
         RuleFor(x => x)
             .MustAsync(MustBeExistingAndNotDeleted)
             .WithMessage("Product not found or has been deleted.");
+
+        RuleFor(x => x)
+            .MustAsync(HasDiscountPermissionIfDiscountApplied)
+            .WithMessage("Promo code capabilities are disabled for this store. Max allowed discount must be 0.");
     }
 
     private bool BeAuthorizedStore(string storeId)
@@ -68,15 +72,15 @@ public class UpdateProductCommandValidator : AbstractValidator<UpdateProductComm
 
     private async Task<bool> BeAnExistingAndActiveCategory(string? categoryId, CancellationToken cancellationToken)
     {
-        // 1. لو فاضي أو null يرجع false على طول
+
         if (string.IsNullOrWhiteSpace(categoryId))
             return false;
 
-        // 2. فحص إن الـ string عبارة عن 24 حرف Hex صح بتوع MongoDB ObjectId
+       
         if (!MongoDB.Bson.ObjectId.TryParse(categoryId, out var objectId))
             return false;
 
-        // 3. البحث في الداتا بيز بالـ objectId الصحيح
+       
         var filter = Builders<CategoryDocument>.Filter.And(
             Builders<CategoryDocument>.Filter.Eq(c => c.Id, categoryId),
             Builders<CategoryDocument>.Filter.Eq(c => c.DeletedAt, null)
@@ -84,5 +88,27 @@ public class UpdateProductCommandValidator : AbstractValidator<UpdateProductComm
 
         var count = await _context.Categories.CountDocumentsAsync(filter, cancellationToken: cancellationToken);
         return count > 0;
+    }
+
+    private async Task<bool> HasDiscountPermissionIfDiscountApplied(UpdateProductCommand command, CancellationToken ct)
+    {
+        if (command.MaxAllowedDiscount <= 0) return true;
+        return await CheckHasPromoCodeCapabilityAsync(command.StoreId, ct);
+    }
+
+    private async Task<bool> CheckHasPromoCodeCapabilityAsync(string storeId, CancellationToken ct)
+    {
+        string storeIdStr = storeId.ToLower();
+        var filter = Builders<StoreCapabilitiesDocument>.Filter.Eq(s => s.StoreId, storeIdStr);
+
+        var doc = await _context.StoreCapabilities.Find(filter).FirstOrDefaultAsync(ct);
+        if (doc == null || doc.Capabilities == null) return false;
+
+        if (doc.Capabilities.Contains("has_promo_code") && doc.Capabilities["has_promo_code"].IsBoolean)
+        {
+            return doc.Capabilities["has_promo_code"].AsBoolean;
+        }
+
+        return false;
     }
 }

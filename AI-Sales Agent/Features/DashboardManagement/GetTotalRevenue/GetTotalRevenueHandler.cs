@@ -1,5 +1,6 @@
 ﻿using AI_Sales_Agent.Domain.Mongo;
 using AI_Sales_Agent.Infrastructure.Mongo;
+using AI_Sales_Agent.Services;
 using MediatR;
 using MongoDB.Driver;
 
@@ -8,10 +9,12 @@ namespace AI_Sales_Agent.Features.DashboardManagement.GetTotalRevenue;
 public class GetTotalRevenueHandler : IRequestHandler<GetTotalRevenueQuery, double>
 {
     private readonly MongoDbContext _context;
+    private readonly IDashboardNotifier _notifier;
 
-    public GetTotalRevenueHandler(MongoDbContext context)
+    public GetTotalRevenueHandler(MongoDbContext context, IDashboardNotifier notifier)
     {
         _context = context;
+        _notifier = notifier;
     }
 
     public async Task<double> Handle(GetTotalRevenueQuery request, CancellationToken cancellationToken)
@@ -22,7 +25,10 @@ public class GetTotalRevenueHandler : IRequestHandler<GetTotalRevenueQuery, doub
             .Find(filter)
             .FirstOrDefaultAsync(cancellationToken);
 
-        // لو المتجر ملوش سجلات سابقة بيرجع 0
-        return insights?.TotalRevenue ?? 0.0;
+        var totalRevenue = insights?.TotalRevenue ?? 0.0;
+
+        //await _notifier.NotifyTotalRevenueUpdatedAsync(request.StoreId, totalRevenue);
+
+        return totalRevenue;
     }
 }

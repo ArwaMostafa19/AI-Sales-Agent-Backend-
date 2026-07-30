@@ -22,5 +22,6 @@ namespace AI_Sales_Agent.Infrastructure.Mongo
         public const string Entities = "entities";
         public const string ApiKeys = "api_keys";
         public const string AuditLogs = "audit_logs";
+        public const string StoreCapabilities = "store_capabilities";
     }
 }

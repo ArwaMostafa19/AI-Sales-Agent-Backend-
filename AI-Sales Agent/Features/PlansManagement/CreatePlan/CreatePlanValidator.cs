@@ -20,6 +20,12 @@ public class CreatePlanValidator : AbstractValidator<CreatePlanCommand>
         RuleFor(x => x.PlanPrice)
             .GreaterThanOrEqualTo(0).WithMessage("Plan price cannot be negative.");
 
+        RuleFor(x => x.NumOfTokens)
+            .GreaterThanOrEqualTo(0).WithMessage("Number of tokens cannot be negative.");
+
+        RuleFor(x => x.AiModels)
+            .NotEmpty().WithMessage("At least one AI model must be assigned to the plan.");
+
         RuleFor(x => x.FeatureIds)
             .NotEmpty().WithMessage("At least one feature must be selected for this plan.");
 

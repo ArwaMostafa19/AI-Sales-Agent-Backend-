@@ -1,5 +1,7 @@
 ﻿using AI_Sales_Agent.Domain.Mongo;
+using AI_Sales_Agent.Features.DashboardManagement.GetRevenueGrowth;
 using AI_Sales_Agent.Infrastructure.Mongo;
+using AI_Sales_Agent.Services;
 using MediatR;
 using MongoDB.Driver;
 
@@ -8,10 +10,12 @@ namespace AI_Sales_Agent.Features.OrdersManagement.CreateOrder;
 public class CreateOrderHandler : IRequestHandler<CreateOrderCommand, string>
 {
     private readonly MongoDbContext _context;
+    private readonly IDashboardNotifier _notifier; // 👈 1. ضفنا الـ Notifier هنا
 
-    public CreateOrderHandler(MongoDbContext context)
+    public CreateOrderHandler(MongoDbContext context, IDashboardNotifier notifier)
     {
         _context = context;
+        _notifier = notifier;
     }
 
     public async Task<string> Handle(CreateOrderCommand request, CancellationToken cancellationToken)
@@ -35,17 +39,14 @@ public class CreateOrderHandler : IRequestHandler<CreateOrderCommand, string>
 
                     if (product != null)
                     {
-                        // جلب الـ Variant المطلوب أو افتراض الأول
                         var targetVariant = product.Variants.FirstOrDefault(v => v.Id == item.VariantId)
                                            ?? product.Variants.FirstOrDefault();
 
-                        // 👈 هنا التصحيح: بنجيب الـ Amount الرقمي جوه الـ Price
                         double unitPrice = targetVariant?.Price?.Amount ?? 0.0;
                         item.Price = new MoneyModel { Amount = unitPrice, Currency = request.Currency };
 
                         calculatedSubtotal += unitPrice * item.Quantity;
 
-                        // 📦 خصم الـ Stock من الـ Variant المحدد
                         if (targetVariant != null)
                         {
                             var stockFilter = Builders<ProductDocument>.Filter.And(
@@ -61,7 +62,6 @@ public class CreateOrderHandler : IRequestHandler<CreateOrderCommand, string>
                         }
                     }
 
-                    // تجميع الخصومات المبعوثة من الـ AI إن وجدت
                     if (item.DiscountAllocations != null && item.DiscountAllocations.Any())
                     {
                         totalDiscounts += item.DiscountAllocations
@@ -98,23 +98,62 @@ public class CreateOrderHandler : IRequestHandler<CreateOrderCommand, string>
 
         await _context.Orders.InsertOneAsync(order, cancellationToken: cancellationToken);
 
-        // 3. 💰 تحديث الـ Total Revenue بالصافي الحقيقي
+        // 3. 💰 تحديث الـ Total Revenue + Growth وترشيق الإشعارات لحظياً عبر SignalR
+        // 3. 💰 تحديث الـ Total Revenue + Growth وترشيق الإشعارات لحظياً عبر SignalR
         if (request.FinancialStatus.Equals("paid", StringComparison.OrdinalIgnoreCase))
         {
-            var insightsFilter = Builders<DashboardInsightDocument>.Filter.Eq(d => d.StoreId, request.StoreId);
+            string storeIdStr = request.StoreId.ToLower();
+            var insightsFilter = Builders<DashboardInsightDocument>.Filter.Eq(d => d.StoreId, storeIdStr);
 
+            var existingInsight = await _context.DashboardInsights.Find(insightsFilter).FirstOrDefaultAsync(cancellationToken);
+
+            // 🟢 الـ oldTotalRevenue يقرأ من الداتابيز (ثابت زي ما هو)
+            double oldTotalRevenue = existingInsight?.OldTotalRevenue ?? 0.0;
+
+            // 🟢 الـ totalRevenue الحالي يزيد بقيمة الأوردر الجديد
+            double currentTotalRevenue = existingInsight?.TotalRevenue ?? 0.0;
+            double newTotalRevenue = currentTotalRevenue + finalTotalPrice;
+
+            // 🟢 حساب نسبة النمو الجديدة بين الإيراد الجديد والـ old الثابت
+            double growthPercentage = CalculateGrowthPercentage(oldTotalRevenue, newTotalRevenue);
+
+            string status = growthPercentage switch
+            {
+                > 0 => "Positive",
+                < 0 => "Negative",
+                _ => "Neutral"
+            };
+
+            // 🟢 تحديث MongoDB (بنحدث total_revenue و growth_percentage فقط، وبنسيب old_total_revenue زي ما هو)
             var updateInsights = Builders<DashboardInsightDocument>.Update
-                .Inc("total_revenue", finalTotalPrice)
-                .SetOnInsert("recommendations", new List<string>())
-                .Set(d => d.CalculatedAt, DateTime.UtcNow);
+                .Set(d => d.StoreId, storeIdStr)
+                .Set(d => d.TotalRevenue, newTotalRevenue)
+                .Set(d => d.GrowthPercentage, growthPercentage)
+                .Set(d => d.CalculatedAt, DateTime.UtcNow)
+                .SetOnInsert(d => d.Recommendations, new List<string>());
 
             await _context.DashboardInsights.UpdateOneAsync(
                 insightsFilter,
                 updateInsights,
                 new UpdateOptions { IsUpsert = true },
                 cancellationToken);
+
+            // 🚀 4. إرسال الإشعارات للفرونت فوراً عبر SignalR
+            var growthResponse = new RevenueGrowthResponseDto(growthPercentage, status);
+
+            await _notifier.NotifyTotalRevenueUpdatedAsync(request.StoreId, newTotalRevenue);
+            await _notifier.NotifyRevenueGrowthUpdatedAsync(request.StoreId, growthResponse);
         }
 
         return order.Id;
+    }
+
+    private static double CalculateGrowthPercentage(double oldRevenue, double newRevenue)
+    {
+        if (oldRevenue == 0 && newRevenue == 0) return 0.0;
+        if (oldRevenue == 0) return 100.0;
+
+        double percentage = (newRevenue - oldRevenue) / oldRevenue * 100;
+        return Math.Round(percentage, 2);
     }
 }

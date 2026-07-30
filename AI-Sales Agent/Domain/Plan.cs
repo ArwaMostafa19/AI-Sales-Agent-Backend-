@@ -8,7 +8,11 @@
         public string PlanDescription { get; set; } = string.Empty;
         public string PlanStatus { get; set; } = string.Empty;
 
-        public decimal PlanPrice { get; set; } = 0.0M; 
+        public decimal PlanPrice { get; set; } = 0.0M;
+
+        public long NumOfTokens { get; set; } = 0;
+
+        public List<string> AiModels { get; set; } = new List<string>();
 
         //Subscription
         public ICollection<Subscription> Subscriptions { get; set; } = new List<Subscription>();

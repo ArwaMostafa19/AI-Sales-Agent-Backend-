@@ -64,6 +64,7 @@ namespace AI_Sales_Agent.Infrastructure.Mongo
 
         public IMongoCollection<MongoAuditLogDocument> AuditLogs => GetCollection<MongoAuditLogDocument>(MongoCollectionNames.AuditLogs);
 
+        public IMongoCollection<StoreCapabilitiesDocument> StoreCapabilities => GetCollection<StoreCapabilitiesDocument>(MongoCollectionNames.StoreCapabilities);
         public IMongoCollection<TDocument> GetCollection<TDocument>(string collectionName)
         {
             return Database.GetCollection<TDocument>(collectionName);

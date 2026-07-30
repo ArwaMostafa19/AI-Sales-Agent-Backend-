@@ -31,6 +31,7 @@ namespace AI_Sales_Agent.Infrastructure.Mongo
         IMongoCollection<EntityDocument> Entities { get; }
         IMongoCollection<ApiKeyDocument> ApiKeys { get; }
         IMongoCollection<MongoAuditLogDocument> AuditLogs { get; }
+        IMongoCollection<StoreCapabilitiesDocument> StoreCapabilities { get; }
 
         IMongoCollection<TDocument> GetCollection<TDocument>(string collectionName);
     }

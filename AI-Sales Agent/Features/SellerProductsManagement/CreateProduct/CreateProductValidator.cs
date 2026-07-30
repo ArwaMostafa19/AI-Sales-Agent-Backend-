@@ -40,6 +40,10 @@ public class CreateProductValidator : AbstractValidator<CreateProductCommand>
 
         RuleFor(x => x.MaxAllowedDiscount)
             .InclusiveBetween(0, 100).WithMessage("Max allowed discount must be between 0% and 100%.");
+
+        RuleFor(x => x)
+            .MustAsync(HasDiscountPermissionIfDiscountApplied)
+            .WithMessage("Promo code capabilities are disabled for this store. Max allowed discount must be 0.");
     }
     private async Task<bool> BeAnExistingAndActiveCategory(string? categoryId, CancellationToken cancellationToken)
     {
@@ -68,5 +72,31 @@ public class CreateProductValidator : AbstractValidator<CreateProductCommand>
 
         if (string.IsNullOrEmpty(userStoreId)) return true;
         return string.Equals(userStoreId, storeId, StringComparison.OrdinalIgnoreCase);
+    }
+
+
+    private async Task<bool> HasDiscountPermissionIfDiscountApplied(CreateProductCommand command, CancellationToken ct)
+    {
+        // لو الخصم المبعوث 0، ينفذ عادي بدون مشاكل
+        if (command.MaxAllowedDiscount <= 0) return true;
+
+        // لو مبعوث خصم > 0 نتحقق من الـ capabilities
+        return await CheckHasPromoCodeCapabilityAsync(command.StoreId, ct);
+    }
+
+    private async Task<bool> CheckHasPromoCodeCapabilityAsync(string storeId, CancellationToken ct)
+    {
+        string storeIdStr = storeId.ToLower();
+        var filter = Builders<StoreCapabilitiesDocument>.Filter.Eq(s => s.StoreId, storeIdStr);
+
+        var doc = await _context.StoreCapabilities.Find(filter).FirstOrDefaultAsync(ct);
+        if (doc == null || doc.Capabilities == null) return false;
+
+        if (doc.Capabilities.Contains("has_promo_code") && doc.Capabilities["has_promo_code"].IsBoolean)
+        {
+            return doc.Capabilities["has_promo_code"].AsBoolean;
+        }
+
+        return false; // Default is false
     }
 }

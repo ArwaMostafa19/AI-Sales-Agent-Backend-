@@ -18,6 +18,8 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi.Models;
 using MongoDB.Driver;
+using AI_Sales_Agent.Hubs;
+using AI_Sales_Agent.Services;
 
 namespace AI_Sales_Agent
 {
@@ -185,9 +187,30 @@ namespace AI_Sales_Agent
             builder.Services.AddTransient(typeof(IPipelineBehavior<,>), typeof(ValidationBehavior<,>));
             builder.Services.AddSingleton<MongoDbContext>();
 
-            var app = builder.Build();
+            builder.Services.AddSignalR();
 
-            // Seed Database Roles and Admin User
+            builder.Services.AddScoped<IDashboardNotifier, DashboardNotifier>();
+
+
+            
+            
+            
+
+           
+            builder.Services.AddCors(options =>
+            {
+                options.AddPolicy("CorsPolicy", policy =>
+                {
+                    policy.SetIsOriginAllowed(_ => true) 
+                          .AllowAnyHeader()
+                          .AllowAnyMethod()
+                          .AllowCredentials(); 
+                });
+            });
+
+            var app = builder.Build();
+            
+            
             using (var scope = app.Services.CreateScope())
             {
                 try
@@ -196,7 +219,7 @@ namespace AI_Sales_Agent
                 }
                 catch (Exception)
                 {
-                    // Log or handle as needed
+                   
                 }
             }
 
@@ -209,12 +232,16 @@ namespace AI_Sales_Agent
             }
 
             app.UseHttpsRedirection();
-            app.UseStaticFiles();
+            app.UseRouting();
 
+            app.UseCors("CorsPolicy");
+            
             app.UseAuthentication();
             app.UseAuthorization();
 
             app.MapControllers();
+
+            app.MapHub<DashboardHub>("/hubs/dashboard");
 
             await app.RunAsync();
         }

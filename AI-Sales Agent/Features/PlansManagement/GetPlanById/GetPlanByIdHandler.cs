@@ -21,6 +21,8 @@ public class GetPlanByIdHandler : IRequestHandler<GetPlanByIdQuery, PlanDetailsR
                 p.PlanDescription,
                 p.PlanStatus,
                 p.PlanPrice,
+                p.NumOfTokens, 
+                p.AiModels,
                 p.PlanFeatures
                     .Where(pf => pf.DeletedAt == null && pf.Feature.DeletedAt == null)
                     .Select(pf => new PlanFeatureDetailsDto(
