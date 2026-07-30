@@ -1,4 +1,4 @@
-﻿using AI_Sales_Agent.Domain.Mongo;
+using AI_Sales_Agent.Domain.Mongo;
 using AI_Sales_Agent.Features.DashboardManagement.GetRevenueGrowth;
 using AI_Sales_Agent.Infrastructure.Mongo;
 using AI_Sales_Agent.Services;
@@ -83,7 +83,7 @@ public class CreateOrderHandler : IRequestHandler<CreateOrderCommand, string>
             CustomerId = request.CustomerId,
             CustomerEmail = request.CustomerEmail,
             LineItems = request.LineItems,
-            ShippingAddress = request.ShippingAddress,
+            ShippingAddress = request.ShippingAddress!,
             SubtotalPrice = new MoneyModel { Amount = calculatedSubtotal, Currency = request.Currency },
             TotalDiscount = new MoneyModel { Amount = totalDiscounts, Currency = request.Currency },
             TotalPrice = new MoneyModel { Amount = finalTotalPrice, Currency = request.Currency },
