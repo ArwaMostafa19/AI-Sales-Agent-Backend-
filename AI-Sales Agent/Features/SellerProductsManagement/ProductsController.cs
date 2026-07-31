@@ -13,7 +13,7 @@ namespace AI_Sales_Agent.Controllers;
 
 [ApiController]
 [Route("api/v1/products")]
-[Authorize(Roles = Roles.Seller)] // 👈 حماية مطلقة: لازم يكون مسجل دخول ودوره Seller
+[Authorize(Roles = Roles.Seller)] 
 public class ProductsController : ControllerBase
 {
     private readonly IMediator _mediator;
@@ -101,7 +101,7 @@ public class ProductsController : ControllerBase
         return Ok(new { Message = "Product updated successfully." });
     }
 
-    [HttpPut("{productId}/max-discount")]
+    [HttpPatch("{productId}/max-discount")]
     public async Task<IActionResult> UpdateMaxDiscount(
         [FromRoute] string productId,
         [FromBody] UpdateMaxDiscountRequest request)
