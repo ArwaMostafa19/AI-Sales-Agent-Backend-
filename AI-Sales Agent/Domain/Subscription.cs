@@ -7,6 +7,19 @@
 
         public DateTime? RenewalDate { get; set; }
 
+        public bool IsTrial { get; set; }
+
+        public DateTime? TrialStartDate { get; set; }
+
+        public DateTime? TrialEndDate { get; set; }
+
+        //stripe
+        public string? StripeCustomerId { get; set; }
+
+        public string? StripeSubscriptionId { get; set; }
+
+        public string? StripePriceId { get; set; }
+
         //user
         public Guid UserId { get; set; }
         public User? User { get; set; }

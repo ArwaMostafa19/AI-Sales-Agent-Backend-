@@ -8,6 +8,7 @@ public record UpdatePlanCommand(
     string PlanStatus,
     decimal PlanPrice,
     long NumOfTokens, 
+    int TrialDays,
     List<string> AiModels,
     List<Guid> FeatureIds) : IRequest<bool>
 {

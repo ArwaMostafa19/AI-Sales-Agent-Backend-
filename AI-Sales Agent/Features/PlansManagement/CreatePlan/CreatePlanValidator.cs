@@ -23,6 +23,9 @@ public class CreatePlanValidator : AbstractValidator<CreatePlanCommand>
         RuleFor(x => x.NumOfTokens)
             .GreaterThanOrEqualTo(0).WithMessage("Number of tokens cannot be negative.");
 
+        RuleFor(x => x.TrialDays)
+            .GreaterThanOrEqualTo(0).WithMessage("Number of Free Trial days cannot be negative.");
+
         RuleFor(x => x.AiModels)
             .NotEmpty().WithMessage("At least one AI model must be assigned to the plan.");
 

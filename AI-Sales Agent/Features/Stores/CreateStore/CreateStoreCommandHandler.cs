@@ -1,26 +1,32 @@
 using AI_Sales_Agent.Data;
 using AI_Sales_Agent.Domain;
+using AI_Sales_Agent.Domain.Mongo;
+using MongoDB.Bson;
 using AI_Sales_Agent.Infrastructure.Audit;
 using AI_Sales_Agent.Infrastructure.Auth;
 using MediatR;
 using Microsoft.EntityFrameworkCore;
 using FluentValidation;
 using FluentValidation.Results;
+using AI_Sales_Agent.Infrastructure.Mongo;
 
 namespace AI_Sales_Agent.Features.Stores.CreateStore
 {
     public class CreateStoreCommandHandler : IRequestHandler<CreateStoreCommand, StoreResponse>
     {
         private readonly ApplicationDbContext _dbContext;
+        private readonly MongoDbContext _mongoDbContext;
         private readonly ICurrentUserService _currentUserService;
         private readonly IAuditLogger _auditLogger;
 
         public CreateStoreCommandHandler(
             ApplicationDbContext dbContext,
+            MongoDbContext mongoDbContext,
             ICurrentUserService currentUserService,
             IAuditLogger auditLogger)
         {
             _dbContext = dbContext;
+            _mongoDbContext = mongoDbContext;
             _currentUserService = currentUserService;
             _auditLogger = auditLogger;
         }
@@ -32,14 +38,18 @@ namespace AI_Sales_Agent.Features.Stores.CreateStore
                 throw new UnauthorizedAccessException("User is not authenticated.");
             }
 
-            var hasActiveSubscription = await _dbContext.Subscriptions
-                .AnyAsync(s => s.UserId == userId
-                    && s.Status == "Active"
-                    && s.DeletedAt == null, cancellationToken);
+            var hasValidSubscription = await _dbContext.Subscriptions
+                .AnyAsync(s =>
+                    s.UserId == userId &&
+                    s.DeletedAt == null &&
+                    (s.Status == "Active" ||
+                     s.Status == "Trial"),
+                    cancellationToken);
 
-            if (!hasActiveSubscription)
+            if (!hasValidSubscription)
             {
-                throw new BadHttpRequestException("Cannot create a store. You must have an active plan subscription.");
+                throw new BadHttpRequestException(
+                    "Cannot create a store. You must have an active or trial subscription.");
             }
 
             var normalizedDomain = request.ShopDomain.Trim().ToLower();
@@ -67,8 +77,23 @@ namespace AI_Sales_Agent.Features.Stores.CreateStore
                 UserId = userId
             };
 
+
+
             _dbContext.Stores.Add(store);
             await _dbContext.SaveChangesAsync(cancellationToken);
+
+            var defaultCapabilities = new StoreCapabilitiesDocument
+            {
+                StoreId = store.Id.ToString().ToLower(),
+                Capabilities = new BsonDocument
+                {
+                    { "has_promo_code", false }
+                },
+                CreatedAt = DateTime.UtcNow,
+                UpdatedAt = DateTime.UtcNow
+            };
+
+            await _mongoDbContext.StoreCapabilities.InsertOneAsync(defaultCapabilities, cancellationToken: cancellationToken);
             await _auditLogger.LogAsync("Store.Create", userId, store.Id.ToString(), cancellationToken);
 
             return StoreResponse.FromStore(store);

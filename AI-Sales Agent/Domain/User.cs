@@ -11,6 +11,8 @@ namespace AI_Sales_Agent.Domain
         public DateTime? LastLogin {  get; set; } 
         public string? ProfilePictureUrl { get; set; }
 
+        public bool HasUsedTrial { get; set; }
+
         //Subscription
         public Subscription? Subscription { get; set; }
 
