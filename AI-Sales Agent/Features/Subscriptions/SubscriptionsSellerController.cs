@@ -1,4 +1,4 @@
-﻿using MediatR;
+using MediatR;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Authorization;
 using System.Security.Claims;
@@ -10,7 +10,7 @@ using AI_Sales_Agent.Features.Subscriptions.GetUserSubscription;
 namespace AI_Sales_Agent.Controllers;
 
 [ApiController]
-[Authorize(Roles = Roles.Seller)]
+[Authorize(Roles = Roles.Admin)]
 [Route("api/seller/subscriptions")]
 public class SubscriptionsSellerController : ControllerBase
 {

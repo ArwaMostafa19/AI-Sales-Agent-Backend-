@@ -1,15 +1,17 @@
-﻿using AI_Sales_Agent.Features.StoreCapabilitiesManagement;
+using AI_Sales_Agent.Features.StoreCapabilitiesManagement;
 using AI_Sales_Agent.Features.StoreCapabilitiesManagement.UpdateStoreCapabilities;
 using MediatR;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
+using AI_Sales_Agent.Infrastructure.Auth;
+
 namespace AI_Sales_Agent.Controllers;
 
 [ApiController]
 [Route("api/[controller]")]
-[Authorize(Roles = "Seller")] 
+[Authorize(Roles = Roles.SuperAdmin)] 
 public class StoreCapabilitiesController : ControllerBase
 {
     private readonly IMediator _mediator;

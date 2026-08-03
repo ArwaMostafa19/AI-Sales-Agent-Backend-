@@ -1,4 +1,4 @@
-﻿using AI_Sales_Agent.Features.SellerProductsManagement.CreateProduct;
+using AI_Sales_Agent.Features.SellerProductsManagement.CreateProduct;
 using AI_Sales_Agent.Features.SellerProductsManagement.DeleteProduct;
 using AI_Sales_Agent.Features.SellerProductsManagement.GetAllProducts;
 using AI_Sales_Agent.Features.SellerProductsManagement.GetProductById;
@@ -13,7 +13,7 @@ namespace AI_Sales_Agent.Controllers;
 
 [ApiController]
 [Route("api/v1/products")]
-[Authorize(Roles = Roles.Seller)] // 👈 حماية مطلقة: لازم يكون مسجل دخول ودوره Seller
+[Authorize(Roles = Roles.Admin)] // 👈 حماية مطلقة: لازم يكون مسجل دخول ودوره Admin
 public class ProductsController : ControllerBase
 {
     private readonly IMediator _mediator;

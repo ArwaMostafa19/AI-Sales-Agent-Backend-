@@ -1,4 +1,4 @@
-﻿using AI_Sales_Agent.Features.SellerCategoriesManagement.CreateCategory;
+using AI_Sales_Agent.Features.SellerCategoriesManagement.CreateCategory;
 using AI_Sales_Agent.Features.SellerCategoriesManagement.DeleteCategory;
 using AI_Sales_Agent.Features.SellerCategoriesManagement.GetAllCategories;
 using AI_Sales_Agent.Features.SellerCategoriesManagement.GetCategoryById;
@@ -12,7 +12,7 @@ namespace AI_Sales_Agent.Features.SellerCategoriesManagement;
 
 [ApiController]
 [Route("api/v1/categories")]
-[Authorize(Roles = Roles.Seller)]
+[Authorize(Roles = Roles.Admin)]
 public class CategoriesController : ControllerBase
 {
     private readonly IMediator _mediator;

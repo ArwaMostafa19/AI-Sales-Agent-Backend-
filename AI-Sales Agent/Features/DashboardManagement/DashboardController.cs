@@ -1,4 +1,4 @@
-﻿using AI_Sales_Agent.Features.DashboardManagement.GetAvgResponseTime;
+using AI_Sales_Agent.Features.DashboardManagement.GetAvgResponseTime;
 using AI_Sales_Agent.Features.DashboardManagement.GetResolutionRate;
 using AI_Sales_Agent.Features.DashboardManagement.GetRevenueGrowth;
 using AI_Sales_Agent.Features.DashboardManagement.GetTotalRevenue;
@@ -10,8 +10,8 @@ using Microsoft.AspNetCore.Mvc;
 namespace AI_Sales_Agent.Controllers;
 
 [ApiController]
+[Authorize(Roles = Roles.Admin)] 
 [Route("api/v1/dashboard")]
-[Authorize(Roles = Roles.Seller)] 
 public class DashboardController : ControllerBase
 {
     private readonly IMediator _mediator;

@@ -13,7 +13,7 @@ using AI_Sales_Agent.Infrastructure.Auth;
 namespace AI_Sales_Agent.Features.Stores
 {
     [ApiController]
-    [Authorize(Roles = Roles.Seller)]
+    [Authorize(Roles = Roles.Admin)]
     [Route("api/stores")]
     public class StoresController : ControllerBase
     {

@@ -51,8 +51,8 @@ namespace AI_Sales_Agent.Features.Auth.Register
                 return ApiResult.Failure("Registration failed.", result.Errors.Select(error => error.Description));
             }
 
-            // Assign the Seller role
-            await _userManager.AddToRoleAsync(user, AI_Sales_Agent.Infrastructure.Auth.Roles.Seller);
+            // Assign the Admin role (merchant)
+            await _userManager.AddToRoleAsync(user, AI_Sales_Agent.Infrastructure.Auth.Roles.Admin);
 
             var token = await _userManager.GenerateEmailConfirmationTokenAsync(user);
             var verifyUrl = BuildVerifyUrl(user.Id, token);

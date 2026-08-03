@@ -8,7 +8,7 @@ using MongoDB.Bson;
 namespace AI_Sales_Agent.Controllers
 {
     [ApiController]
-    [Authorize(Roles = Roles.Seller)]
+    [Authorize(Roles = Roles.Admin)]
     [Route("api/stores/{storeId:guid}/conversations")]
     public class ConversationsController : ControllerBase
     {

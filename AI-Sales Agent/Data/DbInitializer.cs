@@ -13,7 +13,7 @@ namespace AI_Sales_Agent.Data
             var userManager = scope.ServiceProvider.GetRequiredService<UserManager<User>>();
 
             // Seed Roles
-            var roles = new[] { Roles.Admin, Roles.Seller };
+            var roles = new[] { Roles.SuperAdmin, Roles.Admin };
             foreach (var role in roles)
             {
                 if (!await roleManager.RoleExistsAsync(role))
@@ -39,17 +39,17 @@ namespace AI_Sales_Agent.Data
                 var result = await userManager.CreateAsync(admin, "Admin@12345");
                 if (result.Succeeded)
                 {
-                    await userManager.AddToRoleAsync(admin, Roles.Admin);
+                    await userManager.AddToRoleAsync(admin, Roles.SuperAdmin);
                 }
             }
 
-            // Assign Seller role to existing users who have no roles (to fix old accounts)
+            // Assign Admin role to existing users who have no roles (to fix old accounts)
             foreach (var user in userManager.Users.ToList())
             {
                 var userRoles = await userManager.GetRolesAsync(user);
                 if (!userRoles.Any())
                 {
-                    await userManager.AddToRoleAsync(user, Roles.Seller);
+                    await userManager.AddToRoleAsync(user, Roles.Admin);
                 }
             }
         }

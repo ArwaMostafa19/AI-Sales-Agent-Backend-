@@ -20,7 +20,7 @@ using Microsoft.AspNetCore.Mvc;
 namespace AI_Sales_Agent.Features.Admin;
 
 [ApiController]
-// [Authorize(Roles = Roles.Admin)] // Temporarily commented out for testing as requested. Enable in production.
+[Authorize(Roles = Roles.SuperAdmin)]
 [Route("api/admin")]
 public class AdminController : ControllerBase
 {

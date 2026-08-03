@@ -43,7 +43,7 @@ public class GetAdminKpisHandler : IRequestHandler<GetAdminKpisQuery, AdminKpiRe
             .CountAsync(user => user.EmailConfirmed, cancellationToken);
         var sellerRoleId = await _dbContext.Roles
             .AsNoTracking()
-            .Where(role => role.Name == Roles.Seller)
+            .Where(role => role.Name == Roles.Admin)
             .Select(role => role.Id)
             .FirstOrDefaultAsync(cancellationToken);
 

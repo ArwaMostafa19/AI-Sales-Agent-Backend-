@@ -15,7 +15,7 @@ namespace AI_Sales_Agent.Infrastructure.Auth
                 return Task.CompletedTask;
             }
 
-            if (context.User.IsInRole(Roles.Admin))
+            if (context.User.IsInRole(Roles.SuperAdmin))
             {
                 context.Succeed(requirement);
                 return Task.CompletedTask;

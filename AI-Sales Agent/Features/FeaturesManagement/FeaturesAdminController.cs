@@ -12,7 +12,7 @@ using AI_Sales_Agent.Infrastructure.Auth;
 namespace AI_Sales_Agent.Controllers;
 
 [ApiController]
-// [Authorize(Roles = Roles.Admin)] // Temporarily disabled for admin endpoint testing.
+[Authorize(Roles = Roles.SuperAdmin)]
 [Route("api/admin/features")]
 public class FeaturesAdminController : ControllerBase
 {

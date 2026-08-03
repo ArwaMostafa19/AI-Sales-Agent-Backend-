@@ -1,10 +1,13 @@
-﻿using AI_Sales_Agent.Features.OrdersManagement.CreateOrder;
+using AI_Sales_Agent.Features.OrdersManagement.CreateOrder;
 using MediatR;
+using AI_Sales_Agent.Infrastructure.Auth;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace AI_Sales_Agent.Controllers;
 
 [ApiController]
+[Authorize(Roles = Roles.Admin)]
 [Route("api/v1/orders")]
 public class OrdersController : ControllerBase
 {
