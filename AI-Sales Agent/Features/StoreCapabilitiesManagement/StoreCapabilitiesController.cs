@@ -1,5 +1,7 @@
-﻿using AI_Sales_Agent.Features.StoreCapabilitiesManagement;
+﻿using AI_Sales_Agent.Features.SellerStoreManagement.GetStoreCapabilities;
+using AI_Sales_Agent.Features.StoreCapabilitiesManagement;
 using AI_Sales_Agent.Features.StoreCapabilitiesManagement.UpdateStoreCapabilities;
+using AI_Sales_Agent.Infrastructure.Auth;
 using MediatR;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
@@ -40,5 +42,17 @@ public class StoreCapabilitiesController : ControllerBase
             Success = true,
             Message = "Store capabilities updated successfully."
         });
+    }
+
+    [HttpGet("{storeId}/capabilities")]
+    public async Task<IActionResult> GetStoreCapabilities([FromRoute] string storeId)
+    {
+        var query = new GetStoreCapabilitiesQuery(storeId);
+        var result = await _mediator.Send(query);
+
+        if (result == null)
+            return NotFound(new { Message = "Capabilities for this store were not found." });
+
+        return Ok(result);
     }
 }

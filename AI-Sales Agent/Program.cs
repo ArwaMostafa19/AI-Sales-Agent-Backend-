@@ -19,7 +19,12 @@ using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi.Models;
 using MongoDB.Driver;
 using AI_Sales_Agent.Hubs;
+using AI_Sales_Agent.Infrastructure.BackgroundServices;
 using AI_Sales_Agent.Services;
+using AI_Sales_Agent.Infrastructure.Stripe;
+using Hangfire;
+using Hangfire.SqlServer;
+using AI_Sales_Agent.Infrastructure.Hangfire;
 
 namespace AI_Sales_Agent
 {
@@ -36,7 +41,8 @@ namespace AI_Sales_Agent
                 builder.Configuration.GetSection(JwtOptions.SectionName));
             builder.Services.Configure<EmailOptions>(
                 builder.Configuration.GetSection(EmailOptions.SectionName));
-
+            builder.Services.Configure<StripeOptions>(
+                builder.Configuration.GetSection(StripeOptions.SectionName));
             builder.Services.AddDbContext<ApplicationDbContext>(options =>
                 options.UseSqlServer(
                     builder.Configuration.GetConnectionString("DefaultConnection"),
@@ -146,6 +152,25 @@ namespace AI_Sales_Agent
 
             builder.Services.AddControllers();
             builder.Services.AddEndpointsApiExplorer();
+
+            //----------------------------------------------------
+            // Hangfire
+            //----------------------------------------------------
+
+            builder.Services.AddHangfire(config =>
+            {
+                config.SetDataCompatibilityLevel(CompatibilityLevel.Version_180);
+
+                config.UseSimpleAssemblyNameTypeSerializer();
+
+                config.UseRecommendedSerializerSettings();
+
+                config.UseSqlServerStorage(
+                    builder.Configuration.GetConnectionString("DefaultConnection"));
+            });
+
+            builder.Services.AddHangfireServer();
+
             builder.Services.AddSwaggerGen(options =>
             {
                 options.AddSecurityDefinition("Bearer", new OpenApiSecurityScheme
@@ -181,6 +206,7 @@ namespace AI_Sales_Agent
             builder.Services.AddScoped<IAuditLogger, AuditLogger>();
             builder.Services.AddSingleton<IAuthorizationHandler, PermissionAuthorizationHandler>();
             builder.Services.AddScoped<IEmailSender, SmtpEmailSender>();
+            builder.Services.AddScoped<IStripeService, StripeService>();
             builder.Services.AddMediatR(configuration =>
                 configuration.RegisterServicesFromAssembly(typeof(Program).Assembly));
             builder.Services.AddValidatorsFromAssembly(typeof(Program).Assembly);
@@ -190,6 +216,9 @@ namespace AI_Sales_Agent
             builder.Services.AddSignalR();
 
             builder.Services.AddScoped<IDashboardNotifier, DashboardNotifier>();
+            builder.Services.AddScoped<ITrialService, TrialService>();
+            builder.Services.AddScoped<TrialExpirationJob>();
+            builder.Services.AddHostedService<MongoOrderListenerService>();
 
 
             
@@ -239,9 +268,20 @@ namespace AI_Sales_Agent
             app.UseAuthentication();
             app.UseAuthorization();
 
+            //----------------------------------------------------
+            // Hangfire Dashboard
+            //----------------------------------------------------
+
+            app.UseHangfireDashboard("/hangfire");
+            RecurringJob.AddOrUpdate<TrialExpirationJob>(
+                  "Expire-Trials",
+                  job => job.ExecuteAsync(),
+                  Cron.Daily);
+
             app.MapControllers();
 
             app.MapHub<DashboardHub>("/hubs/dashboard");
+            app.MapHub<DashboardHub>("/dashboardHub");
 
             await app.RunAsync();
         }

@@ -42,7 +42,8 @@ namespace AI_Sales_Agent.Features.Auth.Register
                 LastName = request.LastName.Trim(),
                 Email = email,
                 UserName = email,
-                EmailConfirmed = false
+                EmailConfirmed = false,
+                HasUsedTrial = false
             };
 
             var result = await _userManager.CreateAsync(user, request.Password);

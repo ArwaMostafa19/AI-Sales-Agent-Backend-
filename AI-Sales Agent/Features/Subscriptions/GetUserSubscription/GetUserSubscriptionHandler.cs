@@ -15,7 +15,7 @@ public class GetUserSubscriptionHandler : IRequestHandler<GetUserSubscriptionQue
     {
         var subscription = await _context.Subscriptions
             .Include(s => s.Plan)
-            .FirstOrDefaultAsync(s => s.UserId == request.UserId && s.DeletedAt == null, cancellationToken);
+            .FirstOrDefaultAsync(s => s.UserId == request.UserId && s.DeletedAt == null && (s.Status == "Active" || s.Status == "Trial") , cancellationToken);
 
         if (subscription == null || subscription.Plan == null) return null;
 

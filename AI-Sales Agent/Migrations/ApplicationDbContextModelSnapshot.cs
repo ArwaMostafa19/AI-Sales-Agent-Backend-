@@ -118,6 +118,9 @@ namespace AI_Sales_Agent.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<int>("TrialDays")
+                        .HasColumnType("int");
+
                     b.Property<DateTime?>("UpdatedAt")
                         .HasColumnType("datetime2");
 
@@ -311,6 +314,9 @@ namespace AI_Sales_Agent.Migrations
                     b.Property<DateTime?>("DeletedAt")
                         .HasColumnType("datetime2");
 
+                    b.Property<bool>("IsTrial")
+                        .HasColumnType("bit");
+
                     b.Property<Guid>("PlanId")
                         .HasColumnType("uniqueidentifier");
 
@@ -320,6 +326,21 @@ namespace AI_Sales_Agent.Migrations
                     b.Property<string>("Status")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("StripeCustomerId")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("StripePriceId")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("StripeSubscriptionId")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<DateTime?>("TrialEndDate")
+                        .HasColumnType("datetime2");
+
+                    b.Property<DateTime?>("TrialStartDate")
+                        .HasColumnType("datetime2");
 
                     b.Property<DateTime?>("UpdatedAt")
                         .HasColumnType("datetime2");
@@ -361,6 +382,9 @@ namespace AI_Sales_Agent.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<bool>("HasUsedTrial")
+                        .HasColumnType("bit");
+
                     b.Property<DateTime?>("LastLogin")
                         .HasColumnType("datetime2");
 
@@ -390,6 +414,9 @@ namespace AI_Sales_Agent.Migrations
 
                     b.Property<bool>("PhoneNumberConfirmed")
                         .HasColumnType("bit");
+
+                    b.Property<string>("ProfilePictureUrl")
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("SecurityStamp")
                         .HasColumnType("nvarchar(max)");

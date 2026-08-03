@@ -3,9 +3,12 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Authorization;
 using System.Security.Claims;
 using AI_Sales_Agent.Infrastructure.Auth;
-using AI_Sales_Agent.Features.Subscriptions.SubscribeToPlan;
+//using AI_Sales_Agent.Features.Subscriptions.SubscribeToPlan;
 using AI_Sales_Agent.Features.Subscriptions.CancelSubscription;
 using AI_Sales_Agent.Features.Subscriptions.GetUserSubscription;
+using AI_Sales_Agent.Features.Subscriptions.CreateCheckoutSession;
+using AI_Sales_Agent.Features.Subscriptions.StartFreeTrial;
+using AI_Sales_Agent.Features.Subscriptions.GetTrialStatus;
 
 namespace AI_Sales_Agent.Controllers;
 
@@ -33,13 +36,13 @@ public class SubscriptionsSellerController : ControllerBase
         return subscription != null ? Ok(subscription) : NotFound("You do not have an active subscription.");
     }
 
-    [HttpPost("subscribe")]
-    public async Task<IActionResult> SubscribeOrChangePlan([FromBody] SubscribeToPlanCommand command)
-    {
-        command.UserId = GetUserIdFromToken();
-        var result = await _mediator.Send(command);
-        return Ok(result);
-    }
+    //[HttpPost("subscribe")]
+    //public async Task<IActionResult> SubscribeOrChangePlan([FromBody] SubscribeToPlanCommand command)
+    //{
+    //    command.UserId = GetUserIdFromToken();
+    //    var result = await _mediator.Send(command);
+    //    return Ok(result);
+    //}
 
     [HttpPost("cancel")]
     public async Task<IActionResult> CancelSubscription()
@@ -50,5 +53,44 @@ public class SubscriptionsSellerController : ControllerBase
         return result
             ? Ok(new { Message = "Subscription cancelled successfully." })
             : BadRequest("No active subscription found to cancel.");
+    }
+
+    [HttpPost("checkout-session")]
+    public async Task<IActionResult> CreateCheckoutSession(
+    [FromBody] CreateCheckoutSessionCommand command)
+    {
+        command.UserId = GetUserIdFromToken();
+
+        var result = await _mediator.Send(command);
+
+        return Ok(result);
+    }
+
+    //------------------------------------------------------------
+    // Start Free Trial
+    //------------------------------------------------------------
+    [HttpPost("free-trial")]
+    public async Task<IActionResult> StartFreeTrial(
+        [FromBody] StartFreeTrialCommand command)
+    {
+        command.UserId = GetUserIdFromToken();
+
+        var result = await _mediator.Send(command);
+
+        return Ok(result);
+    }
+
+    [HttpGet("trial-status")]
+    public async Task<IActionResult> GetTrialStatus()
+    {
+        var userId = GetUserIdFromToken();
+
+        var result = await _mediator.Send(
+            new GetTrialStatusQuery
+            {
+                UserId = userId
+            });
+
+        return Ok(result);
     }
 }

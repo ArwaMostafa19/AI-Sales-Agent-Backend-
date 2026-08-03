@@ -14,6 +14,8 @@
 
         public List<string> AiModels { get; set; } = new List<string>();
 
+        public int TrialDays { get; set; }
+
         //Subscription
         public ICollection<Subscription> Subscriptions { get; set; } = new List<Subscription>();
 

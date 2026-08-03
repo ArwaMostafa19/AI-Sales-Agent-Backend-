@@ -10,5 +10,6 @@ public record CreatePlanCommand(
     string PlanStatus,
     decimal PlanPrice,
     long NumOfTokens,
+    int TrialDays,
     List<string> AiModels,
     List<Guid> FeatureIds) : IRequest<Guid>;

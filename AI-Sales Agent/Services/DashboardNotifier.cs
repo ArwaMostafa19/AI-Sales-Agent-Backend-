@@ -15,12 +15,14 @@ public class DashboardNotifier : IDashboardNotifier
     
     public async Task NotifyTotalRevenueUpdatedAsync(string storeId, double totalRevenue)
     {
-        await _hubContext.Clients.All.SendAsync("ReceiveTotalRevenue", new { storeId, totalRevenue });
+        await _hubContext.Clients.Group(DashboardHub.GetStoreGroupName(storeId))
+            .SendAsync("ReceiveTotalRevenue", new { storeId, totalRevenue });
     }
 
     public async Task NotifyRevenueGrowthUpdatedAsync(string storeId, object revenueGrowthData)
     {
-        await _hubContext.Clients.All.SendAsync("ReceiveRevenueGrowth", revenueGrowthData);
+        await _hubContext.Clients.Group(DashboardHub.GetStoreGroupName(storeId))
+            .SendAsync("ReceiveRevenueGrowth", revenueGrowthData);
     }
 
     public async Task NotifyResolutionRateUpdatedAsync(Guid storeId, object resolutionRateData)
