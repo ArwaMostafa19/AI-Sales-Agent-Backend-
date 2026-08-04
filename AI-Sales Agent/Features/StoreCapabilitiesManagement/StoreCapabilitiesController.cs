@@ -13,7 +13,7 @@ namespace AI_Sales_Agent.Controllers;
 
 [ApiController]
 [Route("api/[controller]")]
-[Authorize(Roles = Roles.SuperAdmin)] 
+[Authorize(Roles = Roles.Admin)] 
 public class StoreCapabilitiesController : ControllerBase
 {
     private readonly IMediator _mediator;

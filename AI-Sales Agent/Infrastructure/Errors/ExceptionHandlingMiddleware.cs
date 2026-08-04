@@ -41,6 +41,15 @@ namespace AI_Sales_Agent.Infrastructure.Errors
                     message = exception.Message
                 });
             }
+            catch (BadHttpRequestException exception)
+            {
+                context.Response.StatusCode = StatusCodes.Status400BadRequest;
+
+                await context.Response.WriteAsJsonAsync(new
+                {
+                    message = exception.Message
+                });
+            }
             catch (Exception exception)
             {
                 _logger.LogError(exception, "Unhandled exception.");

@@ -12,7 +12,6 @@ using AI_Sales_Agent.Infrastructure.Auth;
 namespace AI_Sales_Agent.Controllers;
 
 [ApiController]
-[Authorize(Roles = Roles.SuperAdmin)]
 [Route("api/admin/features")]
 public class FeaturesAdminController : ControllerBase
 {
@@ -20,6 +19,7 @@ public class FeaturesAdminController : ControllerBase
 
     public FeaturesAdminController(IMediator mediator) => _mediator = mediator;
 
+    [AllowAnonymous]
     [HttpGet]
     public async Task<IActionResult> GetAll()
     {
@@ -27,7 +27,7 @@ public class FeaturesAdminController : ControllerBase
         return Ok(features);
     }
 
-    
+    [AllowAnonymous]
     [HttpGet("{id:guid}")]
     public async Task<IActionResult> GetById(Guid id)
     {
@@ -35,6 +35,8 @@ public class FeaturesAdminController : ControllerBase
         return feature != null ? Ok(feature) : NotFound("Feature not found or has been deleted.");
     }
 
+
+    [Authorize(Roles = Roles.SuperAdmin)]
     [HttpPost]
     public async Task<IActionResult> Create([FromBody] CreateFeatureCommand command)
     {
@@ -42,6 +44,8 @@ public class FeaturesAdminController : ControllerBase
         return CreatedAtAction(nameof(GetById), new { id = featureId }, new { Message = "Global Feature registered successfully", FeatureId = featureId });
     }
 
+
+    [Authorize(Roles = Roles.SuperAdmin)]
     [HttpPut("{id:guid}")]
     public async Task<IActionResult> Update(Guid id, [FromBody] UpdateFeatureCommand command)
     {
@@ -50,6 +54,8 @@ public class FeaturesAdminController : ControllerBase
         return result ? NoContent() : NotFound("Feature not found or soft-deleted.");
     }
 
+
+    [Authorize(Roles = Roles.SuperAdmin)]
     [HttpDelete("{id:guid}")]
     public async Task<IActionResult> Delete(Guid id)
     {

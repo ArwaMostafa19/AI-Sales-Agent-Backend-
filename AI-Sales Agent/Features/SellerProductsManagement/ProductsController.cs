@@ -13,7 +13,7 @@ namespace AI_Sales_Agent.Controllers;
 
 [ApiController]
 [Route("api/v1/products")]
-[Authorize(Roles = Roles.Admin)] // 👈 حماية مطلقة: لازم يكون مسجل دخول ودوره Admin
+[Authorize(Roles = Roles.Admin)] 
 public class ProductsController : ControllerBase
 {
     private readonly IMediator _mediator;

@@ -12,7 +12,6 @@ using AI_Sales_Agent.Infrastructure.Auth;
 namespace AI_Sales_Agent.Controllers;
 
 [ApiController]
-[Authorize(Roles = Roles.SuperAdmin)]
 [Route("api/admin/plans")]
 public class PlansAdminController : ControllerBase
 {
@@ -20,6 +19,7 @@ public class PlansAdminController : ControllerBase
 
     public PlansAdminController(IMediator mediator) => _mediator = mediator;
 
+    [AllowAnonymous]
     [HttpGet]
     public async Task<IActionResult> GetAll()
     {
@@ -27,6 +27,7 @@ public class PlansAdminController : ControllerBase
         return Ok(plans);
     }
 
+    [AllowAnonymous]
     [HttpGet("{id:guid}")]
     public async Task<IActionResult> GetById(Guid id)
     {
@@ -34,6 +35,7 @@ public class PlansAdminController : ControllerBase
         return plan != null ? Ok(plan) : NotFound("Plan not found.");
     }
 
+    [Authorize(Roles = Roles.SuperAdmin)]
     [HttpPost]
     public async Task<IActionResult> Create([FromBody] CreatePlanCommand command)
     {
@@ -41,6 +43,7 @@ public class PlansAdminController : ControllerBase
         return CreatedAtAction(nameof(GetById), new { id = planId }, new { Message = "Plan created successfully", PlanId = planId });
     }
 
+    [Authorize(Roles = Roles.SuperAdmin)]
     [HttpPut("{id:guid}")]
     public async Task<IActionResult> Update(Guid id, [FromBody] UpdatePlanCommand command)
     {
@@ -49,6 +52,8 @@ public class PlansAdminController : ControllerBase
         return result ? NoContent() : NotFound("Plan not found or soft-deleted.");
     }
 
+
+    [Authorize(Roles = Roles.SuperAdmin)]
     [HttpDelete("{id:guid}")]
     public async Task<IActionResult> Delete(Guid id)
     {

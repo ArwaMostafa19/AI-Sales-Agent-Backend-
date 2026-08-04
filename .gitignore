@@ -25,3 +25,7 @@ packages/
 # OS
 .DS_Store
 Thumbs.db
+
+#appsetting
+AI-Sales Agent/appsettings.json
+AI-Sales Agent/appsettings.Development.json
