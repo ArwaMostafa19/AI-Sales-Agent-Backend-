@@ -99,6 +99,9 @@ public class StripeWebhookHandler
             subscription.TrialEndDate = null;
         }
 
+        var user = await _context.Users
+        .FirstOrDefaultAsync(u => u.Id == subscription.UserId);
+        user.HasUsedTrial = true;
         await _context.SaveChangesAsync(cancellationToken);
     }
 

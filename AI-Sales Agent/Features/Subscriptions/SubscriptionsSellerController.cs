@@ -9,6 +9,7 @@ using AI_Sales_Agent.Features.Subscriptions.GetUserSubscription;
 using AI_Sales_Agent.Features.Subscriptions.CreateCheckoutSession;
 using AI_Sales_Agent.Features.Subscriptions.StartFreeTrial;
 using AI_Sales_Agent.Features.Subscriptions.GetTrialStatus;
+using AI_Sales_Agent.Features.Subscriptions.HasUsedFreeTrial;
 
 namespace AI_Sales_Agent.Controllers;
 
@@ -66,9 +67,6 @@ public class SubscriptionsSellerController : ControllerBase
         return Ok(result);
     }
 
-    //------------------------------------------------------------
-    // Start Free Trial
-    //------------------------------------------------------------
     [HttpPost("free-trial")]
     public async Task<IActionResult> StartFreeTrial(
         [FromBody] StartFreeTrialCommand command)
@@ -90,6 +88,19 @@ public class SubscriptionsSellerController : ControllerBase
             {
                 UserId = userId
             });
+
+        return Ok(result);
+    }
+
+
+    [HttpGet("has-used-free-trial")]
+    public async Task<IActionResult> HasUsedFreeTrial()
+    {
+        var userId = Guid.Parse(
+            User.FindFirst(System.Security.Claims.ClaimTypes.NameIdentifier)!.Value);
+
+        var result = await _mediator.Send(
+            new HasUsedFreeTrialQuery(userId));
 
         return Ok(result);
     }
