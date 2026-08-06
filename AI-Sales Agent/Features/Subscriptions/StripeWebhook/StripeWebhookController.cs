@@ -37,11 +37,11 @@ public class StripeWebhookController : ControllerBase
                 signature,
                 _configuration["Stripe:WebhookSecret"]);
         }
-        catch
+        catch (Exception ex)
         {
-            return BadRequest();
+            Console.WriteLine(ex);
+            return BadRequest(ex.ToString());
         }
-
         await _mediator.Send(new StripeWebhookCommand
         {
             StripeEvent = stripeEvent
