@@ -1,5 +1,6 @@
 using System.Net;
 using AI_Sales_Agent.Abstractions;
+using AI_Sales_Agent.Data;
 using AI_Sales_Agent.Domain;
 using AI_Sales_Agent.Infrastructure.Audit;
 using AI_Sales_Agent.Infrastructure.Email;
@@ -14,17 +15,20 @@ namespace AI_Sales_Agent.Features.Auth.Register
         private readonly IEmailSender _emailSender;
         private readonly IConfiguration _configuration;
         private readonly IAuditLogger _auditLogger;
+        private readonly ApplicationDbContext _dbContext;
 
         public RegisterCommandHandler(
             UserManager<User> userManager,
             IEmailSender emailSender,
             IConfiguration configuration,
-            IAuditLogger auditLogger)
+            IAuditLogger auditLogger,
+            ApplicationDbContext dbContext)
         {
             _userManager = userManager;
             _emailSender = emailSender;
             _configuration = configuration;
             _auditLogger = auditLogger;
+            _dbContext = dbContext;
         }
 
         public async Task<ApiResult> Handle(RegisterCommand request, CancellationToken cancellationToken)
@@ -54,6 +58,21 @@ namespace AI_Sales_Agent.Features.Auth.Register
 
             // Assign the Admin role (merchant)
             await _userManager.AddToRoleAsync(user, AI_Sales_Agent.Infrastructure.Auth.Roles.Admin);
+
+            // Auto-create Organization linked to this user
+            var organization = new Organization
+            {
+                Name = $"{request.FirstName.Trim()} {request.LastName.Trim()}'s Organization",
+                Email = email,
+                UserId = user.Id
+            };
+            _dbContext.Organizations.Add(organization);
+
+            // Link user back to organization
+            user.OrganizationId = organization.Id;
+            await _userManager.UpdateAsync(user);
+
+            await _dbContext.SaveChangesAsync(cancellationToken);
 
             var token = await _userManager.GenerateEmailConfirmationTokenAsync(user);
             var verifyUrl = BuildVerifyUrl(user.Id, token);

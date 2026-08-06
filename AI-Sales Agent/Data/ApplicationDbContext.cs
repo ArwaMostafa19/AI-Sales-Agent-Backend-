@@ -21,6 +21,7 @@ namespace AI_Sales_Agent.Data
         public DbSet<UserStorePermission> UserStorePermissions => Set<UserStorePermission>();
         public DbSet<RefreshToken> RefreshTokens => Set<RefreshToken>();
         public DbSet<AuditLog> AuditLogs => Set<AuditLog>();
+        public DbSet<Organization> Organizations => Set<Organization>();
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
@@ -103,6 +104,34 @@ namespace AI_Sales_Agent.Data
             modelBuilder.Entity<Plan>()
                 .Property(p => p.PlanPrice)
                 .HasColumnType("decimal(18,2)");
+
+            // Organization 1:1 User
+            modelBuilder.Entity<Organization>()
+                .HasOne(org => org.User)
+                .WithOne(user => user.Organization)
+                .HasForeignKey<Organization>(org => org.UserId)
+                .OnDelete(DeleteBehavior.SetNull);
+
+            // Organization 1:N Stores
+            modelBuilder.Entity<Store>()
+                .HasOne(store => store.Organization)
+                .WithMany(org => org.Stores)
+                .HasForeignKey(store => store.OrganizationId)
+                .OnDelete(DeleteBehavior.SetNull);
+
+            // Organization 1:1 Subscription
+            modelBuilder.Entity<Subscription>()
+                .HasOne(sub => sub.Organization)
+                .WithOne(org => org.Subscription)
+                .HasForeignKey<Subscription>(sub => sub.OrganizationId)
+                .OnDelete(DeleteBehavior.SetNull);
+
+            // Organization 1:N Features
+            modelBuilder.Entity<Feature>()
+                .HasOne(feature => feature.Organization)
+                .WithMany(org => org.Features)
+                .HasForeignKey(feature => feature.OrganizationId)
+                .OnDelete(DeleteBehavior.SetNull);
         }
     }
 }

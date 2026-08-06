@@ -7,6 +7,7 @@ namespace AI_Sales_Agent.Abstractions
         DateTime ExpiresAt,
         Guid UserId,
         Guid? StoreId,
+        Guid? OrganizationId,
         string Email,
         string FirstName,
         string LastName,

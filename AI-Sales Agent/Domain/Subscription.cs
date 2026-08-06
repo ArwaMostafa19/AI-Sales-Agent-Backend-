@@ -1,4 +1,4 @@
-﻿namespace AI_Sales_Agent.Domain
+namespace AI_Sales_Agent.Domain
 {
     public class Subscription : BaseEntity
     {
@@ -27,5 +27,9 @@
         //plan
         public Guid PlanId { get; set; }
         public Plan? Plan { get; set; }
+
+        //organization
+        public Guid? OrganizationId { get; set; }
+        public Organization? Organization { get; set; }
     }
 }

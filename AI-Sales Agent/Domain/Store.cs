@@ -1,4 +1,4 @@
-﻿namespace AI_Sales_Agent.Domain
+namespace AI_Sales_Agent.Domain
 {
     public class Store : BaseEntity
     {
@@ -21,6 +21,10 @@
         //User
         public Guid UserId { get; set; }
         public User? User { get; set; }
+
+        //Organization
+        public Guid? OrganizationId { get; set; }
+        public Organization? Organization { get; set; }
 
         //Store integrations
         public ICollection<StoreIntegrations> Integrations { get; set; } = new List<StoreIntegrations>();

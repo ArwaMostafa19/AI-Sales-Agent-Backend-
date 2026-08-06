@@ -46,6 +46,12 @@ namespace AI_Sales_Agent.Infrastructure.Auth
                 .Select(s => (Guid?)s.Id)
                 .FirstOrDefaultAsync(cancellationToken);
 
+            var organizationId = await _dbContext.Organizations
+                .AsNoTracking()
+                .Where(o => o.UserId == user.Id && o.DeletedAt == null)
+                .Select(o => (Guid?)o.Id)
+                .FirstOrDefaultAsync(cancellationToken);
+
             var claims = new List<Claim>
             {
                 new(JwtRegisteredClaimNames.Sub, user.Id.ToString()),
@@ -60,6 +66,11 @@ namespace AI_Sales_Agent.Infrastructure.Auth
             if (storeId.HasValue)
             {
                 claims.Add(new Claim("store_id", storeId.Value.ToString()));
+            }
+
+            if (organizationId.HasValue)
+            {
+                claims.Add(new Claim("org_id", organizationId.Value.ToString()));
             }
 
             claims.AddRange(roles.Select(role => new Claim(ClaimTypes.Role, role)));
@@ -82,6 +93,7 @@ namespace AI_Sales_Agent.Infrastructure.Auth
                 expiresAt,
                 user.Id,
                 storeId,
+                organizationId,
                 user.Email ?? string.Empty,
                 user.FirstName,
                 user.LastName,

@@ -79,10 +79,10 @@ public class CreateOrderHandler : IRequestHandler<CreateOrderCommand, string>
         var order = new OrderDocument
         {
             StoreId = request.StoreId,
-            OrgId = request.OrgId,
+            OrgId = request.OrgId ?? string.Empty,
             CustomerId = request.CustomerId,
             CustomerEmail = request.CustomerEmail,
-            LineItems = request.LineItems,
+            LineItems = request.LineItems ?? new List<AI_Sales_Agent.Domain.Mongo.LineItemModel>(),
             ShippingAddress = request.ShippingAddress!,
             SubtotalPrice = new MoneyModel { Amount = calculatedSubtotal, Currency = request.Currency },
             TotalDiscount = new MoneyModel { Amount = totalDiscounts, Currency = request.Currency },

@@ -1,4 +1,4 @@
-﻿namespace AI_Sales_Agent.Domain
+namespace AI_Sales_Agent.Domain
 {
     public class Feature : BaseEntity
     {
@@ -10,5 +10,9 @@
         public bool? Enabled { get; set; }
 
         public ICollection<PlanFeature> PlanFeatures { get; set; } = new List<PlanFeature>();
+
+        //organization
+        public Guid? OrganizationId { get; set; }
+        public Organization? Organization { get; set; }
     }
 }

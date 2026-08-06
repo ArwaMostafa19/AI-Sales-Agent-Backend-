@@ -13,6 +13,10 @@ namespace AI_Sales_Agent.Domain
 
         public bool HasUsedTrial { get; set; }
 
+        // Organization
+        public Guid? OrganizationId { get; set; }
+        public Organization? Organization { get; set; }
+
         //Subscription
         public Subscription? Subscription { get; set; }
 

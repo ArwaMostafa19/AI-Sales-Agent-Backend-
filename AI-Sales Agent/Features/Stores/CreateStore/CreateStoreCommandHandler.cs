@@ -77,7 +77,17 @@ namespace AI_Sales_Agent.Features.Stores.CreateStore
                 UserId = userId
             };
 
+            // Link store to user's Organization if it exists
+            var organizationId = await _dbContext.Organizations
+                .AsNoTracking()
+                .Where(o => o.UserId == userId && o.DeletedAt == null)
+                .Select(o => (Guid?)o.Id)
+                .FirstOrDefaultAsync(cancellationToken);
 
+            if (organizationId.HasValue)
+            {
+                store.OrganizationId = organizationId.Value;
+            }
 
             _dbContext.Stores.Add(store);
             await _dbContext.SaveChangesAsync(cancellationToken);
