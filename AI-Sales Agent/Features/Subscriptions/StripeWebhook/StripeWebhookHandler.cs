@@ -101,7 +101,17 @@ public class StripeWebhookHandler
 
         var user = await _context.Users
         .FirstOrDefaultAsync(u => u.Id == subscription.UserId);
-        user.HasUsedTrial = true;
+
+        if (user == null)
+        {
+            throw new BadHttpRequestException("User Not found.");
+        }
+
+        if (!user.HasUsedTrial)
+        {
+            user.HasUsedTrial = true;
+        }
+        //user.HasUsedTrial = true;
         await _context.SaveChangesAsync(cancellationToken);
     }
 
