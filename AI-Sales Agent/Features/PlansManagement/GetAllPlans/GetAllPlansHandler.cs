@@ -27,6 +27,7 @@ public class GetAllPlansHandler : IRequestHandler<GetAllPlansQuery, List<PlanLis
                 p.PlanPrice,
                 p.NumOfTokens,
                 p.TrialDays,
+                p.DevelopmentPrice,
                 p.AiModels,
                 p.PlanFeatures
                     .Where(pf => pf.DeletedAt == null && pf.Feature != null && pf.Feature.DeletedAt == null)

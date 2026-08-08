@@ -16,6 +16,8 @@
 
         public int TrialDays { get; set; }
 
+        public decimal DevelopmentPrice { get; set; } = 0.0M;
+
         //Subscription
         public ICollection<Subscription> Subscriptions { get; set; } = new List<Subscription>();
 

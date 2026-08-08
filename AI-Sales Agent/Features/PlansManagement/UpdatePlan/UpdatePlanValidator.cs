@@ -25,6 +25,9 @@ public class UpdatePlanValidator : AbstractValidator<UpdatePlanCommand>
         RuleFor(x => x.TrialDays)
             .GreaterThanOrEqualTo(0).WithMessage("Number of Free Trial days cannot be negative.");
 
+        RuleFor(x => x.Developmentprice)
+            .GreaterThan(0).WithMessage("Development price must be grater than 0.");
+
         RuleFor(x => x.AiModels)
             .NotEmpty().WithMessage("At least one AI model must be assigned to the plan.");
 

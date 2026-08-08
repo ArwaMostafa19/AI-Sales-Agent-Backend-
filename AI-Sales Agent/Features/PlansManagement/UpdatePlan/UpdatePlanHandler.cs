@@ -39,6 +39,7 @@ public class UpdatePlanHandler : IRequestHandler<UpdatePlanCommand, bool>
         plan.PlanPrice = request.PlanPrice;
         plan.NumOfTokens = request.NumOfTokens; 
         plan.TrialDays = request.TrialDays;
+        plan.DevelopmentPrice = request.Developmentprice;
         plan.AiModels = request.AiModels ?? new List<string>(); 
 
         _context.PlanFeatures.RemoveRange(plan.PlanFeatures);

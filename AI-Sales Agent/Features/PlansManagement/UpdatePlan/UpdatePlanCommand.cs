@@ -9,6 +9,7 @@ public record UpdatePlanCommand(
     decimal PlanPrice,
     long NumOfTokens, 
     int TrialDays,
+    decimal Developmentprice,
     List<string> AiModels,
     List<Guid> FeatureIds) : IRequest<bool>
 {

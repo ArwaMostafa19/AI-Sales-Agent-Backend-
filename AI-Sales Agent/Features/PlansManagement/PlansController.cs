@@ -8,6 +8,7 @@ using AI_Sales_Agent.Features.Plans.GetPlanById;
 
 using Microsoft.AspNetCore.Authorization;
 using AI_Sales_Agent.Infrastructure.Auth;
+using AI_Sales_Agent.Features.Plans.GetPlanDevelopmentPrice;
 
 namespace AI_Sales_Agent.Controllers;
 
@@ -33,6 +34,18 @@ public class PlansAdminController : ControllerBase
     {
         var plan = await _mediator.Send(new GetPlanByIdQuery(id));
         return plan != null ? Ok(plan) : NotFound("Plan not found.");
+    } 
+    [AllowAnonymous]
+    [HttpGet("{id}/development-price")]
+    public async Task<IActionResult> GetPlanDevelopmentPrice([FromRoute] Guid id)
+    {
+        var query = new GetPlanDevelopmentPriceQuery(id);
+        var result = await _mediator.Send(query);
+
+        if (result == null)
+            return NotFound(new { Message = "Plan not found or has been deleted." });
+
+        return Ok(result);
     }
 
     [Authorize(Roles = Roles.SuperAdmin)]

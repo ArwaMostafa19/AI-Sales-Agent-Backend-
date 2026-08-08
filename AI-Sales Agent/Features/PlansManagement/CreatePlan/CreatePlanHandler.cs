@@ -41,6 +41,7 @@ public class CreatePlanHandler : IRequestHandler<CreatePlanCommand, Guid>
             PlanPrice = request.PlanPrice,
             NumOfTokens = request.NumOfTokens,
             TrialDays = request.TrialDays,
+            DevelopmentPrice = request.Developmentprice,
             AiModels = request.AiModels ?? new List<string>(),
             PlanFeatures = uniqueFeatureIds.Select(fId => new PlanFeature
             {

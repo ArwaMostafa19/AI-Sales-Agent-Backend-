@@ -1,4 +1,5 @@
 ﻿using MediatR;
+using Stripe;
 using System;
 using System.Collections.Generic;
 
@@ -11,5 +12,6 @@ public record CreatePlanCommand(
     decimal PlanPrice,
     long NumOfTokens,
     int TrialDays,
+    decimal Developmentprice,
     List<string> AiModels,
     List<Guid> FeatureIds) : IRequest<Guid>;

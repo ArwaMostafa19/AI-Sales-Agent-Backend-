@@ -237,6 +237,7 @@ namespace AI_Sales_Agent
                 });
             });
 
+            builder.Services.AddHttpClient();
             var app = builder.Build();
             
             

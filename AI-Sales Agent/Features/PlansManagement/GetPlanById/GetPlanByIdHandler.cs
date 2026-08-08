@@ -23,6 +23,7 @@ public class GetPlanByIdHandler : IRequestHandler<GetPlanByIdQuery, PlanDetailsR
                 p.PlanPrice,
                 p.NumOfTokens, 
                 p.TrialDays,
+                p.DevelopmentPrice,
                 p.AiModels,
                 p.PlanFeatures
                     .Where(pf => pf.DeletedAt == null && pf.Feature.DeletedAt == null)
