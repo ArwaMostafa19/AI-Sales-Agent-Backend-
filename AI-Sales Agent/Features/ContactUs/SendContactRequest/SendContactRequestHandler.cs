@@ -36,10 +36,10 @@ public class SendContactRequestHandler
         var message =
             $"📩 New Development Request\n\n" +
             $"🏪 Store Name: {request.StoreName}\n" +
-            $"Store description: {request.StoreDescription}" +
+            $"Store description: {request.StoreDescription}\n" +
             $"📧 Email: {request.Email}\n" +
             $"📱 Phone: {request.PhoneNumber}\n" +
-            $"📞 Contact Preference: {request.ContactPreference}\n\n" +
+            $"📞 Contact Preference: {request.ContactPreference}\n" +
             $"💬 Message:{request.Message}\n" +
             $"Notes: {request.Notes}\n";
 
